@@ -1,0 +1,2 @@
+cp _config.yml.stage _config.yml
+jekyll build --watch -d ~/Sites/quickandtasty/

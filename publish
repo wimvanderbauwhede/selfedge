@@ -1,0 +1,5 @@
+cp _config.yml.publish _config.yml
+jekyll build -d ~/GitHub/QuickAndTasty/quick-tasty/
+cd  ~/GitHub/QuickAndTasty/quick-tasty/
+git commit -a -m "nm"
+git push origin gh-pages

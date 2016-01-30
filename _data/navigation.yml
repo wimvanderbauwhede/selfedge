@@ -1,0 +1,23 @@
+# Site navigation links
+#- title: Quick & Tasty
+#  url: /
+
+- title: The Recipes
+  url: /recipes/
+#  excerpt: "Everything you need to know to get started with Skinny Bones and Jekyll."
+  image: recipe.jpg
+
+- title: The Store Cupboard
+  url: /ingredients/
+#  excerpt: "All about Skinny Bones for Jekyll."
+  image: dried_tomatoes.jpg
+
+- title: The Basics
+  url: /basics/
+#  excerpt: "Examples of media posts perfect for showcasing work, photographs, etc."
+  image: basics_600.jpg
+
+- title: About
+  url: /about/
+#  excerpt: "Examples of long form posts."
+  image: basilicum.jpg

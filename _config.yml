@@ -1,0 +1,34 @@
+# Site wide configuration
+
+title: Quick & Tasty
+description: "Authentic Tango in Glasgow Westend. Tango as danced in the Salons of Buenos Aires in the Golden Age. Leading tango school in Glasgow. Professionally run tango classes, longest running tango classes in Glasgow. Fun, quality classes with experienced teachers. Everyone enrols with a dance partner. No partner rotation."
+logo: lino_100px.jpg
+teaser: lino.jpg
+locale: en_GB
+# url: //mmistakes.github.io/skinny-bones-jekyll
+url: http://192.168.1.68/~wim/quickandtasty
+
+
+# Jekyll configuration
+# For plugins
+safe: true
+sass:
+  sass_dir: _sass
+  style: compressed
+permalink: /:categories/:title/
+markdown: kramdown
+highlighter: pygments
+gems:
+  - jekyll-sitemap
+
+
+# Site owner
+owner:
+  name: Tango Tipica
+  web: http://wwww.tangotipica.info
+  email: contact@tangotipica.info
+  twitter: tangotipica
+  bio: "A passion for Authentic Argentinian Tango"
+  avatar: lino_100px.jpg # 160x160 px image for author byline
+
+exclude: ["lib", "config.rb", ".sass-cache", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "*.sublime-project", "*.sublime-workspace", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "node_modules", "Gruntfile.js", "package.json"]
