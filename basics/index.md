@@ -3,15 +3,16 @@ layout: article
 title: "The Basics"
 date: 2015-01-24
 tags: [Basic cooking]
-excerpt: "The Basics"
+excerpt: "If you don't have much experience cooking, then it helps to know the basics: how to cook rice, potatoes and pasta."
 comments: false
+toc: true
 image:
-  feature: basics_1600x800.jpg
+  feature: rice_1600x500.jpg
 ---
 
 If you don't have much experience cooking, then it helps to know the basics: how to cook rice, potatoes and pasta. All of these are actually very easy.
 
-## Cooking rice
+## Cooking rice<a name="rice"></a>
 
 Cooking rice is very easy.
 
@@ -26,7 +27,7 @@ Cooking rice is very easy.
   - Bring to the boil
   - Cook  over low heat for about 15-20 minutes. For basmati or Japanese rice this is enough; wholegrain rice takes about 25-30 minutes.
 
-## Cooking potatoes
+## Cooking potatoes<a name="potatoes"></a>
 
 If you use the microwave, cooking potatoes is again very easy:
 
@@ -37,7 +38,7 @@ If you use the microwave, cooking potatoes is again very easy:
 
 You can of course cook them on the hob as well but the microwave is a better option, it is quicker and the cooked potatoes taste better too.
 
-## Cooking pasta
+## Cooking pasta<a name="pasta"></a>
 
 Pasta is one of the few foods that I do not cook in the microwave, because you need a large pot with plenty of water. My approach is a bit different from what most other people do, but again very easy:
 

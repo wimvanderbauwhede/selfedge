@@ -10,6 +10,7 @@ body {
 p {
 	// border: solid 1px blue;
 	@include font-size(18,yes,28);
+	margin-bottom: 0px;
 }
 
 ul {
@@ -27,27 +28,27 @@ h1, h2, h3, h4, h5, h6 {
 }
 h1 {
 	@include font-size(36);
+	margin-bottom: 0px;
 }
 h2 {
+	// border: 1px solid red;
 	@include font-size(32);
 	//padding-top: 0px;
 	//margin-top: 0px;
 	color: $orange;
-
 }
 h3 {
+	// border: 1px solid blue;
 	@include font-size(28);
 	//padding: 0px;
 	//margin: 0px;
-	line-height: 90%;
-
+	line-height: 100%;
 }
 h4 {
 	@include font-size(20);
 	color: $darkred;
 	padding-bottom: 0px;
 	margin-bottom: 0px;
-
 }
 h5 {
 	@include font-size(20);

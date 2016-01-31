@@ -3,18 +3,28 @@
     <!--
     <a href="{{ site.url }}" class="site-title">{{ site.title }}</a>
 -->
+<!--
 
-    <div >
 
+
+ style="max-width:25%; width=100px"
+ <div >
+-->
+
+  <!--
       <form action="{{ site.url }}/search.html" >
-    <input style="max-width:25%; width=100px" type="text" name="q" id="tipue_search_input" autocomplete="off" required>
-
+    <input type="text" name="q" id="tipue_search_input" autocomplete="off" required>
   </form>
-<a href="{{ site.url }}" class="site-title">Quick&nbsp;&amp;&nbsp;Tasty</a>
 </div>
+-->
+<a href="{{ site.url }}" class="site-title">Quick&nbsp;&amp;&nbsp;Tasty</a>
 
     <nav role="navigation" class="menu top-menu">
         {% include navigation.html %}
+
     </nav>
+<form style="float: right;" action="{{ site.url }}/search.html" ><input type="text" name="q" id="tipue_search_input" autocomplete="off" required></form>
   </div><!-- /.inner-wrap -->
+
+
 </header><!-- /.masthead -->

@@ -2,14 +2,26 @@
 layout: article
 title: "The Recipes"
 date: 2015-01-31
-tags: [recipes]
-excerpt: "The Recipes"
+tags: [recipes,cooking,food,vegetarian,vegan]
+excerpt: "All my recipes are for _full meals_ for two people."
 comments: false
+toc: true
 image:
-  feature: recipe_1600x800.jpg
+  feature: recipe_1600x500.jpg
 ---
 
-All my recipes (except the Japanese ones) are for _full meals_ for two people.
+All my recipes are for _full meals_ for two people.
+
+I will regularly add recipes. They will be organised in four categories:
+
+* Quick recipes
+* Emergency recipes
+* Special occasion recipes
+* Japanese recipes
+
+Most of the recipes will be in the "quick" category. The "emergency" recipes are recipes made only with ingredients from the store cupboard. The "special occasion" recipes are a bit more involved and take a bit longer to prepare. The Japanese recipes are usually quick but you need some Japanese ingredients.
+
+<!-- All my recipes (except the Japanese ones) are for _full meals_ for two people.
 
 I've organised the recipes in four categories:
 
@@ -19,10 +31,13 @@ I've organised the recipes in four categories:
 * Japanese recipes
 
 Most of the recipes are in the "quick" category. The "emergency" recipes are recipes made only with ingredients from the store cupboard. The "special occasion" recipes are a bit more involved and take a bit longer to prepare. The Japanese recipes are usually quick but you need some Japanese ingredients.
+-->
+
+
 
 ## Quick recipes
 
-### Tomatoes with halloumi and pumpkin seeds, served with basmati rice
+### Tomatoes with halloumi and pumpkin seeds, served with basmati rice<a name="tom_hal"></a>
 
 ![Tomatoes with halloumi and pumpkin seeds]({{ site.url }}/images/tom_hal_1600.jpg)
 
@@ -45,7 +60,7 @@ This is one of my favourite recipes, very easy to make, ready in 15 minutes and 
 	- Let it sit for 1-2 minutes, then cook for another 2 minutes at full power.
 - If you used basmati rice, it will be ready too, serve and enjoy!
 
-### Nifty pasta
+### Nifty pasta<a name="nifty_pasta"></a>
 
 This is a basic pasta recipe with a cold topping that is again very easy to make and ready in 15 minutes.
 
@@ -63,6 +78,7 @@ This is a basic pasta recipe with a cold topping that is again very easy to make
 - While the pasta is cooking, cut tomatoes, mozzarella and artichokes in small bits. I usually serve each in a separate small bowl.
 - When the pasta is ready, serve with the toppings and put some walnuts on top.
 
+<!--
 ## Emergency recipes
 
 tba
@@ -74,3 +90,4 @@ tba
 ## Japanese recipes
 
 tba
+-->

@@ -2,7 +2,9 @@
 // --------------------------------------------------
 
 #masthead {
+
 	padding: $gutter;
+	padding-bottom: 0px; // WV to force tighter layout
 	z-index: 5;
 	@include transform(translate(0,0));
 	@include transition(500ms cubic-bezier(.645,.045,.355,1.000));
@@ -10,14 +12,16 @@
 		@include transform(translate(-1600px,0));
 	}
 	.inner-wrap {
+		// border: solid 1px red;
 		@include outer-container;
-		//border: 1px solid blue;
+
 	}
 }
 .site-title {
+	// border: solid 1px blue;
 	@include row;
 	@include media($large) {
-		@include span-columns(4);
+		@include span-columns(2); // was 4
 	}
 	padding: (.25 * $masthead-height) 0; // fourth the height to center vertically
 //    margin-bottom:10px;//padding-bottom:10px
@@ -38,6 +42,7 @@
 // --------------------------------------------------
 
 .menu {
+
 	li {
 		float: left;
 		&:last-child a {
@@ -80,6 +85,7 @@
 }
 
 .top-menu {
+	// border: solid white 1px; // HACK but this gets the search into the right place
 	display: none;
 	position: relative;
 	@include media($medium) {

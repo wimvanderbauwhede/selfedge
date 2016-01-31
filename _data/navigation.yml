@@ -5,12 +5,12 @@
 - title: The Recipes
   url: /recipes/
 #  excerpt: "Everything you need to know to get started with Skinny Bones and Jekyll."
-  image: recipe.jpg
+  image: recipe_adj.jpg
 
 - title: The Store Cupboard
   url: /ingredients/
 #  excerpt: "All about Skinny Bones for Jekyll."
-  image: dried_tomatoes.jpg
+  image: dried_tomatoes_adj.jpg
 
 - title: The Basics
   url: /basics/
@@ -20,4 +20,4 @@
 - title: About
   url: /about/
 #  excerpt: "Examples of long form posts."
-  image: basilicum.jpg
+  image: W_at_shrine.jpg

@@ -6,7 +6,7 @@ logo: lino_100px.jpg
 teaser: lino.jpg
 locale: en_GB
 # url: //mmistakes.github.io/skinny-bones-jekyll
-url: http://192.168.1.68/~wim/quickandtasty
+url: http://127.0.0.1/~wim/quickandtasty
 
 
 # Jekyll configuration

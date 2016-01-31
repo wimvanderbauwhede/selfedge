@@ -4,6 +4,9 @@ title: "Quick & Tasty"
 date: 2016-01-24
 tags: [quick, tasty, healthy, vegetarian, cooking]
 excerpt: "Quick & Tasty: Fuss-free food for one or two"
+comments: false
+toc: false
+
 image:
   feature: homepage_banner_1600_2.jpg
 ---
@@ -15,13 +18,13 @@ image:
 
 <article class="tile" itemscope itemtype="http://schema.org/Article">
   <a href="{{ site.url }}/recipes" title="The Recipes" class="post-teaser">
-  <img src="{{ site.url }}/images/recipe.jpg" alt="The Recipes" itemprop="image"></a>
+  <img src="{{ site.url }}/images/recipe_adj.jpg" alt="The Recipes" itemprop="image"></a>
   <h2 class="post-title" itemprop="name"><a class="post-title" href="{{ site.url }}/hireus">The Recipes</a></h2>
 </article>
 
 <article class="tile" itemscope itemtype="http://schema.org/Article">
 <a href="{{ site.url }}/ingredients" title="The Store Cupboard" class="post-teaser">
-<img src="{{ site.url }}/images/dried_tomatoes.jpg" alt="The Store Cupboard" itemprop="image">
+<img src="{{ site.url }}/images/dried_tomatoes_adj.jpg" alt="The Store Cupboard" itemprop="image">
 </a>
   <h2 class="post-title" itemprop="name"><a class="post-title" href="{{ site.url }}/ingredients">The Store Cupboard</a></h2>
 </article>
@@ -45,13 +48,3 @@ image:
 </article>
 
 </div><!-- /.tiles -->
-
-
-<!--
-https://upload.wikimedia.org/wikipedia/commons/c/cf/Sun-dried_tomatoes.jpg
-
-By Andrew Deacon (http://www.flickr.com/photos/aedeacon/497503617/) [CC BY 2.0 (http://creativecommons.org/licenses/by/2.0)], via Wikimedia Commons
-
-<a title="By Andrew Deacon (http://www.flickr.com/photos/aedeacon/497503617/) [CC BY 2.0 (http://creativecommons.org/licenses/by/2.0)], via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File%3ASun-dried_tomatoes.jpg"><img width="512" alt="Sun-dried tomatoes" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Sun-dried_tomatoes.jpg/512px-Sun-dried_tomatoes.jpg"/></a>
-
--->
