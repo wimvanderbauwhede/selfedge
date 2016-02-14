@@ -86,7 +86,7 @@ $.fn.toc = function(options) {
     timeout = setTimeout(function() {
       var top = $(window).scrollTop(),
         highlighted, closest = Number.MAX_VALUE, index = 0;
-      
+
       for (var i = 0, c = headingOffsets.length; i < c; i++) {
         var currentClosest = Math.abs(headingOffsets[i] - top);
         if (currentClosest < closest) {
@@ -94,10 +94,10 @@ $.fn.toc = function(options) {
           closest = currentClosest;
         }
       }
-      
+
       $('li', self).removeClass(activeClassName);
       highlighted = $('li:eq('+ index +')', self).addClass(activeClassName);
-      opts.onHighlight(highlighted);      
+      opts.onHighlight(highlighted);
     }, 50);
   };
   if (opts.highlightOnScroll) {
@@ -122,8 +122,9 @@ $.fn.toc = function(options) {
       }
 
       //build TOC item
+      var bullet = heading.tagName.toUpperCase() == 'H3'?'• ':'';
       var a = $('<a/>')
-        .text(opts.headerText(i, heading, $h))
+        .text(bullet+opts.headerText(i, heading, $h))
         .attr('href', '#' + anchorName)
         .bind('click', function(e) {
           $(window).unbind('scroll', highlightOnScroll);
@@ -169,12 +170,12 @@ jQuery.fn.toc.defaults = {
     var candidateId = $(heading).text().replace(/[^a-z0-9]/ig, ' ').replace(/\s+/g, '-').toLowerCase();
     if (verboseIdCache[candidateId]) {
       var j = 2;
-      
+
       while(verboseIdCache[candidateId + j]) {
         j++;
       }
       candidateId = candidateId + '-' + j;
-      
+
     }
     verboseIdCache[candidateId] = true;
 

@@ -1,3 +1,5 @@
+perl set_mod_date.pl
+perl create_index.pl
 cp _config.yml.publish _config.yml
 jekyll build -d ~/GitHub/QuickAndTasty/quick-tasty/
 cd  ~/GitHub/QuickAndTasty/quick-tasty/

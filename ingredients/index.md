@@ -1,7 +1,7 @@
 ---
 layout: article
 title: "The Store Cupboard"
-date: 2015-01-24
+date: 2016-02-14
 tags: [cooking,ingredients,condiments]
 excerpt: "You can find all the ingredients used in the recipes in the supermarket."
 comments: false
@@ -55,6 +55,7 @@ Dried tomatoes are my favourite condiment because they add a lot of taste to the
 * olive oil
 * soy sauce (make sure it is "real" soy sauce, made from soy, wheat and salt and nothing else)
 * rice vinegar, wine vinegar or balsamic vinegar
+* garlic oil, not essential but very nice!
 
 ## The Survival Store<a name="survival"></a>
 

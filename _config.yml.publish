@@ -5,8 +5,7 @@ description: "Quick and Tasty"
 logo: lino_100px.jpg
 teaser: lino.jpg
 locale: en_GB
-# url: //mmistakes.github.io/skinny-bones-jekyll
-url: https://wimvanderbauwhede.github.io/quick-tasty/
+url: http://www.quickandtastycooking.org.uk
 
 # Jekyll configuration
 
@@ -23,10 +22,10 @@ gems:
 # Site owner
 owner:
   name: Wim Vanderbauwhede
-  web: https://wimvanderbauwhede.github.io/quick-tasty/
+  web: http://www.quickandtastycooking.org.uk
   email: wimvanderbauwhede@yahoo.co.uk
-  twitter: wim_v12e
+  twitter: fuss_free_food
   bio: ""
-  avatar: lino_100px.jpg # 160x160 px image for author byline
+#  avatar: lino_100px.jpg # 160x160 px image for author byline
 
 exclude: ["lib", "config.rb", ".sass-cache", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "*.sublime-project", "*.sublime-workspace", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "node_modules", "Gruntfile.js", "package.json"]

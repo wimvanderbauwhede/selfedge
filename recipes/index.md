@@ -1,9 +1,12 @@
 ---
 layout: article
 title: "The Recipes"
-date: 2015-01-31
-tags: [recipes,cooking,food,vegetarian,vegan]
+date: 2016-02-14
+tags: [recipes,quick,tasty,cooking,food,vegetarian,vegan]
 excerpt: "All my recipes are for _full meals_ for two people."
+current: "Stuffed courgettes with gnocchi"
+current_image:  stuffed_courgettes_gnocchi_1600.jpg
+current_anchor: stuffed_courgettes_gnocchi
 comments: false
 toc: true
 image:
@@ -12,7 +15,11 @@ image:
 
 All my recipes are for _full meals_ for two people.
 
-I will regularly add recipes. They will be organised in four categories:
+I will regularly add recipes, follow me to get updates:
+
+{% include follow-us.html %}
+
+The recipes will be organised in four categories:
 
 * Quick recipes
 * Emergency recipes
@@ -36,6 +43,67 @@ Most of the recipes are in the "quick" category. The "emergency" recipes are rec
 
 
 ## Quick recipes
+
+### Stuffed courgettes with gnocchi<a name="stuffed_courgettes_gnocchi"></a>
+
+![Stuffed courgettes with gnocchi]({{ site.url }}/images/stuffed_courgettes_gnocchi_1600.jpg)
+
+This is a very simple recipe with few ingredients and ready in about 20 minutes.
+
+Ingredients:
+
+- 3 small courgettes (500 g)
+- 1 pack gnocchi (500 g)
+- brown breadcrumbs (1 cup)
+- 50 g hard cheese (grana padano or parmezan), grated
+- 1 tablespoon garlic oil
+
+Preparation:
+
+- Slice the courgettes in half and scoop out the flesh. Put the scooped-out courgettes in a microwave dish.
+- Cut the scooped-out flesh fine and mix with the breadcrumbs in another microwave dish.
+- Put both dishes in the microwave at full power (900W). Cook for 5 minutes if together, for 3 minutes each if separately.
+- Fill the courgette halves with the mixture. Sprinkle each of them with a little garlic oil and cover with the grated cheese.
+- Cook the gnocchi: simply put them in boiling water until they float to the top (about 3 minutes).
+- Meanwhile, cook the stuffed courgette halves in the microwave at full power (900W) for 3 minutes.
+
+
+### Curry of potatoes, spinach and paneer<a name="pot_spin_pan"></a>
+
+![Curry of potatoes, spinach and paneer]({{ site.url }}/images/pot_spin_pan_1600.jpg)
+
+This very tasty recipe takes about 30 minutes to prepare, it's a mild potato curry with a base of spices and seeds. The paneer (Indian fresh cheese, available in most supermarkets) is great when fried like this with sesame seeds and turmeric. I also make this recipe with chick peas instead, and prepare it in quite the same way.
+
+#### Ingredients:
+- about 400 g small potatoes
+- 2 large tomatoes
+- about 200 g spinach
+- 1 pack of paneer (about 200 g)
+- 1 cm fresh ginger
+- spices: turmeric, coriander seeds, cumin seeds, cardamom pods, cayenne pepper to taste (I use about a teaspoon of each of the spices and just a pinch of the cayenne pepper)
+- seeds: sesame, sunflower, some pumpkin (I use about 1 table spoon of each)
+- 1 table spoon of soy sauce
+- oil for cooking (I use olive oil)
+- optional: garlic oil
+
+#### Preparation:
+- Wash the potatoes and cut them in two. Cook them in the microwave.
+- Chop the tomatoes very fine.
+- If you're using whole seeds like I do, grind the coriander seeds, cumin seeds and cardamom pods.
+- Chop the ginger very fine.
+- Cut the paneer into cubes of about 1 cm on the side.
+- Heat the oil in a large deep pan. I recommend a non-stick pan with a lid.
+- When the oil is hot, add the ginger, seeds and spices and fry over medium heat for a few minutes.
+- Add the paneer and stir until it is evenly covered with the seeds and spices.
+- Fry for a few minutes more over medium heat, then turn up the heat for 30 seconds or so.
+- Clear some space in the middle of the pan and put in the soy sauce. Stir vigorously.
+- Add the tomatoes and stir well. Lower the heat and leave to simmer for a few minutes until the tomatoes have softened. You can speed this up by first putting the chopped tomatoes in the microwave for 2 minutes.
+- Cook the spinach in the microwave at full power (900W) for 1 minute.
+- Meanwhile, add the potatoes to the pan, stir until the potatoes are no longer looking white.
+- Cut up the spinach. Add the spinach to the pan, stir and let simmer for a few more minutes.
+- Add garlic oil to taste.
+
+This is really a complete one-pan meal but sometimes I serve it with rice too.
 
 ### Tomatoes with halloumi and pumpkin seeds, served with basmati rice<a name="tom_hal"></a>
 

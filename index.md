@@ -1,8 +1,8 @@
 ---
 layout: home
 title: "Quick & Tasty"
-date: 2016-01-24
-tags: [quick, tasty, healthy, vegetarian, cooking]
+date: 2016-02-14
+tags: [recipes,quick, tasty, healthy,food,cooking, vegetarian,vegan]
 excerpt: "Quick & Tasty: Fuss-free food for one or two"
 comments: false
 toc: false
@@ -11,7 +11,7 @@ image:
   feature: homepage_banner_1600_2.jpg
 ---
 <!--
-<h5  class="post-title"> nm &nbsp;&nbsp;<a href="{{ site.url }}/classes" class="btn">Info and Booking</a></h5>
+<h5  style="float: right;" class="post-title"> nm &nbsp;&nbsp;<a href="{{ site.url }}/classes" class="btn">Info and Booking</a></h5>
 -->
 
 <div class="tiles">
@@ -19,7 +19,7 @@ image:
 <article class="tile" itemscope itemtype="http://schema.org/Article">
   <a href="{{ site.url }}/recipes" title="The Recipes" class="post-teaser">
   <img src="{{ site.url }}/images/recipe_adj.jpg" alt="The Recipes" itemprop="image"></a>
-  <h2 class="post-title" itemprop="name"><a class="post-title" href="{{ site.url }}/hireus">The Recipes</a></h2>
+  <h2 class="post-title" itemprop="name"><a class="post-title" href="{{ site.url }}/recipes">The Recipes</a></h2>
 </article>
 
 <article class="tile" itemscope itemtype="http://schema.org/Article">
@@ -45,6 +45,16 @@ image:
   <h2 class="post-title" itemprop="name"><a class="post-title" href="{{ site.url }}/about">About</a></h2>
 </article>
 
-</article>
+
 
 </div><!-- /.tiles -->
+
+<!-- <h5  class="post-title"> -->
+<div>
+    <a href="https://www.pinterest.com/fussfreefood" target="_blank"><i class="fa fa-pinterest"></i></a>
+    <a href="https://twitter.com/fuss_free_food" target="_blank"><i class="fa fa-twitter"></i></a>
+    <a href="https://www.facebook.com/quickandtasyfood/" target="_blank"><i class="fa fa-facebook"></i></a>
+    &nbsp;
+<div class="fb-like" data-href="https://www.facebook.com/quickandtasyfood/" data-layout="button" data-action="like" data-show-faces="false" data-share="false"></div>
+</div>
+<!-- </h5> -->
