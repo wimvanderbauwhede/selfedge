@@ -4,20 +4,20 @@
 
 - title: The Recipes
   url: /recipes/
-#  excerpt: "Everything you need to know to get started with Skinny Bones and Jekyll."
   image: recipe_adj.jpg
 
 - title: The Store Cupboard
   url: /ingredients/
-#  excerpt: "All about Skinny Bones for Jekyll."
-  image: dried_tomatoes_adj.jpg
+  image: dried_tomatoes_400x300.jpg
 
 - title: The Basics
   url: /basics/
-#  excerpt: "Examples of media posts perfect for showcasing work, photographs, etc."
   image: basics_600.jpg
 
 - title: About
   url: /about/
-#  excerpt: "Examples of long form posts."
   image: W_at_shrine.jpg
+
+- title: Blog
+  url: /articles/
+  image: fuud_800x600.jpg

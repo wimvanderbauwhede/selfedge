@@ -1,7 +1,7 @@
 ---
 layout: article
 title: "The Basics"
-date: 2016-02-14
+date: 2016-10-10
 tags: [Basic cooking]
 excerpt: "If you don't have much experience cooking, then it helps to know the basics: how to cook rice, potatoes and pasta."
 comments: false
@@ -17,7 +17,7 @@ If you don't have much experience cooking, then it helps to know the basics: how
 Cooking rice is very easy.
 
 * The basic rule is: use 2 cups water for 1 cup rice (for Basmati a little less than 2 cups, for Japanese rice it is 1.1 cup water for 1 cup rice). The cup I use is 200 ml.
-* I wash the rice a few times to get rid of dust and also of the rice flour from polishing.
+* I wash the rice a few times to get rid of dust and also of the rice flour from polishing. For Japanese rice, you should not just rinse it but also actually "wash" the rice by gently rubbing the grains together between your fingers. A detailed explanation can be found at <a href="http://justhungry.com/handbook/cooking-courses/japanese-cooking-101-lesson-2-great-japanese-rice">Makiko Itoh's site _Just Hungry_</a>.
 * To cook the 1 cup of rice in the microwave:
   - Put the rice with the water in a microwave-compatible pot with a lid
   - Cook at full power (900W) for one and a half minutes

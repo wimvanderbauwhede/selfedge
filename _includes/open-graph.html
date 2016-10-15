@@ -14,9 +14,7 @@
 	<meta property="og:locale" content="{{ site.locale }}">
 	<meta property="og:type" content="article">
 	<meta property="og:site_name" content="{{ site.title }}">
-
 	<meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.url }}#{{ page.current_anchor }}">
 	<meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
-	<!-- added by WV -->
-	<meta property="og:description"   content="{% if page.current %}{{ page.current }}{% else %}{% if page.excerpt %}{{ page.excerpt | strip_html }}{% else %}{{ page.title}}{% endif %}{% endif %}" />
+	{% if page.excerpt %}<meta property="og:description" content="{{ page.excerpt | strip_html }}">{% endif %}
 	<meta property="og:image" content="{{ site.url }}/images/{% if page.current_image %}{{ page.current_image }}{% else %}{{ page.image.feature}}{% endif %}" />

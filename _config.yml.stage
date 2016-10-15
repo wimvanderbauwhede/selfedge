@@ -1,12 +1,13 @@
 # Site wide configuration
 
-title: Quick & Tasty
-description: "Authentic Tango in Glasgow Westend. Tango as danced in the Salons of Buenos Aires in the Golden Age. Leading tango school in Glasgow. Professionally run tango classes, longest running tango classes in Glasgow. Fun, quality classes with experienced teachers. Everyone enrols with a dance partner. No partner rotation."
-logo: lino_100px.jpg
+title: Quick & Tasty - Get Cooking!
+description: "Quick and Tasty"
+logo: W_160px.jpg
 teaser: lino.jpg
 locale: en_GB
-# url: //mmistakes.github.io/skinny-bones-jekyll
+
 url: http://127.0.0.1/~wim/quickandtasty
+#url: http://10.0.1.4/~wim/quickandtasty
 
 
 # Jekyll configuration
@@ -24,11 +25,11 @@ gems:
 
 # Site owner
 owner:
-  name: Tango Tipica
-  web: http://wwww.tangotipica.info
-  email: contact@tangotipica.info
-  twitter: tangotipica
-  bio: "A passion for Authentic Argentinian Tango"
-  avatar: lino_100px.jpg # 160x160 px image for author byline
+  name: Wim Vanderbauwhede
+  web: http://www.quickandtastycooking.org.uk
+  email: wimvanderbauwhede@yahoo.co.uk
+  twitter: fuss_free_food
+  bio: "Fuss-free food"
+  avatar: W_160px.jpg # 160x160 px image for author byline
 
 exclude: ["lib", "config.rb", ".sass-cache", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "*.sublime-project", "*.sublime-workspace", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "node_modules", "Gruntfile.js", "package.json"]

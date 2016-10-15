@@ -1,7 +1,9 @@
 perl set_mod_date.pl
 perl create_index.pl
+perl generate_sitemap.pl > sitemap.xml
 cp _config.yml.publish _config.yml
-jekyll build -d ~/GitHub/QuickAndTasty/quick-tasty/
-cd  ~/GitHub/QuickAndTasty/quick-tasty/
+jekyll build -d ~/GitHub/QuickAndTastyWebsite/quick-tasty/
+cd  ~/GitHub/QuickAndTastyWebsite/quick-tasty/
 git commit -a -m "nm"
 git push origin gh-pages
+

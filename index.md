@@ -1,7 +1,7 @@
 ---
 layout: home
 title: "Quick & Tasty"
-date: 2016-02-14
+date: 2016-10-10
 tags: [recipes,quick, tasty, healthy,food,cooking, vegetarian,vegan]
 excerpt: "Quick & Tasty: Fuss-free food for one or two"
 comments: false
@@ -24,7 +24,7 @@ image:
 
 <article class="tile" itemscope itemtype="http://schema.org/Article">
 <a href="{{ site.url }}/ingredients" title="The Store Cupboard" class="post-teaser">
-<img src="{{ site.url }}/images/dried_tomatoes_adj.jpg" alt="The Store Cupboard" itemprop="image">
+<img src="{{ site.url }}/images/dried_tomatoes_1600.jpg" alt="The Store Cupboard" itemprop="image">
 </a>
   <h2 class="post-title" itemprop="name"><a class="post-title" href="{{ site.url }}/ingredients">The Store Cupboard</a></h2>
 </article>

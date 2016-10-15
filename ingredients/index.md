@@ -1,7 +1,7 @@
 ---
 layout: article
 title: "The Store Cupboard"
-date: 2016-02-14
+date: 2016-10-10
 tags: [cooking,ingredients,condiments]
 excerpt: "You can find all the ingredients used in the recipes in the supermarket."
 comments: false
@@ -71,13 +71,14 @@ These are items that keep for a very long time and allow you to whip up a meal i
 
 ## The Specialty Corner<a name="special"></a>
 
-![Seaweed]({{ site.url }}/images/seaweed_400x300.jpg)
+![Seaweed]({{ site.url }}/images/shiitake_shichimi_wakame_400x300.jpg)
 
-These are a few ingredients used in Japanese dishes. They may be a bit harder to find in the supermarket:
+Japanese dishes use a few ingredients that may be a bit harder to find in the supermarket:
 
-* shichimi togarashi, a Japanese spice mixture.
-* mirin, a sweet rice wine for cooking.
-* miso paste, a paste made from salt and fermented soy beans, somewhat similar to vegetable stock cubes but much nicer.
-* wakame seaweed, for use in stews and miso soup.
-* konbu seaweed, for making dashi, the base for many Japanese dishes.
-* hijiki seaweed, great for stews and salads.
+* _shichimi togarashi_, a Japanese spice mixture.
+* _mirin_, a sweet rice wine for cooking.
+* _miso_ paste, a paste made from salt and fermented soy beans, somewhat similar to vegetable stock cubes but much nicer.
+* dried _wakame_ seaweed, for use in stews and _miso_ soup.
+* dried _konbu_ seaweed, for making _dashi_, the base for many Japanese dishes.
+* dried _hijiki_ seaweed, great for stews and salads.
+* dried _shiitake_ mushrooms, great to add taste to stews.

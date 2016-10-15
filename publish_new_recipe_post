@@ -1,0 +1,10 @@
+perl set_mod_date.pl
+perl create_index.pl
+perl generate_sitemap.pl > sitemap.xml
+cp _config.yml.publish _config.yml
+jekyll build -d ~/GitHub/QuickAndTastyWebsite/quick-tasty/
+cd  ~/GitHub/QuickAndTastyWebsite/quick-tasty/
+git add recipes/${1}/index.html
+git add images/${1}_1600.jpg
+git commit -a -m "$1"
+git push origin gh-pages

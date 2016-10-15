@@ -1,3 +1,4 @@
 perl set_mod_date.pl
 cp _config.yml.stage _config.yml
+#cp -r _posts/unpublished/ _posts/articles
 jekyll build --watch -d ~/Sites/quickandtasty/
