@@ -5,6 +5,7 @@ date: 2016-04-15
 modified: 2016-04-15
 tags: [ Italian-style , vegetarian , 20-minutes ]
 excerpt: "This is a very simple recipe with few ingredients and ready in about 20 minutes."
+preptime: "20 minutes"
 current: ""
 current_image:  stuffed_courgettes_gnocchi_1600.jpg
 current_anchor:  stuffed_courgettes_gnocchi
@@ -46,4 +47,3 @@ For two people:
 - Fill the courgette halves with the mixture. Sprinkle each of them with a little garlic oil and cover with the grated cheese.
 - Cook the gnocchi: simply put them in boiling water until they float to the top (about 3 minutes).
 - Meanwhile, cook the stuffed courgette halves in the microwave at full power (900W) for 3 minutes.
-

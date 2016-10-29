@@ -4,7 +4,8 @@ title: "Mild root vegetable curry with paneer and rice"
 date: 2016-05-22
 modified: 2016-05-22
 tags: [ curry , vegetarian , gluten-free , 30-minutes ]
-excerpt: "This very tasty recipe takes about 30 minutes to prepare. It is a mild root ..."
+excerpt: "This is a very tasty recipe for a mild root curry with paneer."
+preptime: "30 minutes"
 current: ""
 current_image:  mild_root_vegetable_curry_1600.jpg
 current_anchor:  mild_root_vegetable_curry
@@ -58,4 +59,3 @@ For two people:
   * Then add the cashew nuts and stir for another minute.
   * Finally add the vegetables and the garlic oil and let it simmer, stirring occasionally, for about 10 minutes or so.  
 * Serve with the rice
-

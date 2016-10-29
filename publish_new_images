@@ -1,7 +1,7 @@
 perl set_mod_date.pl
 perl create_index.pl
 cp _config.yml.publish _config.yml
-jekyll build -d ~/GitHub/QuickAndTastyWebsite/quick-tasty/
+bundle exec jekyll build -d ~/GitHub/QuickAndTastyWebsite/quick-tasty/
 cd  ~/GitHub/QuickAndTastyWebsite/quick-tasty/
 git add $*
 git commit -a -m "nm"

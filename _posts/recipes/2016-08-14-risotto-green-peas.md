@@ -5,6 +5,7 @@ date: 2016-08-14
 modified: 2016-08-14
 tags: [ Italian-style , vegetarian , gluten-free , 30-minutes ]
 excerpt: "Risotto is a popular Italian-style one-pan dish, delicious and easy to make."
+preptime: "30 minutes"
 current: ""
 current_image:  risotto-green-peas_1600.jpg
 current_anchor:  risotto-green-peas
@@ -52,7 +53,5 @@ For two people:
   - Add the tomatoes and porcini mushrooms and their soaking liquid, and some more boiled water. Stir and simmer, covered, until the rice has absorbed it.
   - Add the soy sauce and more boiled water, stir and simmer, covered, until the rice has absorbed the water.
   - You may have to add water a few more times, depending on how much you added at a time.
-  - When the rice is getting quite creamy, add the peas. 
+  - When the rice is getting quite creamy, add the peas.
   - Simmer for a few more minutes, then drizzle on some garlic oil and serve with pesto or cheese.
-
-  

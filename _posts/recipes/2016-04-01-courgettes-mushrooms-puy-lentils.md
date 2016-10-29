@@ -5,6 +5,7 @@ date: 2016-04-01
 modified: 2016-04-01
 tags: [ vegan , gluten-free , 30-minutes ]
 excerpt: "Puy lentils have a great rich, earthy taste, and combined with dried tomatoes ..."
+preptime: "30 minutes"
 current: ""
 current_image:  courgettes_mushrooms_puy_lentils_1600.jpg
 current_anchor:  courgettes_mushrooms_puy_lentils
@@ -58,4 +59,3 @@ For two people:
 - Heat the oil and fry the ginger, coriander and sunflower seeds for a few minutes over low heat.
 - Add the fresh mushrooms, stir-fry over high heat until they start to release their liquid.
 - I put the courgettes in the microwave for 2 minutes at full power (900W) before adding them to the pan. If you can't do this, you just have to let them simmer in the pan until the are soft enough (not too soft, they should still have some bite).
-

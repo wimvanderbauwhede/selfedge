@@ -5,6 +5,7 @@ date: 2016-03-15
 modified: 2016-03-15
 tags: [ Japanese-style , vegan , gluten-free , one-pot , 20-minutes ]
 excerpt: "This is a Japanese-style dish called nabe or hotpot. Its a one-pot meal, easy ..."
+preptime: "20 minutes"
 current: ""
 current_image:  carrots_potatoes_shiitake_1600.jpg
 current_anchor:  carrots_potatoes_shiitake
@@ -58,4 +59,3 @@ For two people:
 - Cook for 3 minutes at full power (900 W).
 
 Serve and season to taste with _shichimi togarashi_ and golden sesame seeds.
-

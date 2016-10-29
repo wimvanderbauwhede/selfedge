@@ -5,6 +5,7 @@ date: 2016-05-13
 modified: 2016-05-13
 tags: [ Japanese-style , vegan , gluten-free ]
 excerpt: "This is the first of my Murakami meals, named after one of my favourite authors,"
+preptime: "20 minutes"
 current: ""
 current_image:  aubergines-ponzu-soybeans-rice_1600.jpg
 current_anchor:  aubergines-ponzu-soybeans-rice
@@ -52,4 +53,3 @@ For two people:
   - Remove the _konbu_ and slice it into smaller strips. Return it to the pot and continue cooking for another 20 minutes or until all the water has been absorbed.  
   - Meanwhile, wash and slice the aubergines.
   - Cook each aubergine separately for 7 minutes in the microwave at full power (900W). Divide the aubergine slices over two plates and sprinkle them with the _ponzu_ dressing.
-

@@ -5,6 +5,7 @@ date: 2016-04-08
 modified: 2016-04-08
 tags: [ curry , vegetarian , gluten-free , 30-minutes ]
 excerpt: "This very tasty recipe takes about 30 minutes to prepare, its a mild potato ..."
+preptime: "30 minutes"
 current: ""
 current_image:  pot_spin_pan_1600.jpg
 current_anchor:  pot_spin_pan
@@ -61,4 +62,3 @@ For two people:
 - Add garlic oil to taste.
 
 This is really a complete one-pan meal but sometimes I serve it with rice too.
-

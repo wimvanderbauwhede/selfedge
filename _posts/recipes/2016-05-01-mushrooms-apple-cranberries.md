@@ -5,6 +5,7 @@ date: 2016-05-01
 modified: 2016-05-01
 tags: [ vegan , gluten-free , 20-minutes ]
 excerpt: "This surprising combination is very easy to make and really tasty. Cranberries ..."
+preptime: "20 minutes"
 current: ""
 current_image:  mushrooms_apple_cranberries_1600.jpg
 current_anchor:  mushrooms_apple_cranberries
@@ -56,4 +57,3 @@ For two people:
   - Add the soy sauce and stir.
   - Add the mushrooms and stir-fry on high heat for a few minutes, then on low heat for a few more minutes.
 - Serve with the rice.
-

@@ -5,6 +5,7 @@ date: 2016-03-22
 modified: 2016-03-22
 tags: [ Italian-style , vegetarian , 15-minutes ]
 excerpt: "This is a basic pasta recipe with a cold topping that is again very easy to ..."
+preptime: "15 minutes"
 current: ""
 current_image:  nifty_pasta_1600.jpg
 current_anchor:  nifty_pasta
@@ -43,4 +44,3 @@ For two people:
 - Cook the linguine (see <a href="{{ site.url }}/basics">basics#toc2</a> for how to cook pasta).
 - While the pasta is cooking, cut tomatoes, mozzarella and artichokes in small bits. I usually serve each in a separate small bowl.
 - When the pasta is ready, serve with the toppings and put some walnuts on top.
-

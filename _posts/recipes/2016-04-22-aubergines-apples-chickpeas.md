@@ -5,6 +5,7 @@ date: 2016-04-22
 modified: 2016-04-22
 tags: [ vegan , gluten-free , 30-minutes ]
 excerpt: "In this recipe I sweetened the aubergines by cooking them together with apples. ..."
+preptime: "30 minutes"
 current: ""
 current_image:  aubergines_apples_chickpeas_1600.jpg
 current_anchor:  aubergines_apples_chickpeas
@@ -63,4 +64,3 @@ For two people:
   - Add the aubergines, let simmer on low heat for 5 minutes.
   - Optionally, add chopped fresh coriander as garnish.
 - Serve with the rice.
-

@@ -5,6 +5,7 @@ date: 2016-07-22
 modified: 2016-07-22
 tags: [ curry , vegetarian , gluten-free , 30-minutes ]
 excerpt: "Celeriac, spinach and mushrooms go together surprisingly well. Combined with ..."
+preptime: "30 minutes"
 current: ""
 current_image:  curry-celeriac-spinach_1600.jpg
 current_anchor:  curry-celeriac-spinach
@@ -64,4 +65,3 @@ For two people:
   - Cut up the cooked spinach and add it to the pan. Stir and let simmer for a few more minutes.
   - Add garlic oil to taste.
 * Serve with the rice.
-

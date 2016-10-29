@@ -5,6 +5,7 @@ date: 2016-07-08
 modified: 2016-07-08
 tags: [ curry , vegan , gluten-free , 30-minutes ]
 excerpt: "This is a recipe for a delicious mild root vegetable curry. The red lentils ..."
+preptime: "30 minutes"
 current: ""
 current_image:  mild-curry-red-lentils_1600.jpg
 current_anchor:  mild-curry-red-lentils
@@ -63,4 +64,3 @@ For two people:
   * Add the cayenne/nanami and stir for another minute.
   * Finally add the vegetables and the garlic oil and let it simmer, stirring occasionally, for about 10 minutes or so.  
 * Serve with the rice.
-

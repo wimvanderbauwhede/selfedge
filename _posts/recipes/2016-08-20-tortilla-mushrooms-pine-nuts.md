@@ -5,6 +5,7 @@ date: 2016-08-20
 modified: 2016-08-20
 tags: [ Spanish-style , vegetarian ,  gluten-free , one-pan , 20-minutes ]
 excerpt: "A tortilla is a Spanish-style omelette with potatoes, very quick and easy to make."
+preptime: "20 minutes"
 current: ""
 current_image:  tortilla-mushrooms-pine-nuts_1600.jpg
 current_anchor:  tortilla-mushrooms-pine-nuts
@@ -29,14 +30,14 @@ For two people:
 - Fresh ingredients and groceries
   - 4 medium eggs
   - 400 g medium potatoes
-  - a pack of chestnut mushrooms (about 200g)	
+  - a pack of chestnut mushrooms (about 200g)
   - a cup of grated hard cheese (Grana Padano or parmezan)
 
 - From the store cupboard
   - a handful of pine kernels
   - three dried tomatoes
   - a teaspoon ground cumin
-  - a tablespoon of olive oil 
+  - a tablespoon of olive oil
   - a drizzle of garlic oil (optional)
 
 #### Preparation
@@ -52,4 +53,3 @@ For two people:
 - Lower the heat to minimum setting and pour the egg mixture in the pan, moving the pan around so it distributes evenly.
 - Let the tortilla simmer with the lid on until the egg has set.
 - Drizzle on some garlic oil and sprinkle on the cheese.
-

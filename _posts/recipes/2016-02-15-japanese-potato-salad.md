@@ -5,6 +5,7 @@ date: 2016-07-09
 modified: 2016-07-09
 tags: [ Japanese-style , vegetarian , gluten-free , 30-minutes ]
 excerpt: "Although potato salad may not sound very Japanese , it has long been very ..."
+preptime: "30 minutes"
 current: ""
 current_image:  japanese-potato-salad_1600.jpg
 current_anchor:  japanese-potato-salad
@@ -51,4 +52,3 @@ For two people:
   - Peel the hard-boiled egg and chop up finely.
   - Leave the potatoes and carrot to cool until almost room temperature.
   - When the potatoes and carrot have cooled down, mix in the courgette, ginger and egg. Mix in the mayonnaise and mash coarsely with a fork.
-

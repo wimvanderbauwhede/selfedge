@@ -5,6 +5,7 @@ date: 2016-07-15
 modified: 2016-07-15
 tags: [ Italian-style , vegetarian , 15-minutes ]
 excerpt: "This is a really quick take on a very famous Italian recipe, and it is very ..."
+preptime: "15 minutes"
 current: ""
 current_image:  linguine-al-pesto_1600.jpg
 current_anchor:  linguine-al-pesto
@@ -45,4 +46,3 @@ For two people:
   - Cook the beans in the microwave, about 3 minutes at full power (900W).
   - Dice the potatoes and chop the beans.
 - When the pasta is ready, serve with the beans, potatoes, pesto, cheese and some black pepper.
-

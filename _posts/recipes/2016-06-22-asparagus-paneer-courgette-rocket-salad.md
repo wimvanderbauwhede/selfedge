@@ -4,7 +4,8 @@ title: "Asparagus and paneer on a bed of rocket and courgettes"
 date: 2016-06-22
 modified: 2016-06-22
 tags: [ vegetarian , gluten-free , 15-minutes ]
-excerpt: "Asparagus is a delicious vegetable that needs very little preparation. I ..."
+excerpt: "Asparagus is a delicious vegetable that needs very little preparation."
+preptime: "15 minutes"
 current: ""
 current_image:  asparagus-paneer-courgette-rocket-salad_1600.jpg
 current_anchor:  asparagus-paneer-courgette-rocket-salad
@@ -55,4 +56,3 @@ For two people:
 - Chop the asparagus into pieces of 3-4 cm.  
 - Lower the heat, add the asparagus and fry for just a few minutes.
 - Serve the asparagus and paneer on a bed of the rocket and courgettes. I served the rice in separate bowls.
-
