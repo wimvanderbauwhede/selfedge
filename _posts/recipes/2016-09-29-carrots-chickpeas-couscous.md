@@ -5,6 +5,7 @@ date: 2016-09-29
 modified: 2016-09-29
 tags: [ vegan, 15-minutes ]
 excerpt: "This is a really quick and simple  stir-fry of carrots and chickpeas, ready in 15 minutes, and very tasty."
+preptime: "15 minutes"
 current: ""
 current_image: carrots-chickpeas-couscous_1600.jpg
 current_anchor: carrots-chickpeas-couscous 
