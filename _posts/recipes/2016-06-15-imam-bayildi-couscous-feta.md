@@ -5,6 +5,7 @@ date: 2016-06-15
 modified: 2016-06-15
 tags: [ Turkish-style , vegetarian , 20-minutes ]
 excerpt: "Imam bayildi is Turkish for the priest has fainted, and a very well-known ..."
+preptime: "20 minutes"
 current: ""
 current_image:  imam_bayildi_couscous_feta_1600.jpg
 current_anchor:  imam_bayildi_couscous_feta
@@ -53,4 +54,3 @@ For two people:
  - Add the finely chopped tomatoes and fry for a few more minutes, until the tomatoes start to soften.
  - Add the aubergines, juice of half a lime and maybe a pinch of sugar, and fry for a few more minutes at low heat
  - Serve with the couscous and feta.
-

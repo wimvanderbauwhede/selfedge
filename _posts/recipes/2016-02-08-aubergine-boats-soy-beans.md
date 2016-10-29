@@ -5,6 +5,7 @@ date: 2016-07-23
 modified: 2016-07-23
 tags: [ Japanese-style , vegan , gluten-free ]
 excerpt: "This is another Murakami meal. I had aubergines and I decided to fill them with ..."
+preptime: "20 minutes"
 current: ""
 current_image:  aubergine-boats-soy-beans_1600.jpg
 current_anchor:  aubergine-boats-soy-beans
@@ -61,4 +62,3 @@ For two people:
     - Let simmer for a few minutes over low heat.
     - Stuff the aubergine shells with the mixture and microwave for 1 minute at full power (900W).
     - Serve with the rice.
-

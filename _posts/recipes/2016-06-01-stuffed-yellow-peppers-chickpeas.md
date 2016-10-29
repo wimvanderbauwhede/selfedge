@@ -5,6 +5,7 @@ date: 2016-06-01
 modified: 2016-06-01
 tags: [ vegan , 20-minutes ]
 excerpt: "This recipe is my own take on a recipe from Sarah Browns Vegetarian Cookbook. ..."
+preptime: "20 minutes"
 current: ""
 current_image:  stuffed-yellow-peppers-chickpeas_1600.jpg
 current_anchor:  stuffed-yellow-peppers-chickpeas
@@ -59,4 +60,3 @@ For two people:
 - While the peppers are cooking:
   - Rinse the chickpeas and put them in a microwave pot with the other half of the chopped tomatoes, the ginger, the seeds, a teaspoon of soy sauce and a teaspoon of garlic oil.
 - Cook the chickpeas in the microwave for 4 minutes on full power (900W).
-

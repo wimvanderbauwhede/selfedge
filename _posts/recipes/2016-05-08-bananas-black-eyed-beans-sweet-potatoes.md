@@ -5,6 +5,7 @@ date: 2016-05-08
 modified: 2016-05-08
 tags: [ African-style , vegan , gluten-free , one-pan , 20-minutes ]
 excerpt: "This is a one-pot recipe that takes about 20 minutes. It is inspired by a dish ..."
+preptime: "20 minutes"
 current: ""
 current_image:  bananas_black_eyed_beans_sweet_potatoes_1600.jpg
 current_anchor:  bananas_black_eyed_beans_sweet_potatoes
@@ -61,4 +62,3 @@ For two people:
 - Add the soy sauce and stir-fry briefly over high heat until it is evaporated.
 - Add the lemon juice and stir-fry briefly over high heat, then reduce the heat and stir-fry for a few minutes more.
 - The parsnips and sweet potato will be ready by now. Add them to the pan. Add the cayenne pepper and garlic oil, stir and let simmer for about five minutes.
-

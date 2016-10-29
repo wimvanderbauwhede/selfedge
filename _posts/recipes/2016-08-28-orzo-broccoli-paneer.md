@@ -5,6 +5,7 @@ date: 2016-08-28
 modified: 2016-08-28
 tags: [ vegetarian ,  one-pan , 20-minutes ]
 excerpt: "This is a surprising combination of orzo pasta with steamed broccoli and stir-fried paneer."
+preptime: "20 minutes"
 current: ""
 current_image:  orzo-broccoli-paneer_1600.jpg
 current_anchor:  orzo-broccoli-paneer
@@ -39,7 +40,7 @@ For two people:
   - 1 teaspoon ground coriander
   - 1 tablespoon soy sauce
   - 1 tablespoon olive oil for frying
- 	
+
 #### Preparation
 
 - Cook the orzo just like <a href="{{ site.url }}/basics/#toc2">regular pasta</a>.    

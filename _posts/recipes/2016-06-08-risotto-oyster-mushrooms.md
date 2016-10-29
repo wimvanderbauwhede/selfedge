@@ -5,6 +5,7 @@ date: 2016-06-08
 modified: 2016-06-08
 tags: [ Italian-style , vegetarian , gluten-free , 30-minutes ]
 excerpt: "Risotto is a popular Italian-style one-pan dish, delicious and easy to make. It ..."
+preptime: "30 minutes"
 current: ""
 current_image:  risotto_oyster_mushrooms_1600.jpg
 current_anchor:  risotto_oyster_mushrooms
@@ -56,4 +57,3 @@ For two people:
 - Add the salt and more water, stir and simmer, covered, until the rice has absorbed the water.
 - You may have to add water a few more times, depending on how much you added at a time.
 - It's ready when the rice is quite creamy (in Italian it's called _all'onda_, "wavy").
-

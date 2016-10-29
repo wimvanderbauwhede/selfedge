@@ -5,6 +5,7 @@ date: 2016-03-08
 modified: 2016-03-08
 tags: [ Japanese-style , vegan , gluten-free , one-pot , 20-minutes ]
 excerpt: "Aubergines are very popular in Japan and there are many different ways of ..."
+preptime: "20 minutes"
 current: ""
 current_image:  aubergines_sweet_potatoes_tofu_1600.jpg
 current_anchor:  aubergines_sweet_potatoes_tofu
@@ -58,4 +59,3 @@ For two people:
     - Pour the miso mixture over it and mix the ingredients taking care not to mash the _tofu_ pieces.
     - Cook for 3 minutes at full power (900 W).
 - Serve with the rice and season to taste with _shichimi togarashi_ and golden sesame seeds.
-

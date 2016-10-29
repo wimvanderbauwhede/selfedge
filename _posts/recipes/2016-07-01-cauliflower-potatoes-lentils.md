@@ -5,6 +5,7 @@ date: 2016-07-31
 modified: 2016-07-31
 tags: [ vegan , gluten-free , 20-minutes ]
 excerpt: "Stir-frying the cauliflower and potatoes with seeds and spices gives a nice ..."
+preptime: "20 minutes"
 current: ""
 current_image:  cauliflower-potatoes-lentils_1600.jpg
 current_anchor:  cauliflower-potatoes-lentils
@@ -57,4 +58,3 @@ For two people:
   - When the oil is hot, add the ginger, seeds and spices and fry over medium heat for a minute.  
   - Add the potatoes and fry for a few minutes.
   - Add the cauliflower and stir-fry over high heat for a few minutes.  
-

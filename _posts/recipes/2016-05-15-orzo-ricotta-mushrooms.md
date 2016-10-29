@@ -5,6 +5,7 @@ date: 2016-05-15
 modified: 2016-05-15
 tags: [ Italian-style , vegetarian , 30-minutes ]
 excerpt: "Orzo is pasta shaped like grains of barley. You can use in instead of rice for ..."
+preptime: "30 minutes"
 current: ""
 current_image:  orzo_ricotta_mushrooms_1600.jpg
 current_anchor:  orzo_ricotta_mushrooms
@@ -54,4 +55,3 @@ For two people:
 - Add the dried tomatoes and orzo to the pan and stir.
 - Spoon the ricotta into the pan, stirring gently.
 - Drizzle on some garlic oil and serve with grated cheese sprinkled on top.
-
