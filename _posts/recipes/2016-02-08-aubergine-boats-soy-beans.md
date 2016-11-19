@@ -5,7 +5,7 @@ date: 2016-07-23
 modified: 2016-07-23
 tags: [ Japanese-style , vegan , gluten-free ]
 excerpt: "This is another Murakami meal. I had aubergines and I decided to fill them with ..."
-preptime: "20 minutes"
+preptime: "30 mins soak + 20 mins cook"
 current: ""
 current_image:  aubergine-boats-soy-beans_1600.jpg
 current_anchor:  aubergine-boats-soy-beans
@@ -23,6 +23,7 @@ image:
 
 This is another ["Murakami meal"]({{ site.url }}/articles/murakami-meals). I had aubergines and I decided to fill them with a mixture of soy beans, seaweed, _shiitake_ mushrooms and _miso_,  and serve them with red rice cooked with _konbu_ seaweed. Although the ingredients are typically Japanese, filled aubergine is not a traditional Japanese recipe. But it's delicious!
 
+This reciped requires 30 minutes soaking time followed by 20 minutes cooking time.
 
 {% for tag in page.tags %}&nbsp;<a class="post-tag" href="{{ site.url}}/tags/#{{ tag }}">_{{ tag }}_</a>&nbsp;{% endfor %}
 

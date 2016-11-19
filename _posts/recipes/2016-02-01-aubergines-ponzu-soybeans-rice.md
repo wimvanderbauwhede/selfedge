@@ -5,7 +5,7 @@ date: 2016-05-13
 modified: 2016-05-13
 tags: [ Japanese-style , vegan , gluten-free ]
 excerpt: "This is the first of my Murakami meals, named after one of my favourite authors,"
-preptime: "20 minutes"
+preptime: "30 mins soak + 20 mins cook"
 current: ""
 current_image:  aubergines-ponzu-soybeans-rice_1600.jpg
 current_anchor:  aubergines-ponzu-soybeans-rice
@@ -24,6 +24,7 @@ image:
 This is the first of my "Murakami meals", named after one of my favourite authors, Haruki Murakami. I wrote a [short blog post]({{ site.url }}/articles/murakami-meals) about what I mean by a Murakami meal.
 I had aubergines so I decided to prepare them with ponzu (a Japanese dressing). I also made soy beans with _shiitake_ mushrooms and rounded it off with brown rice cooked with _konbu_ seaweed.
 
+This reciped requires 30 minutes soaking time followed by 20 minutes cooking time.
 
 {% for tag in page.tags %}&nbsp;<a class="post-tag" href="{{ site.url}}/tags/#{{ tag }}">_{{ tag }}_</a>&nbsp;{% endfor %}
 

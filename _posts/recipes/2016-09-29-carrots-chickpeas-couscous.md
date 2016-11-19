@@ -39,19 +39,15 @@ For two people:
   - 2 tablespoons sesame seeds
   - 1 tin chickpeas
   - 1 cup maftoul (Palestinian or giant couscous)
-  - 2 tablespoon olive oil
-  - 2 teaspoon soy sauce
+  - 2 tablespoons olive oil
+  - 3 teaspoons soy sauce
 
 #### Preparation
 
-- Put the maftoul in a microwave pot with 2 tablespoon water and cook for 4 minutes at full power (900W).
+- Put the maftoul in a microwave pot with 1.5 cups of water and a teaspoon soy sauce and cook for 4 minutes at full power (900W).
 - Meanwhile, wash and dice the carrots. Cook them in the microwave, about 5 minutes on full power (900W).
 - When the carrots are done, stir the maftoul, then cook it for 4 more minutes on full power (900W).
 - Meanwhile, heat the olive oil and fry the ginger, spices and seeds for a few minutes on medium heat.
 - Add the chickpeas and fry for a few minutes on high heat.
 - Add the soy sauce and stir.
 - Add the carrots and stir-fry on high heat for a few minutes.
-
-
-
-
