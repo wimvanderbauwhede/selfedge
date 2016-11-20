@@ -5,9 +5,19 @@ use Cwd;
 my $wd=cwd();
 
 system('cp _config.yml.stage _config.yml');
+my $hostname =`hostname`;
+chomp $hostname;
+if ($hostname=~/HackBook/) {
+system('bundle exec jekyll build -d ~/Sites/quickandtasty/');
+system("cp ~/StaticIndexer/indexer.js ~/Sites/quickandtasty");
+system("cp -r ~/StaticIndexer/node_modules ~/Sites/quickandtasty");
+
+} else {
 system('jekyll build -d ~/Sites/quickandtasty/');
 system("cp ../../StaticIndexer/indexer.js ~/Sites/quickandtasty");
 system("cp -r ../../StaticIndexer/node_modules ~/Sites/quickandtasty");
+
+}
 chdir "$ENV{HOME}/Sites/quickandtasty" or die $!;
 print "CWD:",cwd(),"\n";
 #system("pwd");
