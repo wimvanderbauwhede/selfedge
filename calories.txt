@@ -1,0 +1,100 @@
+# find the lines
+# grep -E '^\s+\-' *.md | grep -v -E '\-\s+[A-Z]'
+# find the ingredients:
+# split every line on spaces or just match against every ingredient?
+# then based look for amount, either based on ingredient or on presence of figures
+
+#half a cup = 100g
+#a cup = 200g
+#two 
+#1 pack
+#a pack
+#half a pack
+#half a packet
+
+greek yoghurt: 129; 150;
+
+# Cheese
+mozzarella: 219; 250; we eat either 2x 125g in salad or 150g in trofie
+ricotta: 133; 200;
+feta: 264; 200;
+paneer: 174; 224;
+everest paneer: 347; 224;
+halloumi: 332; 200;
+grana padano: 396; 50;
+cream cheese: 230; 100;
+philadelphia: 230; 100;
+
+# Rice
+basmati rice: 356; 200; per meal
+risotto rice: 348; 200; 1 cup
+brown rice: 351; 200;
+red rice: 351; 200;
+japanese rice: 353; 200;
+
+gnocchi: 180; 500;
+
+# Pulses
+red lentils: 353; 200; 1 cup
+puy lentils: 325; 200; 1 cup
+chickpeas: 85; 240; can is 240 so about 100 
+black beans: 91; 230; pack of 230 g provides 208
+blackeye beans: 116; 240; tin is 240g
+soy beans: 147; 200; a cup
+
+tofu: 64; 175; pack is 350, so about 175/2, say 100
+
+# Pasta and Noodles
+udon: 355; 200;
+soba: 343; 200;
+linguine: 352; 200;
+orzo: 357; 200;
+maftoul: 360; 200;
+pasta: 360; 200;
+
+potatoes: 77; 200; typically we eat 200g so 154
+sweet potato: 86; 200;
+
+egg: 155; 50; (1 egg ~ 50g)
+
+bread: 256; 150; (we eat about 150 g per meal, a slice is about 20g)
+chocolate: 568;15; (we eat about 15 g per meal = 90 cal)
+pumpkin seeds: 574;15;
+sunflower seeds: 584; 15 ; 1 tbsp = 15g
+sesame seeds: 562;30;
+walnuts:	 654;20;
+pine nuts: 673;20;
+dried tomato: 210; 5;
+
+dried porcini: 295; 3; dried porcini mushrooms
+dried shiitake: 325; 3; 
+fresh shiitake: 66; 150
+mushrooms: 16; 250;  (pack 250g)
+tomato: 16; 400;
+carrot: 41; 400;
+courgette: 17; 400;
+aubergine: 25; 400;
+parsnip: 72; 200;
+celeriac: 25; 400;
+butternut squash: 65; 400;
+spinach: 24; 450
+broccoli: 40; 400
+cauliflower: 34; 400
+peppers: 20; 350;
+apple: 52; 120;
+pear: 52; 120;
+cucumber: 10; 200;
+banana: 106; 200;
+cranberries: 25; 100;
+asparagus: 29; 100;
+
+mayonnaise: 706; 45; 3 tbsp
+
+olive oil: 824; 30; 2 tbsp
+
+#orange: 47; 150;
+
+
+#p: 2000 - 2200
+#P: 2600-2800
+

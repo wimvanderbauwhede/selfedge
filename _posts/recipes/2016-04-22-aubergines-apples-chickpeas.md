@@ -45,6 +45,7 @@ For two people:
   - 1-2 tablespoon sunflower seeds
   - 3 tablespoon raisins
   - 1 tablespoon olive oil for frying
+  - 1 cup basmati rice
 
 
 #### Preparation
