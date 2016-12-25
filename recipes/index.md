@@ -17,15 +17,15 @@ All my recipes are for _full meals_ for two people. All recipes are my own creat
 <p  style="margin:0px;" class="quick-access">Browse recipes:</p>
 <ul>
 <li><span class="quick-access">By preparation time:</span>&nbsp; 
-<!--<a href="{{site.url}}/tags/#10-minutes">10 minutes</a>-->
-<a href="{{site.url}}/tags/#15-minutes">15 minutes</a> &bull;
-<a href="{{site.url}}/tags/#20-minutes">20 minutes</a> &bull; 
-<a href="{{site.url}}/tags/#30-minutes">30 minutes</a>
+<!--<a href="{{site.url}}/times/#10-minutes">10 minutes</a>-->
+<a href="{{site.url}}/times/#15-minutes">15 minutes</a> &bull;
+<a href="{{site.url}}/times/#20-minutes">20 minutes</a> &bull; 
+<a href="{{site.url}}/times/#30-minutes">30 minutes</a>
 </li>
 <li><span class="quick-access">By calories per person:</span>&nbsp; 
-<a href="{{site.url}}/tags/#400-600kcals"><img src="{{ site.url }}/images/battery_lvl_2.png" style="height:1.0em;">&nbsp;400-600 kcal</a> &bull; 
-<a href="{{site.url}}/tags/#600-800kcals"><img src="{{ site.url }}/images/battery_lvl_3.png" style="height:1.0em;">&nbsp;600-800 kcal</a> &bull; 
-<a href="{{site.url}}/tags/#800-1000kcals"><img src="{{ site.url }}/images/battery_lvl_4.png" style="height:1.0em;">&nbsp;800-1000 kcal</a>
+<a href="{{site.url}}/calories/#400-600kcals"><img src="{{ site.url }}/images/battery_lvl_2.png" style="height:1.0em;">&nbsp;400-600 kcal</a> &bull; 
+<a href="{{site.url}}/calories/#600-800kcals"><img src="{{ site.url }}/images/battery_lvl_3.png" style="height:1.0em;">&nbsp;600-800 kcal</a> &bull; 
+<a href="{{site.url}}/calories/#800-1000kcals"><img src="{{ site.url }}/images/battery_lvl_4.png" style="height:1.0em;">&nbsp;800-1000 kcal</a>
 </li>
 </ul>
 
