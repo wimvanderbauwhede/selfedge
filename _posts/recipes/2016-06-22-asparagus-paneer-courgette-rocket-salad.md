@@ -42,6 +42,7 @@ For two people:
   - 1 tablespoon sesame seeds
   - 1 tablespoon sunflower seeds
   - 2 tablespoon pumpkin seeds
+  - 1 cup of basmati rice
 
 #### Preparation
 

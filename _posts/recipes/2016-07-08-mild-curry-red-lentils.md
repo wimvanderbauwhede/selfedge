@@ -31,8 +31,9 @@ This is a recipe for a delicious mild root vegetable curry. The red lentils give
 For two people:
 
 - Fresh ingredients and groceries
-  - carrots, parsnips, potatoes (about 1/2 kg all together)
-  - 2 small tomatoes
+  - carrots, parsnips (250 g)
+  - potatoes (250 g)
+  - 2 small tomatoes (100 g)
   - 1 cup of red lentils
   - 1 tablespoon finely chopped fresh ginger
 
