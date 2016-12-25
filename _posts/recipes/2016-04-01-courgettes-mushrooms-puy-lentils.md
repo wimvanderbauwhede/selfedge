@@ -3,8 +3,10 @@ layout: article
 title: "Courgettes and mushrooms with puy lentils and brown rice"
 date: 2016-04-01
 modified: 2016-04-01
-tags: [ vegan , gluten-free , 30-minutes ]
+tags: [ vegan , gluten-free , 30-minutes ,"800-1000kcals" ]
 excerpt: "Puy lentils have a great rich, earthy taste, and combined with dried tomatoes ..."
+calorielevel: "4"
+calorierange: "800-1000kcals"
 preptime: "30 minutes"
 current: ""
 current_image:  courgettes_mushrooms_puy_lentils_1600.jpg
@@ -25,7 +27,7 @@ Puy lentils have a great rich, earthy taste, and combined with dried tomatoes an
 This recipe takes a little bit longer because the lentils and brown rice take about 30 minutes to cook, and it can take some time until the courgettes are ready too.
 
 
-{% for tag in page.tags %}&nbsp;<a class="post-tag" href="{{ site.url}}/tags/#{{ tag }}">_{{ tag }}_</a>&nbsp;{% endfor %}
+{% for tag in page.tags %}{% if tag != "800-1000kcals" %}&nbsp;<a class="post-tag" href="{{ site.url}}/tags/#{{ tag }}">_{{ tag }}_</a>&nbsp;{% endif %}{% endfor %} &bull;&nbsp;<em>825&nbsp;kcal&nbsp;per&nbsp;person</em>&nbsp;&nbsp;<a href="{{ site.url}}/tags/#800-1000kcals"><img src="{{ site.url }}/images/battery_lvl_4.png" style="height:1.0em;"></a>
 
 #### Ingredients
 

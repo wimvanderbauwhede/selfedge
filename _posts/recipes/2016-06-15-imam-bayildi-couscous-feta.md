@@ -3,8 +3,10 @@ layout: article
 title: "Imam bayildi with couscous and feta"
 date: 2016-06-15
 modified: 2016-06-15
-tags: [ Turkish-style , vegetarian , 20-minutes ]
+tags: [ Turkish-style , vegetarian , 20-minutes ,"600-800kcals" ]
 excerpt: "Imam bayildi is Turkish for the priest has fainted, and a very well-known ..."
+calorielevel: "3"
+calorierange: "600-800kcals"
 preptime: "20 minutes"
 current: ""
 current_image:  imam_bayildi_couscous_feta_1600.jpg
@@ -24,7 +26,7 @@ image:
 "Imam bayildi" is Turkish for "the priest has fainted", and a very well-known Turkish aubergine dish. Usually the aubergines are scooped out and then stuffed, but as that takes longer, in this recipe I simply chop them. The original recipe also uses a lot of onion, which I don't like. The characteristic spice in this dish is allspice, also known as Jamaica pepper. I serve this with maftoul (Palestinian or giant couscous) and feta and garnish with some lime wedges.
 
 
-{% for tag in page.tags %}&nbsp;<a class="post-tag" href="{{ site.url}}/tags/#{{ tag }}">_{{ tag }}_</a>&nbsp;{% endfor %}
+{% for tag in page.tags %}{% if tag != "600-800kcals" %}&nbsp;<a class="post-tag" href="{{ site.url}}/tags/#{{ tag }}">_{{ tag }}_</a>&nbsp;{% endif %}{% endfor %} &bull;&nbsp;<em>675&nbsp;kcal&nbsp;per&nbsp;person</em>&nbsp;&nbsp;<a href="{{ site.url}}/tags/#600-800kcals"><img src="{{ site.url }}/images/battery_lvl_3.png" style="height:1.0em;"></a>
 
 #### Ingredients
 
@@ -33,7 +35,7 @@ For two people:
 - Fresh ingredients and groceries
   - 1 large aubergine
   - 2 medium tomatoes
-  - 1/2 pack feta (Greek goat cheese)
+  - half a pack feta (Greek goat cheese)
   - 1 lime
   - 1 cup of maftoul (Palestinian or giant couscous)
 

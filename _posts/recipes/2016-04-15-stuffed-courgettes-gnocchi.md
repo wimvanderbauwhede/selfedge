@@ -3,8 +3,10 @@ layout: article
 title: "Stuffed courgettes with gnocchi"
 date: 2016-04-15
 modified: 2016-04-15
-tags: [ Italian-style , vegetarian , 20-minutes ]
+tags: [ Italian-style , vegetarian , 20-minutes ,"600-800kcals" ]
 excerpt: "This is a very simple recipe with few ingredients and ready in about 20 minutes."
+calorielevel: "3"
+calorierange: "600-800kcals"
 preptime: "20 minutes"
 current: ""
 current_image:  stuffed_courgettes_gnocchi_1600.jpg
@@ -24,7 +26,7 @@ image:
 This is a very simple recipe with few ingredients and ready in about 20 minutes.
 
 
-{% for tag in page.tags %}&nbsp;<a class="post-tag" href="{{ site.url}}/tags/#{{ tag }}">_{{ tag }}_</a>&nbsp;{% endfor %}
+{% for tag in page.tags %}{% if tag != "600-800kcals" %}&nbsp;<a class="post-tag" href="{{ site.url}}/tags/#{{ tag }}">_{{ tag }}_</a>&nbsp;{% endif %}{% endfor %} &bull;&nbsp;<em>775&nbsp;kcal&nbsp;per&nbsp;person</em>&nbsp;&nbsp;<a href="{{ site.url}}/tags/#600-800kcals"><img src="{{ site.url }}/images/battery_lvl_3.png" style="height:1.0em;"></a>
 
 #### Ingredients
 

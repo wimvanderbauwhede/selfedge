@@ -3,8 +3,10 @@ layout: article
 title: "Orzo with broccoli and paneer"
 date: 2016-08-28
 modified: 2016-08-28
-tags: [ vegetarian ,  one-pan , 20-minutes ]
+tags: [ vegetarian ,  one-pan , 20-minutes ,"600-800kcals" ]
 excerpt: "This is a surprising combination of orzo pasta with steamed broccoli and stir-fried paneer."
+calorielevel: "3"
+calorierange: "600-800kcals"
 preptime: "20 minutes"
 current: ""
 current_image:  orzo-broccoli-paneer_1600.jpg
@@ -21,7 +23,7 @@ image:
 
 This is a surprising combination of orzo (pasta shaped like grains of barley) with steamed broccoli and stir-fried paneer (fresh Indian cheese).
 
-{% for tag in page.tags %}&nbsp;<a class="post-tag" href="{{ site.url}}/tags/#{{ tag }}">_{{ tag }}_</a>&nbsp;{% endfor %}
+{% for tag in page.tags %}{% if tag != "600-800kcals" %}&nbsp;<a class="post-tag" href="{{ site.url}}/tags/#{{ tag }}">_{{ tag }}_</a>&nbsp;{% endif %}{% endfor %} &bull;&nbsp;<em>650&nbsp;kcal&nbsp;per&nbsp;person</em>&nbsp;&nbsp;<a href="{{ site.url}}/tags/#600-800kcals"><img src="{{ site.url }}/images/battery_lvl_3.png" style="height:1.0em;"></a>
 
 #### Ingredients
 

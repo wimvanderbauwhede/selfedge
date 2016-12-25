@@ -3,8 +3,10 @@ layout: article
 title: "Miso-glazed aubergines with soy beans and rice"
 date: 2016-11-20
 modified: 2016-11-20
-tags: [ Japanese-style , vegan , gluten-free ]
+tags: [ Japanese-style , vegan , gluten-free ,"600-800kcals" ]
 excerpt: "This is my take on nasu dengaku (茄子田楽), a very well-known Japanese aubergine dish."
+calorielevel: "3"
+calorierange: "600-800kcals"
 preptime: "30 mins soak + 20 mins cook"
 current: ""
 current_image:  nasu-dengaku_1600.jpg
@@ -23,7 +25,7 @@ _Nasu dengaku_ (茄子田楽) is a very well-known Japanese aubergine dish, this
 
 This reciped requires 30 minutes soaking time followed by 20 minutes cooking time.
 
-{% for tag in page.tags %}&nbsp;<a class="post-tag" href="{{ site.url}}/tags/#{{ tag }}">_{{ tag }}_</a>&nbsp;{% endfor %}
+{% for tag in page.tags %}{% if tag != "600-800kcals" %}&nbsp;<a class="post-tag" href="{{ site.url}}/tags/#{{ tag }}">_{{ tag }}_</a>&nbsp;{% endif %}{% endfor %} &bull;&nbsp;<em>625&nbsp;kcal&nbsp;per&nbsp;person</em>&nbsp;&nbsp;<a href="{{ site.url}}/tags/#600-800kcals"><img src="{{ site.url }}/images/battery_lvl_3.png" style="height:1.0em;"></a>
 
 #### Ingredients
 

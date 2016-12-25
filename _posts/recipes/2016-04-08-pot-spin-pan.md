@@ -3,8 +3,10 @@ layout: article
 title: "Curry of potatoes, spinach and paneer"
 date: 2016-04-08
 modified: 2016-04-08
-tags: [ curry , vegetarian , gluten-free , 30-minutes ]
+tags: [ curry , vegetarian , gluten-free , 30-minutes ,"400-600kcals" ]
 excerpt: "This very tasty recipe takes about 30 minutes to prepare, its a mild potato ..."
+calorielevel: "2"
+calorierange: "400-600kcals"
 preptime: "30 minutes"
 current: ""
 current_image:  pot_spin_pan_1600.jpg
@@ -24,7 +26,7 @@ image:
 This very tasty recipe takes about 30 minutes to prepare, it's a mild potato curry with a base of spices and seeds. The paneer (Indian fresh cheese, available in most supermarkets) is great when fried like this with sesame seeds and turmeric. I also make this recipe with chickpeas instead, and prepare it in quite the same way.
 
 
-{% for tag in page.tags %}&nbsp;<a class="post-tag" href="{{ site.url}}/tags/#{{ tag }}">_{{ tag }}_</a>&nbsp;{% endfor %}
+{% for tag in page.tags %}{% if tag != "400-600kcals" %}&nbsp;<a class="post-tag" href="{{ site.url}}/tags/#{{ tag }}">_{{ tag }}_</a>&nbsp;{% endif %}{% endfor %} &bull;&nbsp;<em>475&nbsp;kcal&nbsp;per&nbsp;person</em>&nbsp;&nbsp;<a href="{{ site.url}}/tags/#400-600kcals"><img src="{{ site.url }}/images/battery_lvl_2.png" style="height:1.0em;"></a>
 
 #### Ingredients
 

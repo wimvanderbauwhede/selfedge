@@ -3,8 +3,10 @@ layout: article
 title: "Mild curry with red lentils and rice"
 date: 2016-07-08
 modified: 2016-07-08
-tags: [ curry , vegan , gluten-free , 30-minutes ]
+tags: [ curry , vegan , gluten-free , 30-minutes ,"600-800kcals" ]
 excerpt: "This is a recipe for a delicious mild root vegetable curry. The red lentils ..."
+calorielevel: "3"
+calorierange: "600-800kcals"
 preptime: "30 minutes"
 current: ""
 current_image:  mild-curry-red-lentils_1600.jpg
@@ -24,7 +26,7 @@ image:
 This is a recipe for a delicious mild root vegetable curry. The red lentils give this curry a smooth creamy texture. The tomatoes provide some extra fiber and _umami_.
 
 
-{% for tag in page.tags %}&nbsp;<a class="post-tag" href="{{ site.url}}/tags/#{{ tag }}">_{{ tag }}_</a>&nbsp;{% endfor %}
+{% for tag in page.tags %}{% if tag != "600-800kcals" %}&nbsp;<a class="post-tag" href="{{ site.url}}/tags/#{{ tag }}">_{{ tag }}_</a>&nbsp;{% endif %}{% endfor %} &bull;&nbsp;<em>775&nbsp;kcal&nbsp;per&nbsp;person</em>&nbsp;&nbsp;<a href="{{ site.url}}/tags/#600-800kcals"><img src="{{ site.url }}/images/battery_lvl_3.png" style="height:1.0em;"></a>
 
 #### Ingredients
 
@@ -38,7 +40,7 @@ For two people:
   - 1 tablespoon finely chopped fresh ginger
 
 - From the store cupboard
-  - 1 cup basmati rice
+  - half a cup basmati rice
   - spices: ground cumin seeds (1 teaspoon), ground coriander seeds (1 teaspoon), ground turmeric (2 teaspoons), cayenne pepper or _nanami togarashi_ (Japanese spice mix) (1 teaspoon)
   - seeds and nuts: sunflower seeds and/or sesame seeds (2 tablespoons), ground almonds (1 cup)
   - 2 dried tomatoes

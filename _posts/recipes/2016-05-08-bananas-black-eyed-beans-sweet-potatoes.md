@@ -3,8 +3,10 @@ layout: article
 title: "Bananas, black-eyed beans, sweet potatoes and parsnips"
 date: 2016-05-08
 modified: 2016-05-08
-tags: [ African-style , vegan , gluten-free , one-pan , 20-minutes ]
+tags: [ African-style , vegan , gluten-free , one-pan , 20-minutes ,"600-800kcals" ]
 excerpt: "This is a one-pot recipe that takes about 20 minutes. It is inspired by a dish ..."
+calorielevel: "3"
+calorierange: "600-800kcals"
 preptime: "20 minutes"
 current: ""
 current_image:  bananas_black_eyed_beans_sweet_potatoes_1600.jpg
@@ -24,7 +26,7 @@ image:
 This is a one-pot recipe that takes about 20 minutes. It is inspired by a dish we used to eat at a Congolese restaurant many years ago. The original recipe used plantains but they are very hard to find so I used ordinary bananas and parsnips.
 
 
-{% for tag in page.tags %}&nbsp;<a class="post-tag" href="{{ site.url}}/tags/#{{ tag }}">_{{ tag }}_</a>&nbsp;{% endfor %}
+{% for tag in page.tags %}{% if tag != "600-800kcals" %}&nbsp;<a class="post-tag" href="{{ site.url}}/tags/#{{ tag }}">_{{ tag }}_</a>&nbsp;{% endif %}{% endfor %} &bull;&nbsp;<em>625&nbsp;kcal&nbsp;per&nbsp;person</em>&nbsp;&nbsp;<a href="{{ site.url}}/tags/#600-800kcals"><img src="{{ site.url }}/images/battery_lvl_3.png" style="height:1.0em;"></a>
 
 #### Ingredients
 

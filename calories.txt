@@ -41,6 +41,7 @@ chickpeas: 85; 240; can is 240 so about 100
 black beans: 91; 230; pack of 230 g provides 208
 blackeye beans: 116; 240; tin is 240g
 soy beans: 147; 200; a cup
+green peas: 55; 150; a small cup
 
 tofu: 64; 175; pack is 350, so about 175/2, say 100
 
@@ -64,10 +65,10 @@ sunflower seeds: 584; 15 ; 1 tbsp = 15g
 sesame seeds: 562;30;
 walnuts:	 654;20;
 pine nuts: 673;20;
-dried tomato: 210; 5;
+dried tomato: 210; 2; 2 g per dried tomato
 
-dried porcini: 295; 3; dried porcini mushrooms
-dried shiitake: 325; 3; 
+dried porcini: 295; 1.5; dried porcini mushrooms, per 'handful'
+dried shiitake: 325; 0.5; assuming 0.5 g per mushroom
 fresh shiitake: 66; 150
 mushrooms: 16; 250;  (pack 250g)
 tomato: 16; 400;
@@ -91,7 +92,10 @@ asparagus: 29; 100;
 mayonnaise: 706; 45; 3 tbsp
 
 olive oil: 824; 30; 2 tbsp
-
+mirin: 324; 30; 2 tbsp
+miso: 167; 15; 1 tbsp
+artichokes in oil: 121; 90; half a pack
+antipasti: 121; 90;
 #orange: 47; 150;
 
 

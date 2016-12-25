@@ -3,8 +3,10 @@ layout: article
 title: "Japanese-style potato salad"
 date: 2016-07-09
 modified: 2016-07-09
-tags: [ Japanese-style , vegetarian , gluten-free , 30-minutes ]
+tags: [ Japanese-style , vegetarian , gluten-free , 30-minutes ,"200-400kcals" ]
 excerpt: "Although potato salad may not sound very Japanese , it has long been very ..."
+calorielevel: "1"
+calorierange: "200-400kcals"
 preptime: "30 minutes"
 current: ""
 current_image:  japanese-potato-salad_1600.jpg
@@ -25,7 +27,7 @@ Although potato salad may not sound very Japanese (maybe a bit more when you cal
 
 
 
-{% for tag in page.tags %}&nbsp;<a class="post-tag" href="{{ site.url}}/tags/#{{ tag }}">_{{ tag }}_</a>&nbsp;{% endfor %}
+{% for tag in page.tags %}{% if tag != "200-400kcals" %}&nbsp;<a class="post-tag" href="{{ site.url}}/tags/#{{ tag }}">_{{ tag }}_</a>&nbsp;{% endif %}{% endfor %} &bull;&nbsp;<em>400&nbsp;kcal&nbsp;per&nbsp;person</em>&nbsp;&nbsp;<a href="{{ site.url}}/tags/#200-400kcals"><img src="{{ site.url }}/images/battery_lvl_1.png" style="height:1.0em;"></a>
 
 #### Ingredients
 
@@ -37,7 +39,7 @@ For two people:
   - half a courgette
   - 1 cm ginger
   - 1 egg (2 if you want more protein)
-  - 3 tbsp mayonnaise, preferably Japanese (I use Kewpie) or homemade
+  - 3 tablespoons mayonnaise, preferably Japanese (I use Kewpie) or homemade
 
 - From the store cupboard  
   - salt and pepper

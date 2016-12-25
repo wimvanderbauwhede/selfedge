@@ -3,8 +3,10 @@ layout: article
 title: "Tortilla with mushrooms and pine nuts"
 date: 2016-08-20
 modified: 2016-08-20
-tags: [ Spanish-style , vegetarian ,  gluten-free , one-pan , 20-minutes ]
+tags: [ Spanish-style , vegetarian ,  gluten-free , one-pan , 20-minutes ,"400-600kcals" ]
 excerpt: "A tortilla is a Spanish-style omelette with potatoes, very quick and easy to make."
+calorielevel: "2"
+calorierange: "400-600kcals"
 preptime: "20 minutes"
 current: ""
 current_image:  tortilla-mushrooms-pine-nuts_1600.jpg
@@ -21,7 +23,7 @@ image:
 
 A tortilla is a Spanish-style omelette with potatoes, very quick and easy to make. Adding mushrooms and pine kernels makes for a great combination. I usually serve this with a green side salad.
 
-{% for tag in page.tags %}&nbsp;<a class="post-tag" href="{{ site.url}}/tags/#{{ tag }}">_{{ tag }}_</a>&nbsp;{% endfor %}
+{% for tag in page.tags %}{% if tag != "400-600kcals" %}&nbsp;<a class="post-tag" href="{{ site.url}}/tags/#{{ tag }}">_{{ tag }}_</a>&nbsp;{% endif %}{% endfor %} &bull;&nbsp;<em>550&nbsp;kcal&nbsp;per&nbsp;person</em>&nbsp;&nbsp;<a href="{{ site.url}}/tags/#400-600kcals"><img src="{{ site.url }}/images/battery_lvl_2.png" style="height:1.0em;"></a>
 
 #### Ingredients
 

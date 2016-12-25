@@ -3,8 +3,10 @@ layout: article
 title: "Murakami meal #3: Aubergine boats with soy beans and ginger served with red rice"
 date: 2016-07-23
 modified: 2016-07-23
-tags: [ Japanese-style , vegan , gluten-free ]
+tags: [ Japanese-style , vegan , gluten-free ,"400-600kcals" ]
 excerpt: "This is another Murakami meal. I had aubergines and I decided to fill them with ..."
+calorielevel: "2"
+calorierange: "400-600kcals"
 preptime: "30 mins soak + 20 mins cook"
 current: ""
 current_image:  aubergine-boats-soy-beans_1600.jpg
@@ -25,7 +27,7 @@ This is another ["Murakami meal"]({{ site.url }}/articles/murakami-meals). I had
 
 This reciped requires 30 minutes soaking time followed by 20 minutes cooking time.
 
-{% for tag in page.tags %}&nbsp;<a class="post-tag" href="{{ site.url}}/tags/#{{ tag }}">_{{ tag }}_</a>&nbsp;{% endfor %}
+{% for tag in page.tags %}{% if tag != "400-600kcals" %}&nbsp;<a class="post-tag" href="{{ site.url}}/tags/#{{ tag }}">_{{ tag }}_</a>&nbsp;{% endif %}{% endfor %} &bull;&nbsp;<em>550&nbsp;kcal&nbsp;per&nbsp;person</em>&nbsp;&nbsp;<a href="{{ site.url}}/tags/#400-600kcals"><img src="{{ site.url }}/images/battery_lvl_2.png" style="height:1.0em;"></a>
 
 #### Ingredients
 

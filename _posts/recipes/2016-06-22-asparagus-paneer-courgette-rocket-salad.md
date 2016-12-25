@@ -3,8 +3,10 @@ layout: article
 title: "Asparagus and paneer on a bed of rocket and courgettes"
 date: 2016-06-22
 modified: 2016-06-22
-tags: [ vegetarian , gluten-free , 15-minutes ]
+tags: [ vegetarian , gluten-free , 15-minutes ,"600-800kcals" ]
 excerpt: "Asparagus is a delicious vegetable that needs very little preparation."
+calorielevel: "3"
+calorierange: "600-800kcals"
 preptime: "15 minutes"
 current: ""
 current_image:  asparagus-paneer-courgette-rocket-salad_1600.jpg
@@ -24,7 +26,7 @@ image:
 Asparagus is a delicious vegetable that needs very little preparation. I combined it with pan-fried paneer and fresh rocket and courgettes to make an original summer salad.
 
 
-{% for tag in page.tags %}&nbsp;<a class="post-tag" href="{{ site.url}}/tags/#{{ tag }}">_{{ tag }}_</a>&nbsp;{% endfor %}
+{% for tag in page.tags %}{% if tag != "600-800kcals" %}&nbsp;<a class="post-tag" href="{{ site.url}}/tags/#{{ tag }}">_{{ tag }}_</a>&nbsp;{% endif %}{% endfor %} &bull;&nbsp;<em>750&nbsp;kcal&nbsp;per&nbsp;person</em>&nbsp;&nbsp;<a href="{{ site.url}}/tags/#600-800kcals"><img src="{{ site.url }}/images/battery_lvl_3.png" style="height:1.0em;"></a>
 
 #### Ingredients
 

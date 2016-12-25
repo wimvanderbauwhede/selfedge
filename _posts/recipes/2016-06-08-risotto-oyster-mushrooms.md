@@ -3,8 +3,10 @@ layout: article
 title: "Risotto with oyster mushrooms"
 date: 2016-06-08
 modified: 2016-06-08
-tags: [ Italian-style , vegetarian , gluten-free , 30-minutes ]
+tags: [ Italian-style , vegetarian , gluten-free , 30-minutes ,"400-600kcals" ]
 excerpt: "Risotto is a popular Italian-style one-pan dish, delicious and easy to make. It ..."
+calorielevel: "2"
+calorierange: "400-600kcals"
 preptime: "30 minutes"
 current: ""
 current_image:  risotto_oyster_mushrooms_1600.jpg
@@ -24,7 +26,7 @@ image:
 Risotto is a popular Italian-style one-pan dish, delicious and easy to make. It works best with a proper risotto rice like Arborio. I like to serve it with an apple and cherry tomato side salad for contrast. This recipe takes about 30 minutes to prepare.
 
 
-{% for tag in page.tags %}&nbsp;<a class="post-tag" href="{{ site.url}}/tags/#{{ tag }}">_{{ tag }}_</a>&nbsp;{% endfor %}
+{% for tag in page.tags %}{% if tag != "400-600kcals" %}&nbsp;<a class="post-tag" href="{{ site.url}}/tags/#{{ tag }}">_{{ tag }}_</a>&nbsp;{% endif %}{% endfor %} &bull;&nbsp;<em>525&nbsp;kcal&nbsp;per&nbsp;person</em>&nbsp;&nbsp;<a href="{{ site.url}}/tags/#400-600kcals"><img src="{{ site.url }}/images/battery_lvl_2.png" style="height:1.0em;"></a>
 
 #### Ingredients
 

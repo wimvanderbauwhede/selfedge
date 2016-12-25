@@ -3,8 +3,10 @@ layout: article
 title: "Tofu-hummus, fried potatoes and aubergines"
 date: 2016-09-10
 modified: 2016-09-10
-tags: [ vegetarian, gluten-free, 30-minutes ]
+tags: [ vegetarian, gluten-free, 30-minutes ,"200-400kcals" ]
 excerpt: "This is not a typically Japanese recipe but many of the ingredients are very common in Japanese cuisine."
+calorielevel: "1"
+calorierange: "200-400kcals"
 preptime: "30 minutes"
 current: ""
 current_image:  tofu-hummus-potatoes-aubergines_1600.jpg
@@ -21,7 +23,7 @@ image:
 
 This is not a typically Japanese recipe but many of the ingredients are very common in Japanese cuisine. Butter and soy sauce is a great combination for frying potatoes, and the _umami_ of tomato puree blends really well with the aubergines.
 
-{% for tag in page.tags %}&nbsp;<a class="post-tag" href="{{ site.url}}/tags/#{{ tag }}">_{{ tag }}_</a>&nbsp;{% endfor %}
+{% for tag in page.tags %}{% if tag != "200-400kcals" %}&nbsp;<a class="post-tag" href="{{ site.url}}/tags/#{{ tag }}">_{{ tag }}_</a>&nbsp;{% endif %}{% endfor %} &bull;&nbsp;<em>350&nbsp;kcal&nbsp;per&nbsp;person</em>&nbsp;&nbsp;<a href="{{ site.url}}/tags/#200-400kcals"><img src="{{ site.url }}/images/battery_lvl_1.png" style="height:1.0em;"></a>
 
 #### Ingredients
 

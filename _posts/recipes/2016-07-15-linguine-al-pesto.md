@@ -3,8 +3,10 @@ layout: article
 title: "Linguine al pesto Genovese"
 date: 2016-07-15
 modified: 2016-07-15
-tags: [ Italian-style , vegetarian , 15-minutes ]
+tags: [ Italian-style , vegetarian , 15-minutes ,"400-600kcals" ]
 excerpt: "This is a really quick take on a very famous Italian recipe, and it is very ..."
+calorielevel: "2"
+calorierange: "400-600kcals"
 preptime: "15 minutes"
 current: ""
 current_image:  linguine-al-pesto_1600.jpg
@@ -24,7 +26,7 @@ image:
 This is a really quick take on a very famous Italian recipe, and it is very easy to prepare.
 
 
-{% for tag in page.tags %}&nbsp;<a class="post-tag" href="{{ site.url}}/tags/#{{ tag }}">_{{ tag }}_</a>&nbsp;{% endfor %}
+{% for tag in page.tags %}{% if tag != "400-600kcals" %}&nbsp;<a class="post-tag" href="{{ site.url}}/tags/#{{ tag }}">_{{ tag }}_</a>&nbsp;{% endif %}{% endfor %} &bull;&nbsp;<em>525&nbsp;kcal&nbsp;per&nbsp;person</em>&nbsp;&nbsp;<a href="{{ site.url}}/tags/#400-600kcals"><img src="{{ site.url }}/images/battery_lvl_2.png" style="height:1.0em;"></a>
 
 #### Ingredients
 

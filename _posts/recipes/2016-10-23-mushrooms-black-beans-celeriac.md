@@ -3,8 +3,10 @@ layout: article
 title: "Stir-fry of mixed mushrooms with black beans, celeriac and potatoes"
 date: 2016-10-23
 modified: 2016-10-23
-tags: [ vegan, Japanes-style, 30-minutes, gluten-free ]
+tags: [ vegan, Japanes-style, 30-minutes, gluten-free ,"800-1000kcals" ]
 excerpt: "A suprising and very tasty stir-fry of Japanese mushrooms, black beans and celeriac."
+calorielevel: "4"
+calorierange: "800-1000kcals"
 preptime: "30 minutes"
 current: ""
 current_image: mushrooms-black-beans-celeriac_1600.jpg
@@ -22,7 +24,7 @@ image:
 This is a suprising and very tasty stir-fry of Japanese mushrooms, black beans and celeriac served with Japanese rice. The black beans I used are the common ones (ブラックビーン, "_burakkubiin_" in Japanese), not the black-skinned soy beans (黒豆,"_kuromame_") because they are hard to find here.
 Celeriac is not a common vegetable in Japan either but the taste goes really well with the mushrooms and beans.
 
-{% for tag in page.tags %}&nbsp;<a class="post-tag" href="{{ site.url}}/tags/#{{ tag }}">_{{ tag }}_</a>&nbsp;{% endfor %}
+{% for tag in page.tags %}{% if tag != "800-1000kcals" %}&nbsp;<a class="post-tag" href="{{ site.url}}/tags/#{{ tag }}">_{{ tag }}_</a>&nbsp;{% endif %}{% endfor %} &bull;&nbsp;<em>825&nbsp;kcal&nbsp;per&nbsp;person</em>&nbsp;&nbsp;<a href="{{ site.url}}/tags/#800-1000kcals"><img src="{{ site.url }}/images/battery_lvl_4.png" style="height:1.0em;"></a>
 
 #### Ingredients
 

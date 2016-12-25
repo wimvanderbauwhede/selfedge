@@ -3,8 +3,10 @@ layout: article
 title: "Murakami meal #1: aubergines with ponzu, soy beans and brown rice"
 date: 2016-05-13
 modified: 2016-05-13
-tags: [ Japanese-style , vegan , gluten-free ]
+tags: [ Japanese-style , vegan , gluten-free ,"400-600kcals" ]
 excerpt: "This is the first of my Murakami meals, named after one of my favourite authors,"
+calorielevel: "2"
+calorierange: "400-600kcals"
 preptime: "30 mins soak + 20 mins cook"
 current: ""
 current_image:  aubergines-ponzu-soybeans-rice_1600.jpg
@@ -26,7 +28,7 @@ I had aubergines so I decided to prepare them with ponzu (a Japanese dressing). 
 
 This reciped requires 30 minutes soaking time followed by 20 minutes cooking time.
 
-{% for tag in page.tags %}&nbsp;<a class="post-tag" href="{{ site.url}}/tags/#{{ tag }}">_{{ tag }}_</a>&nbsp;{% endfor %}
+{% for tag in page.tags %}{% if tag != "400-600kcals" %}&nbsp;<a class="post-tag" href="{{ site.url}}/tags/#{{ tag }}">_{{ tag }}_</a>&nbsp;{% endif %}{% endfor %} &bull;&nbsp;<em>550&nbsp;kcal&nbsp;per&nbsp;person</em>&nbsp;&nbsp;<a href="{{ site.url}}/tags/#400-600kcals"><img src="{{ site.url }}/images/battery_lvl_2.png" style="height:1.0em;"></a>
 
 #### Ingredients
 
@@ -41,7 +43,11 @@ For two people:
   - 5 dried shiitake mushrooms
   - a 2 cm piece of ginger, thinly sliced
   - 1 piece of _konbu_ (about 5x10cm)
-  - _ponzu_: a mixture of 2 tablespoons soy sauce, 1 tablespoon _yuzu_ juice, 1/2 tablespoon rice vinegar, 1 teaspoon _mirin_
+  - _ponzu_: a mixture of 
+    - 2 tablespoons soy sauce, 
+    - 1 tablespoon _yuzu_ juice, 
+    - half a tablespoon rice vinegar, 
+    - 1 teaspoon _mirin_
 
 #### Preparation
 

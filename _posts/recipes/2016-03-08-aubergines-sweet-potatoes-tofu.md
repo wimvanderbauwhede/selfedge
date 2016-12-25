@@ -3,8 +3,10 @@ layout: article
 title: "Aubergines, sweet potatoes, tofu and wakame with rice"
 date: 2016-03-08
 modified: 2016-03-08
-tags: [ Japanese-style , vegan , gluten-free , one-pot , 20-minutes ]
+tags: [ Japanese-style , vegan , gluten-free , one-pot , 20-minutes ,"600-800kcals" ]
 excerpt: "Aubergines are very popular in Japan and there are many different ways of ..."
+calorielevel: "3"
+calorierange: "600-800kcals"
 preptime: "20 minutes"
 current: ""
 current_image:  aubergines_sweet_potatoes_tofu_1600.jpg
@@ -24,7 +26,7 @@ image:
 Aubergines are very popular in Japan and there are many different ways of cooking them. Japanese aubergines are much smaller than the ones you can buy here, so I pick the smallest I can find. You need several typically Japanese ingredients for this but I bought everything in the local supermarket except the wakame, which I bought in a local Chinese supermarket.
 
 
-{% for tag in page.tags %}&nbsp;<a class="post-tag" href="{{ site.url}}/tags/#{{ tag }}">_{{ tag }}_</a>&nbsp;{% endfor %}
+{% for tag in page.tags %}{% if tag != "600-800kcals" %}&nbsp;<a class="post-tag" href="{{ site.url}}/tags/#{{ tag }}">_{{ tag }}_</a>&nbsp;{% endif %}{% endfor %} &bull;&nbsp;<em>700&nbsp;kcal&nbsp;per&nbsp;person</em>&nbsp;&nbsp;<a href="{{ site.url}}/tags/#600-800kcals"><img src="{{ site.url }}/images/battery_lvl_3.png" style="height:1.0em;"></a>
 
 #### Ingredients
 

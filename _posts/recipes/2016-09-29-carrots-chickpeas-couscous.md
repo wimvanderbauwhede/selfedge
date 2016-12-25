@@ -3,8 +3,10 @@ layout: article
 title: "Carrot and chickpea stir-fry with maftoul"
 date: 2016-09-29
 modified: 2016-09-29
-tags: [ vegan, 15-minutes ]
+tags: [ vegan, 15-minutes ,"800-1000kcals" ]
 excerpt: "This is a really quick and simple  stir-fry of carrots and chickpeas, ready in 15 minutes, and very tasty."
+calorielevel: "4"
+calorierange: "800-1000kcals"
 preptime: "15 minutes"
 current: ""
 current_image: carrots-chickpeas-couscous_1600.jpg
@@ -21,7 +23,7 @@ image:
 
 This is a really quick and simple stir-fry of carrots and chickpeas, ready in 15 minutes, and very tasty.  I serve this with maftoul (Palestinian or giant couscous) and garnish with fresh coriander.
 
-{% for tag in page.tags %}&nbsp;<a class="post-tag" href="{{ site.url}}/tags/#{{ tag }}">_{{ tag }}_</a>&nbsp;{% endfor %}
+{% for tag in page.tags %}{% if tag != "800-1000kcals" %}&nbsp;<a class="post-tag" href="{{ site.url}}/tags/#{{ tag }}">_{{ tag }}_</a>&nbsp;{% endif %}{% endfor %} &bull;&nbsp;<em>825&nbsp;kcal&nbsp;per&nbsp;person</em>&nbsp;&nbsp;<a href="{{ site.url}}/tags/#800-1000kcals"><img src="{{ site.url }}/images/battery_lvl_4.png" style="height:1.0em;"></a>
 
 #### Ingredients
 

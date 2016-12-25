@@ -3,8 +3,10 @@ layout: article
 title: "Curry of celeriac, spinach, mushrooms and paneer"
 date: 2016-07-22
 modified: 2016-07-22
-tags: [ curry , vegetarian , gluten-free , 30-minutes ]
+tags: [ curry , vegetarian , gluten-free , 30-minutes ,"600-800kcals" ]
 excerpt: "Celeriac, spinach and mushrooms go together surprisingly well. Combined with ..."
+calorielevel: "3"
+calorierange: "600-800kcals"
 preptime: "30 minutes"
 current: ""
 current_image:  curry-celeriac-spinach_1600.jpg
@@ -24,7 +26,7 @@ image:
 Celeriac, spinach and mushrooms go together surprisingly well. Combined with fried paneer (Indian fresh cheese, available in most supermarkets) this makes a great mild curry.   
 
 
-{% for tag in page.tags %}&nbsp;<a class="post-tag" href="{{ site.url}}/tags/#{{ tag }}">_{{ tag }}_</a>&nbsp;{% endfor %}
+{% for tag in page.tags %}{% if tag != "600-800kcals" %}&nbsp;<a class="post-tag" href="{{ site.url}}/tags/#{{ tag }}">_{{ tag }}_</a>&nbsp;{% endif %}{% endfor %} &bull;&nbsp;<em>750&nbsp;kcal&nbsp;per&nbsp;person</em>&nbsp;&nbsp;<a href="{{ site.url}}/tags/#600-800kcals"><img src="{{ site.url }}/images/battery_lvl_3.png" style="height:1.0em;"></a>
 
 #### Ingredients
 

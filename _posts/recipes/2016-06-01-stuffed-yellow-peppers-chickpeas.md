@@ -3,8 +3,10 @@ layout: article
 title: "Stuffed yellow peppers with chickpeas and rice"
 date: 2016-06-01
 modified: 2016-06-01
-tags: [ vegan , 20-minutes ]
+tags: [ vegan , 20-minutes ,"800-1000kcals" ]
 excerpt: "This recipe is my own take on a recipe from Sarah Browns Vegetarian Cookbook. ..."
+calorielevel: "4"
+calorierange: "800-1000kcals"
 preptime: "20 minutes"
 current: ""
 current_image:  stuffed-yellow-peppers-chickpeas_1600.jpg
@@ -24,7 +26,7 @@ image:
 This recipe is my own take on a recipe from "Sarah Brown's Vegetarian Cookbook". It's very easy to make and guaranteed to impress your guests.
 
 
-{% for tag in page.tags %}&nbsp;<a class="post-tag" href="{{ site.url}}/tags/#{{ tag }}">_{{ tag }}_</a>&nbsp;{% endfor %}
+{% for tag in page.tags %}{% if tag != "800-1000kcals" %}&nbsp;<a class="post-tag" href="{{ site.url}}/tags/#{{ tag }}">_{{ tag }}_</a>&nbsp;{% endif %}{% endfor %} &bull;&nbsp;<em>850&nbsp;kcal&nbsp;per&nbsp;person</em>&nbsp;&nbsp;<a href="{{ site.url}}/tags/#800-1000kcals"><img src="{{ site.url }}/images/battery_lvl_4.png" style="height:1.0em;"></a>
 
 #### Ingredients
 

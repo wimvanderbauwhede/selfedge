@@ -40,7 +40,7 @@ for my $recipe_file (@recipe_files) {
     close $IN;
     $recipes{$recipe_file}{'Ingredients'}=[@ingr_lines];
     $recipes{$recipe_file}{'Calories'}=0;    
-    say "RECIPE: $recipe_file";
+    say "\nRECIPE: $recipe_file";
     for my $line (@ingr_lines) {        
         for my $item (@cal_table_items) {
             my $amount=$cal_table{$item}[1];
@@ -55,15 +55,25 @@ for my $recipe_file (@recipe_files) {
                     if ($line=~/egg/) {
                         $amount=$count*50;
                     }
+                    elsif ($line=~/shiitake/) {
+                        $amount*=$count;
+                    }
                     elsif ($line=~/slice.+bread/) {
                         $amount=$count*20;
                     }
-                    elsif ($line=~/dried.tomato/) {
-                        $amount=$count*5;
+                    elsif ($line=~/dried\s+tomato/) {
+                        $amount*=$count;
                     }
-                    elsif ($line=~/tablespoon.+(seed|nut)/) {
+                    elsif ($line=~/carrot|tomato|courgette/) {
+                        $amount=$count*100; # 100 g per carrot
+                    }
+                    elsif ($line=~/tablespoon.+(seed|nut|mirin|shoyu|mayonnaise|olive\ oil)/) {
                         $amount=$count*15;
-                    } else {
+                    } 
+                    elsif ($line=~/teaspoon.+(seed|nut|mirin|shoyu)/) {
+                        $amount=$count*5;
+                    } 
+                    else {
 #                    say "COUNTED $line";
                     }
                 }
@@ -75,11 +85,20 @@ for my $recipe_file (@recipe_files) {
                     if ($line=~/egg/) {
                         $amount=$count*50;
                     }
+                    elsif ($line=~/dried\s+tomato/) {
+                        $amount*=$count;
+                    }
+                    elsif ($line=~/carrot|tomato|courgette/) {
+                        $amount=$count*100; # 100 g per carrot
+                    }
                     elsif ($line=~/slice.+bread/) {
                         $amount=$count*20;
                     }
-                    elsif ($line=~/tablespoon.+(seed|nut)/) {
+                    elsif ($line=~/tablespoon.+(seed|nut|mirin|shoyu|mayonnaise|olive\ oil)/) {
                         $amount=$count*15;
+                    }
+                    elsif ($line=~/teaspoon.+(seed|nut|mirin|shoyu)/) {
+                        $amount=$count*5;
                     } else {
 #                    say "COUNTED $line";
                 }
@@ -88,27 +107,63 @@ for my $recipe_file (@recipe_files) {
                    if ($line=~/nuts/) {
                        $amount = 30;
                    } elsif ($line=~/dried/) {
-                       $amount = 3;
+                       $amount = 2;
                    }
                } 
                 elsif ($line=~/cup/) {
-                    say "CUP: $line";
+#                    say "CUP: $line";
                     if ($line=~/half\s+a\s+cup/) {
+                        if ($line=~/porcini/) {
+                            $amount = 10;
+                        } elsif ($line=~/grated|grana\ padano|parmezan/) {
+                            $amount = 25;
+                        } else {
                         $amount=100;
                     }
+                    }
                     elsif ($line=~/[a1]\s+cup/) {
-                        $amount=200;
+                        if ($line=~/porcini/) {
+                            $amount = 20;
+                        } elsif ($line=~/grated|grana\ padano|parmezan/) {
+                            $amount = 50;
+                        } else {
+                        $amount=200;                    
+                        }
                     } elsif ($line=~/(two|2)\s+cups/) {
                         $amount=400;
                     }
                 }
                 elsif ($line=~/pack/) {
-#                    say "PACK: $line";                    
+                    if ($line=~/half\s+a/) {
+                        $amount/=2;
+                    }
+#                    say "PACK: $line";   
+               }
+                elsif ($line=~/a\s+(carrot|tomato|courgette|apple|aubergine|celeriac)/) {
+                    my $item = $1;
+                    $amount = 150; # AD HOC
+                    if ($item eq 'aubergine' or $item eq 'celeriac') {
+                        $amount*=2;
+                    }
+                }
+                elsif ($line=~/a\s+(small|medium|large)\s+(carrot|tomato|courgette|apple|aubergine|pear|celeriac)/) {
+                    my $sz = $1;
+                    my $item = $2;
+                    $amount = $sz eq 'small' ? 50 : $sz eq 'medium' ? 100 : $sz eq 'large' ? 200 : 150;
+                    if ($item eq 'aubergine' or $item eq 'celeriac') {
+                        $amount*=2;
+                    }
+                } 
+                elsif ($line=~/half.+(carrot|tomato|courgette|aubergine|apple|pear)/) {
+                        $amount=50; # 100 g per carrot etc                                     
+                    if ($item eq 'aubergine' or $item eq 'celeriac') {
+                        $amount*=2;
+                    }
                 } else {
 #                    say "OTHER UNIT: $line";
                 }
 
-                say "$item => $cals; $amount <> ".$cal_table{$item}[1];
+                say "$item => $cals; $amount ". ((1*$amount ==  1*$cal_table{$item}[1]) ? '(default)':'').' => '.int($cals*$amount/100);
                 $recipes{$recipe_file}{'Calories'}+=$cal_table{$item}[0]*$amount/100;
                 last;
             }
@@ -131,6 +186,47 @@ $avg = 25*int($avg/25);
 say "avg: $avg";
 say "min: $min";
 say "max: $max";
+
+# So now we need to use %recipes to update the recipes
+# So open old, open new, read old, write new
+# What we write: "_$cal kcal per person_ <img src=\"{ site.url}}/images/cal$cat.png\">"
+# Where: on the line with /endfor/
+
+# We also need some new tag "calorielevel: \"$cat\" " to be written after /preptime/
+# We also need some new tag 'calorierange: "'.$calrange[$cat].'" ' to be written after /preptime/
+#
+# 
+my @calrange=('0-200','200-400','400-600','600-800','800-1000','1000-1200');
+if (not -d '../../recipes_w_cal_info') {
+mkdir '../../recipes_w_cal_info';
+}
+for my $recipe_file (@recipe_files) {
+    my $cals = $recipes{$recipe_file}{'Calories'};
+    my $cat = $cals <= 200 ? 0 : $cals <= 400 ? 1 : $cals <= 600 ? 2 : $cals<=800 ? 3 : $cals<=1000 ? 4 : 5;
+    my $range = $calrange[$cat].'kcals'; 
+    open my $IN, '<', $recipe_file;
+    my $recipe_file_w_cal_info = '../../recipes_w_cal_info/'.$recipe_file;
+    open my $OUT, '>', $recipe_file_w_cal_info;
+    while (my $line=<$IN>) {
+        $line=~/tags:/ && do {
+            $line=~s/\]/,\"$range\" ]/
+        };
+        $line=~/preptime/ && do {
+            say $OUT 'calorielevel: "'.$cat.'"';
+            say $OUT 'calorierange: "'.$range.'"';
+        };
+        $line=~/endfor/ && do {
+#            chomp $line;
+            $line='{% for tag in page.tags %}{% if tag != "'.$range.'" %}&nbsp;<a class="post-tag" href="{{ site.url}}/tags/#{{ tag }}">_{{ tag }}_</a>&nbsp;{% endif %}{% endfor %} &bull;&nbsp;<em>'.$cals.'&nbsp;kcal&nbsp;per&nbsp;person</em>&nbsp;&nbsp;<a href="{{ site.url}}/tags/#'.$range.'"><img src="{{ site.url }}/images/battery_lvl_'.$cat.'.png" style="height:1.0em;"></a>'."\n";;
+#            $line.= ' &bull;&nbsp;<em>'.$cals.'&nbsp;kcal&nbsp;per&nbsp;person</em>&nbsp;&nbsp;'.
+#            '<img src="{{ site.url }}/images/battery_lvl_'.$cat.'.png" style="height:1.0em;">'."\n";
+        };
+        print $OUT $line;
+    }
+    close $IN;
+    close $OUT;
+}
+
 sub min {
     $_[0] < $_[1] ? $_[0] : $_[1];
 }

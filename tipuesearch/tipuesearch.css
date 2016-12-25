@@ -26,9 +26,10 @@ http://www.tipue.com/search
 #tipue_search_label_inline
 {    
     float: left;    
-    font: 20px/1.6 Georgia,Times,"Times New Roman",serif;//'open sans', sans-serif;
+//    font: 20px/1.6 Georgia,Times,"Times New Roman",serif;//'open sans', sans-serif;
+    font: 1.125rem Georgia,Times,"Times New Roman",serif;//'open sans', sans-serif;
 //	color: #333;
-	padding: 2px 2px 2px 4px;
+	padding: 4px 2px 2px 0px;
 //	width: 170px;
 	border: 0px solid #e2e2e2;
 	border-radius: 0;
@@ -43,7 +44,7 @@ http://www.tipue.com/search
 {
      font: 16px/1.6 'open sans', sans-serif;
 	color: #333;
-	padding: 6px 12px 6px 4px;
+	padding: 6px 12px 2px 4px;
 	width: 170px;
 	border: 1px solid #e2e2e2;
 	border-radius: 0;

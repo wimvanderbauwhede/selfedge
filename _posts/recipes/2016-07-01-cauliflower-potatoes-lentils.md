@@ -3,8 +3,10 @@ layout: article
 title: "Cauliflower, potatoes and lentils"
 date: 2016-07-31
 modified: 2016-07-31
-tags: [ vegan , gluten-free , 20-minutes ]
+tags: [ vegan , gluten-free , 20-minutes ,"600-800kcals" ]
 excerpt: "Stir-frying the cauliflower and potatoes with seeds and spices gives a nice ..."
+calorielevel: "3"
+calorierange: "600-800kcals"
 preptime: "20 minutes"
 current: ""
 current_image:  cauliflower-potatoes-lentils_1600.jpg
@@ -24,7 +26,7 @@ image:
 Stir-frying the cauliflower and potatoes with seeds and spices gives a nice crunchy texture &mdash; make sure not to overcook the cauliflower. Puy lentils are a great companion for this but if you are really in a hurry, you can leave them out and add some goat cheese instead.
 
 
-{% for tag in page.tags %}&nbsp;<a class="post-tag" href="{{ site.url}}/tags/#{{ tag }}">_{{ tag }}_</a>&nbsp;{% endfor %}
+{% for tag in page.tags %}{% if tag != "600-800kcals" %}&nbsp;<a class="post-tag" href="{{ site.url}}/tags/#{{ tag }}">_{{ tag }}_</a>&nbsp;{% endif %}{% endfor %} &bull;&nbsp;<em>700&nbsp;kcal&nbsp;per&nbsp;person</em>&nbsp;&nbsp;<a href="{{ site.url}}/tags/#600-800kcals"><img src="{{ site.url }}/images/battery_lvl_3.png" style="height:1.0em;"></a>
 
 #### Ingredients
 

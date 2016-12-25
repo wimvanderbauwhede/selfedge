@@ -3,8 +3,10 @@ layout: article
 title: "Mild root vegetable curry with paneer and rice"
 date: 2016-05-22
 modified: 2016-05-22
-tags: [ curry , vegetarian , gluten-free , 30-minutes ]
+tags: [ curry , vegetarian , gluten-free , 30-minutes ,"600-800kcals" ]
 excerpt: "This is a very tasty recipe for a mild root curry with paneer."
+calorielevel: "3"
+calorierange: "600-800kcals"
 preptime: "30 minutes"
 current: ""
 current_image:  mild_root_vegetable_curry_1600.jpg
@@ -24,7 +26,7 @@ image:
 This very tasty recipe takes about 30 minutes to prepare. It is a mild root vegetable curry with a base of spices and seeds. The paneer (Indian fresh cheese, available in most supermarkets) is great when fried like this with sunflower seeds and turmeric. I also make this recipe with chickpeas instead, and prepare it in quite the same way.
 
 
-{% for tag in page.tags %}&nbsp;<a class="post-tag" href="{{ site.url}}/tags/#{{ tag }}">_{{ tag }}_</a>&nbsp;{% endfor %}
+{% for tag in page.tags %}{% if tag != "600-800kcals" %}&nbsp;<a class="post-tag" href="{{ site.url}}/tags/#{{ tag }}">_{{ tag }}_</a>&nbsp;{% endif %}{% endfor %} &bull;&nbsp;<em>625&nbsp;kcal&nbsp;per&nbsp;person</em>&nbsp;&nbsp;<a href="{{ site.url}}/tags/#600-800kcals"><img src="{{ site.url }}/images/battery_lvl_3.png" style="height:1.0em;"></a>
 
 #### Ingredients
 
@@ -37,7 +39,7 @@ For two people:
   - fresh ginger (1 tablespoon chopped finely)
 
 - From the store cupboard
-  - 1 cup basmati rice
+  - half a cup basmati rice
   - spices: ground cumin seeds (1 teaspoon), ground coriander seeds (1 teaspoon), ground turmeric (2 teaspoons), cayenne pepper or nanami togarashi (Japanese spice mix) (1 teaspoon)
   - seeds and nuts: sunflower seeds and/or sesame seeds (2 tablespoons), cashew nuts (1 cup)
   - soy sauce (1 tablespoon)

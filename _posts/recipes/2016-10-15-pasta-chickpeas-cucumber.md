@@ -3,8 +3,10 @@ layout: article
 title: "Rigatoni, chickpeas and cucumber with a miso dressing"
 date: 2016-10-15
 modified: 2016-10-15
-tags: [ vegan, 15-minutes ]
+tags: [ vegan, 15-minutes ,"600-800kcals" ]
 excerpt: "This is a really easy and super quick recipe, ready in the time to cook the pasta."
+calorielevel: "3"
+calorierange: "600-800kcals"
 preptime: "15 minutes"
 current: ""
 current_image: pasta-chickpeas-cucumber_1600.jpg
@@ -21,7 +23,7 @@ image:
 
 This is a really easy and super quick recipe, ready in 15 minutes (the time to cook the pasta). The _miso_ dressing and golden sesame seeds make it special. _Miso_ paste is a Japanese seasoning made from fermented soy beans, the taste is salty and very rich. Golden sesame seeds  (_irigoma_) are also very commonly used in Japan, they add a delicous nutty flavour. You can find both in most supermarkets.
 
-{% for tag in page.tags %}&nbsp;<a class="post-tag" href="{{ site.url}}/tags/#{{ tag }}">_{{ tag }}_</a>&nbsp;{% endfor %}
+{% for tag in page.tags %}{% if tag != "600-800kcals" %}&nbsp;<a class="post-tag" href="{{ site.url}}/tags/#{{ tag }}">_{{ tag }}_</a>&nbsp;{% endif %}{% endfor %} &bull;&nbsp;<em>650&nbsp;kcal&nbsp;per&nbsp;person</em>&nbsp;&nbsp;<a href="{{ site.url}}/tags/#600-800kcals"><img src="{{ site.url }}/images/battery_lvl_3.png" style="height:1.0em;"></a>
 
 
 #### Ingredients

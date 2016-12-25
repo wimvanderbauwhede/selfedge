@@ -11,8 +11,23 @@ image:
 
 All my recipes are for _full meals_ for two people. All recipes are my own creation unless credited.
 
-<form  action="{{ site.url }}/search.html" ><label id="tipue_search_label_inline" for="tipue_search_input_inline">Search by ingredient:&nbsp;</label>
+<form style="margin:0px;" action="{{ site.url }}/search.html" ><label id="tipue_search_label_inline" for="tipue_search_input_inline"><span class="quick-access">Search by ingredient:&nbsp;</span></label>
 <input type="search" name="q" id="tipue_search_input_inline" autocomplete="off" required><div class="form-group"></div></form>
+<!-- <p class="quick-access">Browse recipes:</p> -->
+<p  style="margin:0px;" class="quick-access">Browse recipes:</p>
+<ul>
+<li><span class="quick-access">By preparation time:</span>&nbsp; 
+<!--<a href="{{site.url}}/tags/#10-minutes">10 minutes</a>-->
+<a href="{{site.url}}/tags/#15-minutes">15 minutes</a> &bull;
+<a href="{{site.url}}/tags/#20-minutes">20 minutes</a> &bull; 
+<a href="{{site.url}}/tags/#30-minutes">30 minutes</a>
+</li>
+<li><span class="quick-access">By calories per person:</span>&nbsp; 
+<a href="{{site.url}}/tags/#400-600kcals"><img src="{{ site.url }}/images/battery_lvl_2.png" style="height:1.0em;">&nbsp;400-600 kcal</a> &bull; 
+<a href="{{site.url}}/tags/#600-800kcals"><img src="{{ site.url }}/images/battery_lvl_3.png" style="height:1.0em;">&nbsp;600-800 kcal</a> &bull; 
+<a href="{{site.url}}/tags/#800-1000kcals"><img src="{{ site.url }}/images/battery_lvl_4.png" style="height:1.0em;">&nbsp;800-1000 kcal</a>
+</li>
+</ul>
 
 ### Quick recipes
 

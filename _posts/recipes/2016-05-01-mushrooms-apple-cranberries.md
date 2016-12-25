@@ -3,8 +3,10 @@ layout: article
 title: "Mushrooms, apples and cranberries with fried chickpeas and rice"
 date: 2016-05-01
 modified: 2016-05-01
-tags: [ vegan , gluten-free , 20-minutes ]
+tags: [ vegan , gluten-free , 20-minutes ,"600-800kcals" ]
 excerpt: "This surprising combination is very easy to make and really tasty. Cranberries ..."
+calorielevel: "3"
+calorierange: "600-800kcals"
 preptime: "20 minutes"
 current: ""
 current_image:  mushrooms_apple_cranberries_1600.jpg
@@ -24,7 +26,7 @@ image:
 This surprising combination is very easy to make and really tasty. Cranberries are very sour so I combine them with apples to sweeten them. The mushrooms make the dish hearty and the chickpeas add crunchiness.
 
 
-{% for tag in page.tags %}&nbsp;<a class="post-tag" href="{{ site.url}}/tags/#{{ tag }}">_{{ tag }}_</a>&nbsp;{% endfor %}
+{% for tag in page.tags %}{% if tag != "600-800kcals" %}&nbsp;<a class="post-tag" href="{{ site.url}}/tags/#{{ tag }}">_{{ tag }}_</a>&nbsp;{% endif %}{% endfor %} &bull;&nbsp;<em>750&nbsp;kcal&nbsp;per&nbsp;person</em>&nbsp;&nbsp;<a href="{{ site.url}}/tags/#600-800kcals"><img src="{{ site.url }}/images/battery_lvl_3.png" style="height:1.0em;"></a>
 
 #### Ingredients
 

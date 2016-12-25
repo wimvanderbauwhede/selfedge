@@ -3,8 +3,10 @@ layout: article
 title: "Potato and vegetable bake with cream cheese"
 date: 2016-11-19
 modified: 2016-11-19
-tags: [ vegetarian, one-pot, gluten-free , 30-minutes ]
+tags: [ vegetarian, one-pot, gluten-free , 30-minutes ,"400-600kcals" ]
 excerpt: "This original potato and vegetable bake is great on a cold night."
+calorielevel: "2"
+calorierange: "400-600kcals"
 preptime: "30 minutes"
 current: ""
 current_image:  potato-vegetable-bake_1600.jpg
@@ -22,7 +24,7 @@ image:
 This original potato bake with carrots and courgettes is the winter version of the [Japanese potato salad]({{site.url}}/recipes/japanese-potato-salad/) and is great on a cold night. I use cream cheese to get a smooth consistency, and add grated cheese on top, which gives a nice crust when grilled. This bake makes a complete and very tasty meal.
 
 
-{% for tag in page.tags %}&nbsp;<a class="post-tag" href="{{ site.url}}/tags/#{{ tag }}">_{{ tag }}_</a>&nbsp;{% endfor %}
+{% for tag in page.tags %}{% if tag != "400-600kcals" %}&nbsp;<a class="post-tag" href="{{ site.url}}/tags/#{{ tag }}">_{{ tag }}_</a>&nbsp;{% endif %}{% endfor %} &bull;&nbsp;<em>450&nbsp;kcal&nbsp;per&nbsp;person</em>&nbsp;&nbsp;<a href="{{ site.url}}/tags/#400-600kcals"><img src="{{ site.url }}/images/battery_lvl_2.png" style="height:1.0em;"></a>
 
 #### Ingredients
 

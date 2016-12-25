@@ -3,8 +3,10 @@ layout: article
 title: "Aubergines, apples and chickpeas, served with rice"
 date: 2016-04-22
 modified: 2016-04-22
-tags: [ vegan , gluten-free , 30-minutes ]
+tags: [ vegan , gluten-free , 30-minutes ,"600-800kcals" ]
 excerpt: "In this recipe I sweetened the aubergines by cooking them together with apples. ..."
+calorielevel: "3"
+calorierange: "600-800kcals"
 preptime: "30 minutes"
 current: ""
 current_image:  aubergines_apples_chickpeas_1600.jpg
@@ -24,7 +26,7 @@ image:
 In this recipe I sweetened the aubergines by cooking them together with apples. The chickpeas and seeds make the meal sustaining and add a crunchy texture. This recipe takes about 25-30 minutes to prepare.
 
 
-{% for tag in page.tags %}&nbsp;<a class="post-tag" href="{{ site.url}}/tags/#{{ tag }}">_{{ tag }}_</a>&nbsp;{% endfor %}
+{% for tag in page.tags %}{% if tag != "600-800kcals" %}&nbsp;<a class="post-tag" href="{{ site.url}}/tags/#{{ tag }}">_{{ tag }}_</a>&nbsp;{% endif %}{% endfor %} &bull;&nbsp;<em>625&nbsp;kcal&nbsp;per&nbsp;person</em>&nbsp;&nbsp;<a href="{{ site.url}}/tags/#600-800kcals"><img src="{{ site.url }}/images/battery_lvl_3.png" style="height:1.0em;"></a>
 
 #### Ingredients
 

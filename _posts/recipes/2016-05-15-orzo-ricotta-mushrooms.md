@@ -3,8 +3,10 @@ layout: article
 title: "Orzo with ricotta and mushrooms"
 date: 2016-05-15
 modified: 2016-05-15
-tags: [ Italian-style , vegetarian , 30-minutes ]
+tags: [ Italian-style , vegetarian , 30-minutes ,"600-800kcals" ]
 excerpt: "Orzo is pasta shaped like grains of barley. You can use in instead of rice for ..."
+calorielevel: "3"
+calorierange: "600-800kcals"
 preptime: "30 minutes"
 current: ""
 current_image:  orzo_ricotta_mushrooms_1600.jpg
@@ -24,7 +26,7 @@ image:
 Orzo is pasta shaped like grains of barley. You can use in instead of rice for risotto-style dishes. It goes really well with porcini mushrooms. The ricotta cheese makes it creamy and mild. I like to serve it with a rocket, apple and cherry tomato side salad. This recipe takes about 30 minutes to prepare.
 
 
-{% for tag in page.tags %}&nbsp;<a class="post-tag" href="{{ site.url}}/tags/#{{ tag }}">_{{ tag }}_</a>&nbsp;{% endfor %}
+{% for tag in page.tags %}{% if tag != "600-800kcals" %}&nbsp;<a class="post-tag" href="{{ site.url}}/tags/#{{ tag }}">_{{ tag }}_</a>&nbsp;{% endif %}{% endfor %} &bull;&nbsp;<em>650&nbsp;kcal&nbsp;per&nbsp;person</em>&nbsp;&nbsp;<a href="{{ site.url}}/tags/#600-800kcals"><img src="{{ site.url }}/images/battery_lvl_3.png" style="height:1.0em;"></a>
 
 #### Ingredients
 
@@ -37,7 +39,7 @@ For two people:
   - 1 tablespoon ginger, chopped finely
 
 - From the store cupboard  
-  - 1/2 cup dried porcini mushrooms
+  - half a cup dried porcini mushrooms
   - 5 dried tomatoes
   - 3 tablespoon pine kernels
   - 1 teaspoon cumin, coriander
