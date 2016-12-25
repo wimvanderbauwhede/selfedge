@@ -96,6 +96,8 @@ mirin: 324; 30; 2 tbsp
 miso: 167; 15; 1 tbsp
 artichokes in oil: 121; 90; half a pack
 antipasti: 121; 90;
+tahini: 664; 30; 2 tablespoons
+
 #orange: 47; 150;
 
 

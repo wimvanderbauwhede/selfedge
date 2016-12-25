@@ -1,12 +1,12 @@
 ---
 layout: article
 title: "Stir-fried carrots with tofu-hummus and maftoul"
-date: 2016-11-22
-modified: 2016-11-22
-tags: [ vegan, 20-minutes ,"400-600kcals" ]
+date: 2016-08-07
+modified: 2016-08-07
+tags: [ vegan, 20-minutes ,"600-800kcals" ]
 excerpt: "A great combination of stir-fried carrots with apples, tofu-hummus and maftoul. "
-calorielevel: "2"
-calorierange: "400-600kcals"
+calorielevel: "3"
+calorierange: "600-800kcals"
 preptime: "20 minutes"
 current: ""
 current_image: carrots-shiraae-maftoul_1600.jpg
@@ -23,7 +23,7 @@ image:
 
 Carrots are great when stir fried with some seeds and spices. I cook them in the microwave for a short time so the frying is quicker, and I add apples as a sweetener. The tofu-hummus is very similar to the Japanese _shiraae_, and very easy and quick to make. This goes really well with maftoul (giant couscous).
 
-{% for tag in page.tags %}{% if tag != "400-600kcals" %}&nbsp;<a class="post-tag" href="{{ site.url}}/tags/#{{ tag }}">_{{ tag }}_</a>&nbsp;{% endif %}{% endfor %} &bull;&nbsp;<em>600&nbsp;kcal&nbsp;per&nbsp;person</em>&nbsp;&nbsp;<a href="{{ site.url}}/tags/#400-600kcals"><img src="{{ site.url }}/images/battery_lvl_2.png" style="height:1.0em;"></a>
+{% for tag in page.tags %}{% if tag != "600-800kcals" %}&nbsp;<a class="post-tag" href="{{ site.url}}/tags/#{{ tag }}">_{{ tag }}_</a>&nbsp;{% endif %}{% endfor %} &bull;&nbsp;<em>700&nbsp;kcal&nbsp;per&nbsp;person</em>&nbsp;&nbsp;<a href="{{ site.url}}/tags/#600-800kcals"><img src="{{ site.url }}/images/battery_lvl_3.png" style="height:1.0em;"></a>
 
 #### Ingredients
 

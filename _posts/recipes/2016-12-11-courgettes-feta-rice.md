@@ -3,8 +3,10 @@ layout: article
 title: "Courgettes with feta and pine kernels, served with basmati rice"
 date: 2016-12-11
 modified: 2016-012-11
-tags: [ vegetarian , gluten-free , 15-minutes ]
+tags: [ vegetarian , gluten-free , 15-minutes ,"600-800kcals" ]
 excerpt: "This is one of my favourite recipes, very easy to make and super quick"
+calorielevel: "3"
+calorierange: "600-800kcals"
 preptime: "15 minutes"
 current: ""
 current_image:  courgettes-feta-rice_1600.jpg
@@ -21,7 +23,7 @@ image:
 
 This is one of my favourite recipes, very easy to make, super quick and very tasty. 
 
-{% for tag in page.tags %}&nbsp;<a class="post-tag" href="{{ site.url}}/tags/#{{ tag }}">_{{ tag }}_</a>&nbsp;{% endfor %}
+{% for tag in page.tags %}{% if tag != "600-800kcals" %}&nbsp;<a class="post-tag" href="{{ site.url}}/tags/#{{ tag }}">_{{ tag }}_</a>&nbsp;{% endif %}{% endfor %} &bull;&nbsp;<em>625&nbsp;kcal&nbsp;per&nbsp;person</em>&nbsp;&nbsp;<a href="{{ site.url}}/tags/#600-800kcals"><img src="{{ site.url }}/images/battery_lvl_3.png" style="height:1.0em;"></a>
 
 #### Ingredients
 

@@ -67,7 +67,7 @@ for my $recipe_file (@recipe_files) {
                     elsif ($line=~/carrot|tomato|courgette/) {
                         $amount=$count*100; # 100 g per carrot
                     }
-                    elsif ($line=~/tablespoon.+(seed|nut|mirin|shoyu|mayonnaise|olive\ oil)/) {
+                    elsif ($line=~/tablespoon.+(tahini|seed|nut|mirin|shoyu|mayonnaise|olive\ oil)/) {
                         $amount=$count*15;
                     } 
                     elsif ($line=~/teaspoon.+(seed|nut|mirin|shoyu)/) {
@@ -94,7 +94,7 @@ for my $recipe_file (@recipe_files) {
                     elsif ($line=~/slice.+bread/) {
                         $amount=$count*20;
                     }
-                    elsif ($line=~/tablespoon.+(seed|nut|mirin|shoyu|mayonnaise|olive\ oil)/) {
+                    elsif ($line=~/tablespoon.+(tahini|seed|nut|mirin|shoyu|mayonnaise|olive\ oil)/) {
                         $amount=$count*15;
                     }
                     elsif ($line=~/teaspoon.+(seed|nut|mirin|shoyu)/) {

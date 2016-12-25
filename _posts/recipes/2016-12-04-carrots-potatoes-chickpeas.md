@@ -3,8 +3,10 @@ layout: article
 title: "Stir-fry of carrots, potatoes and chickpeas"
 date: 2016-12-04
 modified: 2016-12-04
-tags: [ vegan , gluten-free , 20-minutes, one-pan ]
+tags: [ vegan , gluten-free , 20-minutes, one-pan ,"400-600kcals" ]
 excerpt: "This simple stir-fry of carrots, potatoes and chick peas is a very easy to make one-pan meal."
+calorielevel: "2"
+calorierange: "400-600kcals"
 preptime: "20 minutes"
 current: ""
 current_image:  carrots-potatoes-chickpeas_1600.jpg
@@ -21,7 +23,7 @@ image:
 
 This simple stir-fry of carrots, potatoes and chick peas is a very easy to make one-pan meal. The tomato puree adds extra _umami_, you could also use dried tomatoes.
 
-{% for tag in page.tags %}&nbsp;<a class="post-tag" href="{{ site.url}}/tags/#{{ tag }}">_{{ tag }}_</a>&nbsp;{% endfor %}
+{% for tag in page.tags %}{% if tag != "400-600kcals" %}&nbsp;<a class="post-tag" href="{{ site.url}}/tags/#{{ tag }}">_{{ tag }}_</a>&nbsp;{% endif %}{% endfor %} &bull;&nbsp;<em>575&nbsp;kcal&nbsp;per&nbsp;person</em>&nbsp;&nbsp;<a href="{{ site.url}}/tags/#400-600kcals"><img src="{{ site.url }}/images/battery_lvl_2.png" style="height:1.0em;"></a>
 
 #### Ingredients
 
