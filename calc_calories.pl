@@ -3,6 +3,12 @@ use v5.20;
 use warnings;
 use strict;
 
+my $batch=1;
+my $recipe_shortname='';
+if (@ARGV) {
+$recipe_shortname=$ARGV[0];
+$batch=0;
+}
 use Data::Dumper;
 open my $CALS, '<', 'calories.txt';
 
@@ -19,10 +25,10 @@ while (my $line=<$CALS>) {
 }
 #die Dumper(%cal_table);
 chdir '_posts/recipes';
-my @recipe_files=glob('*.md');
-
+my @recipe_files= $batch ? glob('*.md') : glob( '*'.$recipe_shortname.'.md' );
 my %recipes=();
 for my $recipe_file (@recipe_files) {
+#say 'RECIPE: '.$recipe_file;
     open my $IN, '<', $recipe_file;
     my $ingrs=0;
     my @ingr_lines=();
@@ -199,6 +205,8 @@ say "max: $max";
 my @calrange=('0-200','200-400','400-600','600-800','800-1000','1000-1200');
 if (not -d '../../recipes_w_cal_info') {
 mkdir '../../recipes_w_cal_info';
+} else {
+    system('rm ../../recipes_w_cal_info/*.md');
 }
 for my $recipe_file (@recipe_files) {
     my $cals = $recipes{$recipe_file}{'Calories'};
@@ -209,17 +217,20 @@ for my $recipe_file (@recipe_files) {
     open my $OUT, '>', $recipe_file_w_cal_info;
     while (my $line=<$IN>) {
         $line=~/tags:/ && do {
-            $line=~s/\]/,\"$range\" ]/
+            if ($line!~/kcals/) {
+                $line=~s/\]/,\"$range\" ]/
+            } else {
+                $line=~s/\d+\-\d+kcals/$range/;
+            }
         };
+        next if $line=~/calorielevel:/;
+        next if $line=~/calorierange:/;
         $line=~/preptime/ && do {
             say $OUT 'calorielevel: "'.$cat.'"';
             say $OUT 'calorierange: "'.$range.'"';
         };
         $line=~/endfor/ && do {
-#            chomp $line;
             $line='{% for tag in page.tags %}{% if tag != "'.$range.'" %}&nbsp;<a class="post-tag" href="{{ site.url}}/tags/#{{ tag }}">_{{ tag }}_</a>&nbsp;{% endif %}{% endfor %} &bull;&nbsp;<em>'.$cals.'&nbsp;kcal&nbsp;per&nbsp;person</em>&nbsp;&nbsp;<a href="{{ site.url}}/tags/#'.$range.'"><img src="{{ site.url }}/images/battery_lvl_'.$cat.'.png" style="height:1.0em;"></a>'."\n";;
-#            $line.= ' &bull;&nbsp;<em>'.$cals.'&nbsp;kcal&nbsp;per&nbsp;person</em>&nbsp;&nbsp;'.
-#            '<img src="{{ site.url }}/images/battery_lvl_'.$cat.'.png" style="height:1.0em;">'."\n";
         };
         print $OUT $line;
     }
