@@ -92,12 +92,13 @@ asparagus: 29; 100;
 mayonnaise: 706; 45; 3 tbsp
 
 olive oil: 824; 30; 2 tbsp
+garlic oil: 824; 30; 2 tbsp
 mirin: 324; 30; 2 tbsp
 miso: 167; 15; 1 tbsp
 artichokes in oil: 121; 90; half a pack
 antipasti: 121; 90;
 tahini: 664; 30; 2 tablespoons
-
+double cream: 422;114; half a pot
 #orange: 47; 150;
 
 
