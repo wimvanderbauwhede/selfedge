@@ -3,7 +3,7 @@ layout: article
 title: "Murakami meal #3: Aubergine boats with soy beans and ginger served with red rice"
 date: 2016-07-23
 modified: 2016-07-23
-tags: [ Japanese-style , vegan , gluten-free ,"400-600kcals" ]
+tags: [ Japanese-style , vegan , gluten-free ,20-minutes, "400-600kcals" ]
 excerpt: "This is another Murakami meal. I had aubergines and I decided to fill them with ..."
 calorielevel: "2"
 calorierange: "400-600kcals"

@@ -55,7 +55,7 @@ For two people:
     - Cut the sweet potatoes in pieces of about 2 by 3 cm and about 3 mm thick.
     - Slice the ginger as thin as you can.
     - Put the aubergines, sweet potatoes and ginger in a microwave pot and add the _mirin_. Cook for 8 minutes at full power (900 W).
-    - After 10 minutes, take the pot out of the microwave and pour about 100 cl of the cooking liquid into a bowl. Put the _miso_ into the bowl and mix until it is dissolved.
+    - After 10 minutes, take the pot out of the microwave and pour about 100 ml of the cooking liquid into a bowl. Put the _miso_ into the bowl and mix until it is dissolved.
     - Drain the _wakame_ and add it to microwave pot.
     - Cut the _tofu_ into small cubes (about 1 cm on the side) and add it to microwave pot.
     - Pour the miso mixture over it and mix the ingredients taking care not to mash the _tofu_ pieces.

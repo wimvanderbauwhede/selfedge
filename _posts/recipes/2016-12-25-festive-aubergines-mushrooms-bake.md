@@ -3,11 +3,11 @@ layout: article
 title: "Festive bake with aubergines, mushrooms and cream"
 date: 2016-12-25
 modified: 2016-12-25
-tags: [ vegetarian, gluten-free ,"800-1000kcals" ]
+tags: [ vegetarian, gluten-free, 45-minutes, "800-1000kcals" ]
 excerpt: "This is a great festive meal, a rich bake of aubergines, mushrooms and potatoes with cream and cheese."
 calorielevel: "4"
 calorierange: "800-1000kcals"
-preptime: "45 mins"
+preptime: "45 minutes"
 current: ""
 current_image:  festive-aubergines-mushrooms-bake_1600.jpg
 current_anchor:  festive-aubergines-mushrooms-bake
@@ -33,7 +33,7 @@ For two people:
 
   - 400 g baking potatoes
   - 2 medium aubergines
-  - 1 pack mushrooms
+  - 1 pack mushrooms (200 g)
   - half a cup of dried porcini mushrooms or other dried mushrooms
   - 150 ml double cream
   - 75 g cream cheese
