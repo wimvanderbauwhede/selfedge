@@ -4,7 +4,7 @@ title: "Festive bake with aubergines, mushrooms and cream"
 date: 2016-12-25
 modified: 2016-12-25
 tags: [ vegetarian, gluten-free ,"800-1000kcals" ]
-excerpt: "This is a great festive meal, a rich bake of aubergines, mushrooms and potatoes with cream and cheese"
+excerpt: "This is a great festive meal, a rich bake of aubergines, mushrooms and potatoes with cream and cheese."
 calorielevel: "4"
 calorierange: "800-1000kcals"
 preptime: "45 mins"

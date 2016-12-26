@@ -51,3 +51,17 @@ All my recipes are for _full meals_ for two people. All recipes are my own creat
 {% endif %}
 {% endfor %}
 </div><!-- /.tiles -->
+
+<div class="spacer"  style="float:left;width:100%;">
+<h3>Festive special</h3>
+</div>
+
+<div class="tiles">
+{% for post in site.categories.recipes %}
+{% if post.subset == "special" %}
+  {% include post-grid.html %}
+{% endif %}
+{% endfor %}
+</div><!-- /.tiles -->
+
+
