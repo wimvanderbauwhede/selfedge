@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "Nabe of parsnips, celeriac and soy beans"
+title: "Nabe of parsnips, celeriac and soy beans with red rice"
 date: 2016-12-26
 modified: 2016-12-26
 tags: [ Japanese-style , vegan , gluten-free , one-pot , 20-minutes,"600-800kcals" ]
