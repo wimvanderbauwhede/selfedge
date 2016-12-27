@@ -29,6 +29,7 @@ my @recipe_files= $batch ? glob('*.md') : glob( '*'.$recipe_shortname.'.md' );
 my %recipes=();
 for my $recipe_file (@recipe_files) {
 #say 'RECIPE: '.$recipe_file;
+    system("cp ./$recipe_file ../../recipes_SAFE");
     open my $IN, '<', $recipe_file;
     my $ingrs=0;
     my @ingr_lines=();
@@ -203,11 +204,13 @@ say "max: $max";
 #
 # 
 my @calrange=('0-200','200-400','400-600','600-800','800-1000','1000-1200');
+
 if (not -d '../../recipes_w_cal_info') {
-mkdir '../../recipes_w_cal_info';
+    mkdir '../../recipes_w_cal_info';
 } else {
     system('rm ../../recipes_w_cal_info/*.md');
 }
+
 for my $recipe_file (@recipe_files) {
     my $cals = $recipes{$recipe_file}{'Calories'};
     my $cat = $cals <= 200 ? 0 : $cals <= 400 ? 1 : $cals <= 600 ? 2 : $cals<=800 ? 3 : $cals<=1000 ? 4 : 5;
@@ -236,7 +239,10 @@ for my $recipe_file (@recipe_files) {
     }
     close $IN;
     close $OUT;
+    system("cp ../../recipes_w_cal_info/$recipe_file .");
+
 }
+
 
 sub min {
     $_[0] < $_[1] ? $_[0] : $_[1];
