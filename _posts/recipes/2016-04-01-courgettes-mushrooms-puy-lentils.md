@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "Courgettes and mushrooms with puy lentils and brown rice"
+title: "Courgettes and mushrooms with Puy lentils and brown rice"
 date: 2016-04-01
 modified: 2016-04-01
 tags: [ vegan , gluten-free , 30-minutes ,"800-1000kcals" ]
@@ -36,7 +36,7 @@ For two people:
 - Fresh ingredients & groceries
   - 3 courgettes (450 g)
   - 1 pack of fresh chestnut mushrooms (250 g)
-  - 1 cup puy lentils
+  - 1 cup Puy lentils
   - 1 teaspoon ginger, chopped fine
 
 - From the store cupboard

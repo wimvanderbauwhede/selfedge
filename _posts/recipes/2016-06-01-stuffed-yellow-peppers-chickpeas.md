@@ -4,7 +4,7 @@ title: "Stuffed yellow peppers with chickpeas and rice"
 date: 2016-06-01
 modified: 2016-06-01
 tags: [ vegan , 20-minutes ,"800-1000kcals" ]
-excerpt: "This recipe is my own take on a recipe from Sarah Browns Vegetarian Cookbook. ..."
+excerpt: "This recipe is my own take on a recipe from Sarah Brown's Vegetarian Cookbook."
 calorielevel: "4"
 calorierange: "800-1000kcals"
 preptime: "20 minutes"
