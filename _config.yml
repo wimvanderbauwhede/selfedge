@@ -5,14 +5,10 @@ description: "Quick and Tasty"
 logo: W_160px.jpg
 teaser: lino.jpg
 locale: en_GB
-
-url: http://127.0.0.1/~wim/quickandtasty
-#url: http://10.0.1.3/~wim/quickandtasty
-
+url: http://www.quickandtastycooking.org.uk
 
 # Jekyll configuration
-# For plugins
-safe: true
+
 sass:
   sass_dir: _sass
   style: compressed
@@ -29,6 +25,8 @@ owner:
   web: http://www.quickandtastycooking.org.uk
   email: wimvanderbauwhede@yahoo.co.uk
   twitter: fuss_free_food
+#  bio: ""
+#  avatar: lino_100px.jpg # 160x160 px image for author byline
   bio: "Fuss-free food"
   avatar: W_160px.jpg # 160x160 px image for author byline
 
