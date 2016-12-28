@@ -13,8 +13,8 @@ toc: false
 categories: articles
 image:
   feature: murakami-meals_1600x600.jpg
-  teaser: murakami-meals_1600x600.jpg
-  thumb: murakami-meals_1600x600.jpg
+  teaser: murakami-meals_400x150.jpg
+  thumb: murakami-meals_400x150.jpg
 ---
 As promised in my previous post, [My journey of learning Japanese]({{ site.url }}/articles/learning-japanese/), I will start posting recipes for what I call "Murakami meals", named after one of my favourite authors, Haruki Murakami.
 

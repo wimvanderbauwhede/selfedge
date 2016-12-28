@@ -17,8 +17,8 @@ categories: recipes
 subset: japanese
 image:
   feature: japanese-potato-salad_1600.jpg
-  teaser: japanese-potato-salad_1600.jpg
-  thumb: japanese-potato-salad_1600.jpg
+  teaser: japanese-potato-salad_400.jpg
+  thumb: japanese-potato-salad_400.jpg
 ---
 
 

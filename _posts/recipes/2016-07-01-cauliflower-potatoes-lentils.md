@@ -17,8 +17,8 @@ categories: recipes
 subset: quick-recipes
 image:
   feature: cauliflower-potatoes-lentils_1600.jpg
-  teaser: cauliflower-potatoes-lentils_1600.jpg
-  thumb: cauliflower-potatoes-lentils_1600.jpg
+  teaser: cauliflower-potatoes-lentils_400.jpg
+  thumb: cauliflower-potatoes-lentils_400.jpg
 ---
 
 

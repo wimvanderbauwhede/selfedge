@@ -17,8 +17,8 @@ categories: recipes
 subset: quick-recipes
 image:
   feature: pot_spin_pan_1600.jpg
-  teaser: pot_spin_pan_1600.jpg
-  thumb: pot_spin_pan_1600.jpg
+  teaser: pot_spin_pan_400.jpg
+  thumb: pot_spin_pan_400.jpg
 ---
 
 

@@ -17,8 +17,8 @@ categories: recipes
 subset: japanese
 image:
   feature: aubergines_sweet_potatoes_tofu_1600.jpg
-  teaser: aubergines_sweet_potatoes_tofu_1600.jpg
-  thumb: aubergines_sweet_potatoes_tofu_1600.jpg
+  teaser: aubergines_sweet_potatoes_tofu_400.jpg
+  thumb: aubergines_sweet_potatoes_tofu_400.jpg
 ---
 
 

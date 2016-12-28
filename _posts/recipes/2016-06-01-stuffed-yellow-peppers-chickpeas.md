@@ -17,8 +17,8 @@ categories: recipes
 subset: quick-recipes
 image:
   feature: stuffed-yellow-peppers-chickpeas_1600.jpg
-  teaser: stuffed-yellow-peppers-chickpeas_1600.jpg
-  thumb: stuffed-yellow-peppers-chickpeas_1600.jpg
+  teaser: stuffed-yellow-peppers-chickpeas_400.jpg
+  thumb: stuffed-yellow-peppers-chickpeas_400.jpg
 ---
 
 

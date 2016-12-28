@@ -13,8 +13,8 @@ toc: false
 categories: articles
 image:
   feature: zencookbook_1600x600.jpg
-  teaser: zencookbook_1600x600.jpg
-  thumb: zencookbook_1600x600.jpg
+  teaser: zencookbook_400x150.jpg
+  thumb: zencookbook_400x150.jpg
 ---
 
 There is a famous Zen poem about the right way to make tea ("cha no yu"), and it translates loosely as follows:

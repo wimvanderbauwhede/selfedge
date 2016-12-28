@@ -13,8 +13,8 @@ toc: false
 categories: articles
 image:
   feature: kanji_1600x600.jpg
-  teaser: kanji_1600x600.jpg
-  thumb: kanji_1600x600.jpg
+  teaser: kanji_400x150.jpg
+  thumb: kanji_400x150.jpg
 ---
 In early 2011, as a result of a press release about my work, a researcher from Japan contacted me and proposed a research collaboration. I had always been very interested in Japan, so this was a great opportunity. I started planning a research visit, and at that point I thought it would be better to learn some Japanese. So about three months before the trip I started my first Japanese lesson.
 

@@ -17,8 +17,8 @@ categories: recipes
 subset: quick-recipes
 image:
   feature: risotto_oyster_mushrooms_1600.jpg
-  teaser: risotto_oyster_mushrooms_1600.jpg
-  thumb: risotto_oyster_mushrooms_1600.jpg
+  teaser: risotto_oyster_mushrooms_400.jpg
+  thumb: risotto_oyster_mushrooms_400.jpg
 ---
 
 

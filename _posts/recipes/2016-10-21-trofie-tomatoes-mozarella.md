@@ -17,8 +17,8 @@ categories: recipes
 subset: quick-recipes
 image:
   feature: trofie-tomatoes-mozarella_1600.jpg
-  teaser: trofie-tomatoes-mozarella_1600.jpg
-  thumb: trofie-tomatoes-mozarella_1600.jpg
+  teaser: trofie-tomatoes-mozarella_400.jpg
+  thumb: trofie-tomatoes-mozarella_400.jpg
 ---
 
 This is a another really easy and super quick recipe, ready in the time to cook the pasta. Trofie is a short, thin, twisted pasta. It tastes great with pesto -- or with the much less salty cream cheese and tomato puree mixture that I use in this recipe.

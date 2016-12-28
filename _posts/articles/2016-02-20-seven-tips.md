@@ -13,8 +13,8 @@ toc: false
 categories: articles
 image:
   feature: dried_tomatoes_bold_1600x600.jpg
-  teaser: dried_tomatoes_bold_1600x600.jpg
-  thumb: dried_tomatoes_bold_1600x600.jpg
+  teaser: dried_tomatoes_bold_400x150.jpg
+  thumb: dried_tomatoes_bold_400x150.jpg
 ---
 
 

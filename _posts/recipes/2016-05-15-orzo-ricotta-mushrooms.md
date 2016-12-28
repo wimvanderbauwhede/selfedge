@@ -17,8 +17,8 @@ categories: recipes
 subset: quick-recipes
 image:
   feature: orzo_ricotta_mushrooms_1600.jpg
-  teaser: orzo_ricotta_mushrooms_1600.jpg
-  thumb: orzo_ricotta_mushrooms_1600.jpg
+  teaser: orzo_ricotta_mushrooms_400.jpg
+  thumb: orzo_ricotta_mushrooms_400.jpg
 ---
 
 

@@ -1,7 +1,7 @@
 ---
 layout: article
 title: "The Store Cupboard"
-date: 2016-12-27
+date: 2016-12-28
 tags: [cooking,ingredients,condiments]
 excerpt: "You can find all the ingredients used in the recipes in the supermarket."
 comments: false

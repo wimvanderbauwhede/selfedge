@@ -17,8 +17,8 @@ categories: recipes
 subset: quick-recipes
 image:
   feature: asparagus-paneer-courgette-rocket-salad_1600.jpg
-  teaser: asparagus-paneer-courgette-rocket-salad_1600.jpg
-  thumb: asparagus-paneer-courgette-rocket-salad_1600.jpg
+  teaser: asparagus-paneer-courgette-rocket-salad_400.jpg
+  thumb: asparagus-paneer-courgette-rocket-salad_400.jpg
 ---
 
 

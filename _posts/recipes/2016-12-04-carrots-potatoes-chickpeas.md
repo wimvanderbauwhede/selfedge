@@ -17,8 +17,8 @@ categories: recipes
 subset: quick-recipes
 image:
   feature: carrots-potatoes-chickpeas_1600.jpg
-  teaser: carrots-potatoes-chickpeas_1600.jpg
-  thumb: carrots-potatoes-chickpeas_1600.jpg
+  teaser: carrots-potatoes-chickpeas_400.jpg
+  thumb: carrots-potatoes-chickpeas_400.jpg
 ---
 
 This simple stir-fry of carrots, potatoes and chick peas is a very easy to make one-pan meal. The tomato puree adds extra _umami_, you could also use dried tomatoes.

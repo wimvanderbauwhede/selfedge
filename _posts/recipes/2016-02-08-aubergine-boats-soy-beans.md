@@ -17,8 +17,8 @@ categories: recipes
 subset: japanese
 image:
   feature: aubergine-boats-soy-beans_1600.jpg
-  teaser: aubergine-boats-soy-beans_1600.jpg
-  thumb: aubergine-boats-soy-beans_1600.jpg
+  teaser: aubergine-boats-soy-beans_400.jpg
+  thumb: aubergine-boats-soy-beans_400.jpg
 ---
 
 

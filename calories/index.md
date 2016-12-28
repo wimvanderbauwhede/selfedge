@@ -1,8 +1,12 @@
 ---
 layout: default
 ---
-
-{% assign sortedtags = "200-400kcals|400-600kcals|600-800kcals|800-1000kcals" | split:'|' %}
+{% capture tags %}
+  {% for post in site.posts %}
+      {{ post.calorierange  }}
+  {% endfor %}
+{% endcapture %}
+{% assign sortedtags = tags | split:' ' | uniq | sort %}
 
 {% for tag in sortedtags %}
 <h3 id="{{ tag }}">{{ tag }}</h3>

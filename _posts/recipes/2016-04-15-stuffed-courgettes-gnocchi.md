@@ -17,8 +17,8 @@ categories: recipes
 subset: quick-recipes
 image:
   feature: stuffed_courgettes_gnocchi_1600.jpg
-  teaser: stuffed_courgettes_gnocchi_1600.jpg
-  thumb: stuffed_courgettes_gnocchi_1600.jpg
+  teaser: stuffed_courgettes_gnocchi_400.jpg
+  thumb: stuffed_courgettes_gnocchi_400.jpg
 ---
 
 

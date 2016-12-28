@@ -13,8 +13,8 @@ toc: false
 categories: articles
 image:
   feature: reading-japanese_1600x600.jpg
-  teaser: reading-japanese_1600x600.jpg
-  thumb: reading-japanese_1600x600.jpg
+  teaser: reading-japanese_400x150.jpg
+  thumb: reading-japanese_400x150.jpg
 ---
 
 

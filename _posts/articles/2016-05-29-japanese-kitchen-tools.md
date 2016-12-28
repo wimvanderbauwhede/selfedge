@@ -13,8 +13,8 @@ toc: false
 categories: articles
 image:
   feature: japanese-kitchen-tools_1600x600.jpg
-  teaser: japanese-kitchen-tools_1600x600.jpg
-  thumb: japanese-kitchen-tools_1600x600.jpg
+  teaser: japanese-kitchen-tools_400x150.jpg
+  thumb: japanese-kitchen-tools_400x150.jpg
 ---
 The apartment where I stayed in Japan had a kitchen but no pots, pans, cutlery or anything. So I had to go and buy everything &mdash; great fun when you're jet-lagged.
 

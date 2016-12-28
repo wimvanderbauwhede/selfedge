@@ -17,8 +17,8 @@ categories: recipes
 subset: quick-recipes
 image:
   feature: imam_bayildi_couscous_feta_1600.jpg
-  teaser: imam_bayildi_couscous_feta_1600.jpg
-  thumb: imam_bayildi_couscous_feta_1600.jpg
+  teaser: imam_bayildi_couscous_feta_400.jpg
+  thumb: imam_bayildi_couscous_feta_400.jpg
 ---
 
 

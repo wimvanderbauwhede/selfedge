@@ -17,8 +17,8 @@ categories: recipes
 subset: quick-recipes
 image:
   feature: bananas_black_eyed_beans_sweet_potatoes_1600.jpg
-  teaser: bananas_black_eyed_beans_sweet_potatoes_1600.jpg
-  thumb: bananas_black_eyed_beans_sweet_potatoes_1600.jpg
+  teaser: bananas_black_eyed_beans_sweet_potatoes_400.jpg
+  thumb: bananas_black_eyed_beans_sweet_potatoes_400.jpg
 ---
 
 

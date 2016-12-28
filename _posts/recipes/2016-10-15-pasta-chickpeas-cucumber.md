@@ -17,8 +17,8 @@ categories: recipes
 subset: quick-recipes
 image:
   feature: pasta-chickpeas-cucumber_1600.jpg
-  teaser: pasta-chickpeas-cucumber_1600.jpg
-  thumb: pasta-chickpeas-cucumber_1600.jpg
+  teaser: pasta-chickpeas-cucumber_400.jpg
+  thumb: pasta-chickpeas-cucumber_400.jpg
 ---
 
 This is a really easy and super quick recipe, ready in 15 minutes (the time to cook the pasta). The _miso_ dressing and golden sesame seeds make it special. _Miso_ paste is a Japanese seasoning made from fermented soy beans, the taste is salty and very rich. Golden sesame seeds  (_irigoma_) are also very commonly used in Japan, they add a delicous nutty flavour. You can find both in most supermarkets.

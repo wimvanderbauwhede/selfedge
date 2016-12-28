@@ -17,8 +17,8 @@ categories: recipes
 subset: quick-recipes
 image:
   feature: risotto-green-peas_1600.jpg
-  teaser: risotto-green-peas_1600.jpg
-  thumb: risotto-green-peas_1600.jpg
+  teaser: risotto-green-peas_400.jpg
+  thumb: risotto-green-peas_400.jpg
 ---
 
 Risotto is a popular Italian-style one-pan dish, delicious and easy to make, and you can keep on creating variations. It works best with a proper risotto rice like Arborio. This recipe takes about 30 minutes to prepare.

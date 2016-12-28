@@ -17,8 +17,8 @@ categories: recipes
 subset: japanese
 image:
   feature: carrots_potatoes_shiitake_1600.jpg
-  teaser: carrots_potatoes_shiitake_1600.jpg
-  thumb: carrots_potatoes_shiitake_1600.jpg
+  teaser: carrots_potatoes_shiitake_400.jpg
+  thumb: carrots_potatoes_shiitake_400.jpg
 ---
 
 

@@ -17,8 +17,8 @@ categories: recipes
 subset: japanese
 image:
   feature: aubergines-ponzu-soybeans-rice_1600.jpg
-  teaser: aubergines-ponzu-soybeans-rice_1600.jpg
-  thumb: aubergines-ponzu-soybeans-rice_1600.jpg
+  teaser: aubergines-ponzu-soybeans-rice_400.jpg
+  thumb: aubergines-ponzu-soybeans-rice_400.jpg
 ---
 
 

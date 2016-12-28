@@ -17,8 +17,8 @@ categories: recipes
 subset: quick-recipes
 image:
   feature: butternut-squash-pear-blackeyed-beans_1600.jpg
-  teaser: butternut-squash-pear-blackeyed-beans_1600.jpg
-  thumb: butternut-squash-pear-blackeyed-beans_1600.jpg
+  teaser: butternut-squash-pear-blackeyed-beans_400.jpg
+  thumb: butternut-squash-pear-blackeyed-beans_400.jpg
 ---
 
 An unusual combination of butternut squash and pear with flaked almonds for an interesting texture.  

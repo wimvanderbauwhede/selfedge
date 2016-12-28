@@ -17,8 +17,8 @@ categories: recipes
 subset: quick-recipes
 image:
   feature: aubergines_apples_chickpeas_1600.jpg
-  teaser: aubergines_apples_chickpeas_1600.jpg
-  thumb: aubergines_apples_chickpeas_1600.jpg
+  teaser: aubergines_apples_chickpeas_400.jpg
+  thumb: aubergines_apples_chickpeas_400.jpg
 ---
 
 

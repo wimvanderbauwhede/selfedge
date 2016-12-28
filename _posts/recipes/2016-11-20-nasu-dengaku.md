@@ -17,8 +17,8 @@ categories: recipes
 subset: japanese
 image:
   feature: nasu-dengaku_1600.jpg
-  teaser: nasu-dengaku_1600.jpg
-  thumb: nasu-dengaku_1600.jpg
+  teaser: nasu-dengaku_400.jpg
+  thumb: nasu-dengaku_400.jpg
 ---
 
 _Nasu dengaku_ (茄子田楽) is a very well-known Japanese aubergine dish, this is my take on it: I cook the aubergines in the microwave rather than roasting or frying them. Combined with soy beans and Japanese rice this makes a great Japanese-style meal.

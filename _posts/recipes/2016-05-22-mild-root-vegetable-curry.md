@@ -17,8 +17,8 @@ categories: recipes
 subset: quick-recipes
 image:
   feature: mild_root_vegetable_curry_1600.jpg
-  teaser: mild_root_vegetable_curry_1600.jpg
-  thumb: mild_root_vegetable_curry_1600.jpg
+  teaser: mild_root_vegetable_curry_400.jpg
+  thumb: mild_root_vegetable_curry_400.jpg
 ---
 
 

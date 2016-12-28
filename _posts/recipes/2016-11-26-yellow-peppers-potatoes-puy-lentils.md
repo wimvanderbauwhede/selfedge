@@ -17,8 +17,8 @@ categories: recipes
 subset: quick-recipes
 image:
   feature: yellow-peppers-potatoes-puy-lentils_1600.jpg
-  teaser: yellow-peppers-potatoes-puy-lentils_1600.jpg
-  thumb: yellow-peppers-potatoes-puy-lentils_1600.jpg
+  teaser: yellow-peppers-potatoes-puy-lentils_400.jpg
+  thumb: yellow-peppers-potatoes-puy-lentils_400.jpg
 ---
 
 Potatoes and yellow peppers in one pan may seem like an unusual combination but it works really well. Puy lentils with dried tomatoes and porcini mushrooms are the ideal complement.

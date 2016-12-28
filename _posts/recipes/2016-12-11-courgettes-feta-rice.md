@@ -17,8 +17,8 @@ categories: recipes
 subset: quick-recipes
 image:
   feature: courgettes-feta-rice_1600.jpg
-  teaser: courgettes-feta-rice_1600.jpg
-  thumb: courgettes-feta-rice_1600.jpg
+  teaser: courgettes-feta-rice_400.jpg
+  thumb: courgettes-feta-rice_400.jpg
 ---
 
 This is one of my favourite recipes, very easy to make, super quick and very tasty. 

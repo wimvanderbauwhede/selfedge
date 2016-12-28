@@ -17,8 +17,8 @@ categories: recipes
 subset: special
 image:
   feature: festive-aubergines-mushrooms-bake_1600.jpg
-  teaser: festive-aubergines-mushrooms-bake_1600.jpg
-  thumb: festive-aubergines-mushrooms-bake_1600.jpg
+  teaser: festive-aubergines-mushrooms-bake_400.jpg
+  thumb: festive-aubergines-mushrooms-bake_400.jpg
 ---
 
 This is a great festive meal, a rich bake of aubergines, mushrooms and potatoes with cream and cheese. It takes a bit longer, about 45 minutes, that's why I only make it on special occasions.

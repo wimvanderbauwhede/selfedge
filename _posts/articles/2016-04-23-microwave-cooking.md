@@ -13,8 +13,8 @@ toc: false
 categories: articles
 image:
   feature: microwave_1600x600.jpg
-  teaser: microwave_1600x600.jpg
-  thumb: microwave_1600x600.jpg
+  teaser: microwave_400x150.jpg
+  thumb: microwave_400x150.jpg
 ---
 
 <!-- "The most underrated kitchen appliance" -->

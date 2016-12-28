@@ -17,8 +17,8 @@ categories: recipes
 subset: quick-recipes
 image:
   feature: carrots-chickpeas-couscous_1600.jpg
-  teaser: carrots-chickpeas-couscous_1600.jpg
-  thumb: carrots-chickpeas-couscous_1600.jpg
+  teaser: carrots-chickpeas-couscous_400.jpg
+  thumb: carrots-chickpeas-couscous_400.jpg
 ---
 
 This is a really quick and simple stir-fry of carrots and chickpeas, ready in 15 minutes, and very tasty.  I serve this with maftoul (Palestinian or giant couscous) and garnish with fresh coriander.

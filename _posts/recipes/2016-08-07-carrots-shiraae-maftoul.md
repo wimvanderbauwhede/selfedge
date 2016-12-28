@@ -17,8 +17,8 @@ categories: recipes
 subset: quick-recipes
 image:
   feature: carrots-shiraae-maftoul_1600.jpg
-  teaser: carrots-shiraae-maftoul_1600.jpg
-  thumb: carrots-shiraae-maftoul_1600.jpg
+  teaser: carrots-shiraae-maftoul_400.jpg
+  thumb: carrots-shiraae-maftoul_400.jpg
 ---
 
 Carrots are great when stir fried with some seeds and spices. I cook them in the microwave for a short time so the frying is quicker, and I add apples as a sweetener. The tofu-hummus is very similar to the Japanese _shiraae_, and very easy and quick to make. This goes really well with maftoul (giant couscous).

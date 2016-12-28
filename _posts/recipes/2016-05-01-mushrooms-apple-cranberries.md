@@ -17,8 +17,8 @@ categories: recipes
 subset: quick-recipes
 image:
   feature: mushrooms_apple_cranberries_1600.jpg
-  teaser: mushrooms_apple_cranberries_1600.jpg
-  thumb: mushrooms_apple_cranberries_1600.jpg
+  teaser: mushrooms_apple_cranberries_400.jpg
+  thumb: mushrooms_apple_cranberries_400.jpg
 ---
 
 

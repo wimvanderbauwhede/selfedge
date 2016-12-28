@@ -17,8 +17,8 @@ categories: recipes
 subset: quick-recipes
 image:
   feature: courgettes_mushrooms_puy_lentils_1600.jpg
-  teaser: courgettes_mushrooms_puy_lentils_1600.jpg
-  thumb: courgettes_mushrooms_puy_lentils_1600.jpg
+  teaser: courgettes_mushrooms_puy_lentils_400.jpg
+  thumb: courgettes_mushrooms_puy_lentils_400.jpg
 ---
 
 

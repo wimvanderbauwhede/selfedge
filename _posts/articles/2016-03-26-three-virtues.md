@@ -13,8 +13,8 @@ toc: false
 categories: articles
 image:
   feature: shiitake_shichimi_wakame_1600x600.jpg
-  teaser: shiitake_shichimi_wakame_1600x600.jpg
-  thumb: shiitake_shichimi_wakame_1600x600.jpg
+  teaser: shiitake_shichimi_wakame_400x150.jpg
+  thumb: shiitake_shichimi_wakame_400x150.jpg
 ---
 
 Some of the qualities of a geek boffin are transferable to cooking.<a name="homepage_banner"></a>

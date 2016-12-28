@@ -17,8 +17,8 @@ categories: recipes
 subset: quick-recipes
 image:
   feature: potato-vegetable-bake_1600.jpg
-  teaser: potato-vegetable-bake_1600.jpg
-  thumb: potato-vegetable-bake_1600.jpg
+  teaser: potato-vegetable-bake_400.jpg
+  thumb: potato-vegetable-bake_400.jpg
 ---
 
 This original potato bake with carrots and courgettes is the winter version of the [Japanese potato salad]({{site.url}}/recipes/japanese-potato-salad/) and is great on a cold night. I use cream cheese to get a smooth consistency, and add grated cheese on top, which gives a nice crust when grilled. This bake makes a complete and very tasty meal.

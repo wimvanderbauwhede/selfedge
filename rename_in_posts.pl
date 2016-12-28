@@ -15,7 +15,7 @@ for my $post (@posts) {
 
     open my $OUT, '>',$post;
     for my $line( @post_lines) {
-        $line=~/teaser:/ && do {
+        $line=~/(?:teaser|thumb):/ && do {
             $line=~s/_1600/_400/;
             $line=~s/x500/x125/;
             $line=~s/x600/x150/;

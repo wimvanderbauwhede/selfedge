@@ -17,8 +17,8 @@ categories: recipes
 subset: quick-recipes
 image:
   feature: mild-curry-red-lentils_1600.jpg
-  teaser: mild-curry-red-lentils_1600.jpg
-  thumb: mild-curry-red-lentils_1600.jpg
+  teaser: mild-curry-red-lentils_400.jpg
+  thumb: mild-curry-red-lentils_400.jpg
 ---
 
 

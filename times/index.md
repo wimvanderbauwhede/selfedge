@@ -1,9 +1,13 @@
 ---
 layout: default
 ---
-
-{% assign numtags = "10|15|20|30|45" | split:'|' %}
-{% assign sortedtags = "10 minutes|15 minutes|20 minutes|30 minutes|45 minutes" | split:'|' %}
+{% capture tags %}
+  {% for post in site.posts %}
+      {% assign tag = post.preptime | truncate: 3, ' ' %}
+      {{ tag }}
+  {% endfor %}
+{% endcapture %}
+{% assign numtags = tags | split:' ' | uniq | sort %}
 
 {% for numtag in numtags %}
 {% capture tag %}{{numtag}} minutes{% endcapture %}

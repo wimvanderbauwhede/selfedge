@@ -17,8 +17,8 @@ categories: recipes
 subset: japanese
 image:
   feature: parsnip-celeriac-soybean-nabe_1600.jpg
-  teaser: parsnip-celeriac-soybean-nabe_1600.jpg
-  thumb: parsnip-celeriac-soybean-nabe_1600.jpg
+  teaser: parsnip-celeriac-soybean-nabe_400.jpg
+  thumb: parsnip-celeriac-soybean-nabe_400.jpg
 ---
 
 This is a Japanese-style recipe for a _nabe_ or hotpot, but with parsnips (パースニップ) and celeriac (セレリアック), two root vegetables that are less common in Japan.

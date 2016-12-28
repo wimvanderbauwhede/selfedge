@@ -17,8 +17,8 @@ categories: recipes
 subset: quick-recipes
 image:
   feature: orzo-broccoli-paneer_1600.jpg
-  teaser: orzo-broccoli-paneer_1600.jpg
-  thumb: orzo-broccoli-paneer_1600.jpg
+  teaser: orzo-broccoli-paneer_400.jpg
+  thumb: orzo-broccoli-paneer_400.jpg
 ---
 
 This is a surprising combination of orzo (pasta shaped like grains of barley) with steamed broccoli and stir-fried paneer (fresh Indian cheese).

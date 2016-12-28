@@ -17,8 +17,8 @@ categories: recipes
 subset: quick-recipes
 image:
   feature: nifty_pasta_1600.jpg
-  teaser: nifty_pasta_1600.jpg
-  thumb: nifty_pasta_1600.jpg
+  teaser: nifty_pasta_400.jpg
+  thumb: nifty_pasta_400.jpg
 ---
 
 

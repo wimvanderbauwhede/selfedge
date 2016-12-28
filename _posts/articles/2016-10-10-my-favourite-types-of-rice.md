@@ -13,8 +13,8 @@ toc: false
 categories: articles
 image:
   feature: my-favourite-types-of-rice_1600x600.jpg
-  teaser: my-favourite-types-of-rice_1600x600.jpg
-  thumb: my-favourite-types-of-rice_1600x600.jpg
+  teaser: my-favourite-types-of-rice_400x150.jpg
+  thumb: my-favourite-types-of-rice_400x150.jpg
 ---
 
 I love rice, and most of [my recipes]({{ site.url }}/recipes) go very well with rice. There are many, many varieties of rice but in this post I just want to introduce the ones I like and use frequently.

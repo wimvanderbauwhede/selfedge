@@ -17,8 +17,8 @@ categories: recipes
 subset: quick-recipes
 image:
   feature: linguine-al-pesto_1600.jpg
-  teaser: linguine-al-pesto_1600.jpg
-  thumb: linguine-al-pesto_1600.jpg
+  teaser: linguine-al-pesto_400.jpg
+  thumb: linguine-al-pesto_400.jpg
 ---
 
 

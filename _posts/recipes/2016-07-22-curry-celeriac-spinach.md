@@ -17,8 +17,8 @@ categories: recipes
 subset: quick-recipes
 image:
   feature: curry-celeriac-spinach_1600.jpg
-  teaser: curry-celeriac-spinach_1600.jpg
-  thumb: curry-celeriac-spinach_1600.jpg
+  teaser: curry-celeriac-spinach_400.jpg
+  thumb: curry-celeriac-spinach_400.jpg
 ---
 
 

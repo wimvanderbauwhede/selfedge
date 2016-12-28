@@ -17,8 +17,8 @@ categories: recipes
 subset: quick-recipes
 image:
   feature: tofu-hummus-potatoes-aubergines_1600.jpg
-  teaser: tofu-hummus-potatoes-aubergines_1600.jpg
-  thumb: tofu-hummus-potatoes-aubergines_1600.jpg
+  teaser: tofu-hummus-potatoes-aubergines_400.jpg
+  thumb: tofu-hummus-potatoes-aubergines_400.jpg
 ---
 
 This is not a typically Japanese recipe but many of the ingredients are very common in Japanese cuisine. Butter and soy sauce is a great combination for frying potatoes, and the _umami_ of tomato puree blends really well with the aubergines.

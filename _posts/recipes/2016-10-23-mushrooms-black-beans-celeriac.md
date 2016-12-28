@@ -17,8 +17,8 @@ categories: recipes
 subset: quick-recipes
 image:
   feature: mushrooms-black-beans-celeriac_1600.jpg
-  teaser: mushrooms-black-beans-celeriac_1600.jpg
-  thumb: mushrooms-black-beans-celeriac_1600.jpg
+  teaser: mushrooms-black-beans-celeriac_400.jpg
+  thumb: mushrooms-black-beans-celeriac_400.jpg
 ---
 
 This is a suprising and very tasty stir-fry of Japanese mushrooms, black beans and celeriac served with Japanese rice. The black beans I used are the common ones (ブラックビーン, "_burakkubiin_" in Japanese), not the black-skinned soy beans (黒豆,"_kuromame_") because they are hard to find here.

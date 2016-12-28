@@ -17,8 +17,8 @@ categories: recipes
 subset: quick-recipes
 image:
   feature: tortilla-mushrooms-pine-nuts_1600.jpg
-  teaser: tortilla-mushrooms-pine-nuts_1600.jpg
-  thumb: tortilla-mushrooms-pine-nuts_1600.jpg
+  teaser: tortilla-mushrooms-pine-nuts_400.jpg
+  thumb: tortilla-mushrooms-pine-nuts_400.jpg
 ---
 
 A tortilla is a Spanish-style omelette with potatoes, very quick and easy to make. Adding mushrooms and pine kernels makes for a great combination. I usually serve this with a green side salad.
