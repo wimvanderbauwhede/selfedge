@@ -13,6 +13,7 @@ for my $img (@images) {
 chomp $img;
 $img=~s/^.*images//;
 $img=~s/jpg.*$/jpg/;
+$img=~s/png.*$/png/;
 
 print "git add images$img\n";
 system("git add images$img");

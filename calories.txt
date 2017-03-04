@@ -13,6 +13,7 @@
 #half a packet
 
 greek yoghurt: 129; 150;
+soy milk: 38; 500; 2 cups
 
 # Cheese
 mozzarella: 219; 250; we eat either 2x 125g in salad or 150g in trofie
@@ -29,6 +30,7 @@ philadelphia: 230; 100;
 basmati rice: 356; 200; per meal
 risotto rice: 348; 200; 1 cup
 brown rice: 351; 200;
+wholegrain rice: 351; 200;
 red rice: 351; 200;
 japanese rice: 353; 200;
 
@@ -40,12 +42,15 @@ puy lentils: 325; 200; 1 cup
 chickpeas: 85; 240; can is 240 so about 100 
 black beans: 91; 230; pack of 230 g provides 208
 blackeye beans: 116; 240; tin is 240g
+adzuki beans: 120; 230; tin is 230g
 soy beans: 147; 200; a cup
 green peas: 55; 150; a small cup
 
+dried tofu skin: 77; 50; 
 tofu: 64; 175; pack is 350, so about 175/2, say 100
 
 # Pasta and Noodles
+ramen: 348; 180;
 udon: 355; 200;
 soba: 343; 200;
 linguine: 352; 200;
@@ -95,6 +100,7 @@ olive oil: 824; 30; 2 tbsp
 garlic oil: 824; 30; 2 tbsp
 mirin: 324; 30; 2 tbsp
 miso: 167; 15; 1 tbsp
+bean paste: 167; 15; 1 tbsp (this is a guess)
 artichokes in oil: 121; 90; half a pack
 antipasti: 121; 90;
 tahini: 664; 30; 2 tablespoons

@@ -41,6 +41,7 @@ for my $recipe_file (@recipe_files) {
             $line=lc($line);
             $line=~s/_//g;
             $line=~s/\-//g;
+            say $line;
             push @ingr_lines, $line;
         }
     }
@@ -50,6 +51,7 @@ for my $recipe_file (@recipe_files) {
     say "\nRECIPE: $recipe_file";
     for my $line (@ingr_lines) {        
         for my $item (@cal_table_items) {
+#            say "$line =~ $item";
             my $amount=$cal_table{$item}[1];
             my $cals = $cal_table{$item}[0];
 

@@ -1,7 +1,7 @@
 ---
 layout: home
 title: "Quick & Tasty"
-date: 2016-12-28
+date: 2017-03-04
 tags: [recipes,quick, tasty, healthy,food,cooking, vegetarian,vegan]
 excerpt: "Quick & Tasty: Fuss-free food for one or two"
 comments: false

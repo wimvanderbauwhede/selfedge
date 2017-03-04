@@ -13,6 +13,7 @@ system("cp ~/StaticIndexer/indexer.js ~/Sites/quickandtasty");
 system("cp -r ~/StaticIndexer/node_modules ~/Sites/quickandtasty");
 
 } else {
+    
 system('jekyll build -d ~/Sites/quickandtasty/');
 system("cp ../../StaticIndexer/indexer.js ~/Sites/quickandtasty");
 system("cp -r ../../StaticIndexer/node_modules ~/Sites/quickandtasty");
