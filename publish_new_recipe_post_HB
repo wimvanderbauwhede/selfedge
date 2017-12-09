@@ -1,0 +1,20 @@
+#cp _posts/recipes/*${1}.md recipes_SAFE
+# */
+#perl calc_calories.pl $1
+#cp recipes_w_cal_info/*${1}.md _posts/recipes
+# */
+#git add _posts/recipes/*${1}.md 
+# */
+#git add images/${1}_1600.jpg
+#git commit -a -m "$1"
+perl set_mod_date.pl
+perl create_index.pl
+perl generate_sitemap.pl > sitemap.xml
+cp _config.yml.publish _config.yml
+bundle exec jekyll build -d ~/Git/quick-tasty/
+cd  ~/Git/quick-tasty/
+git add recipes/${1}/index.html
+git add images/${1}_1600.jpg
+git add images/${1}_400.jpg
+git commit -a -m "$1"
+git push origin gh-pages

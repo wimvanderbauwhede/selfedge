@@ -26,7 +26,7 @@ image:
 This is a really quick take on a very famous Italian recipe, and it is very easy to prepare.
 
 
-{% for tag in page.tags %}{% if tag != "400-600kcals" %}&nbsp;<a class="post-tag" href="{{ site.url}}/tags/#{{ tag }}">_{{ tag }}_</a>&nbsp;{% endif %}{% endfor %} &bull;&nbsp;<em>525&nbsp;kcal&nbsp;per&nbsp;person</em>&nbsp;&nbsp;<a href="{{ site.url}}/tags/#400-600kcals"><img src="{{ site.url }}/images/battery_lvl_2.png" style="height:1.0em;"></a>
+{% for tag in page.tags %}{% if tag != "400-600kcals" %}&nbsp;<a class="post-tag" href="{{ site.url}}/tags/#{{ tag }}">_{{ tag }}_</a>&nbsp;{% endif %}{% endfor %} &bull;&nbsp;<em>600&nbsp;kcal&nbsp;per&nbsp;person</em>&nbsp;&nbsp;<a href="{{ site.url}}/tags/#400-600kcals"><img src="{{ site.url }}/images/battery_lvl_2.png" style="height:1.0em;"></a>
 
 #### Ingredients
 
@@ -36,7 +36,7 @@ For two people:
   - 200 g small potatoes	 
   - 200 g green beans
   - 50 g hard cheese (grana padano or parmezan), grated
-  - basil and pine nut pesto
+  - 2 tablespoons basil and pine nut pesto
 - From the store cupboard  
   - 200 g linguine
 

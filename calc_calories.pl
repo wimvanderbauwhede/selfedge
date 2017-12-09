@@ -8,6 +8,13 @@ my $recipe_shortname='';
 if (@ARGV) {
 $recipe_shortname=$ARGV[0];
 $batch=0;
+
+if ($recipe_shortname=~/\// or $recipe_shortname=~/\.md$/) {
+    $recipe_shortname=~s/^.+\///;
+    $recipe_shortname=~s/\.md$//;
+}
+say "recipe short name: $recipe_shortname";
+
 }
 use Data::Dumper;
 open my $CALS, '<', 'calories.txt';
@@ -73,7 +80,7 @@ for my $recipe_file (@recipe_files) {
                     elsif ($line=~/dried\s+tomato/) {
                         $amount*=$count;
                     }
-                    elsif ($line=~/carrot|tomato|courgette/) {
+                    elsif ($line=~/banana|carrot|tomato|courgette/) {
                         $amount=$count*100; # 100 g per carrot
                     }
                     elsif ($line=~/tablespoon.+(tahini|seed|nut|mirin|shoyu|mayonnaise|olive\ oil)/) {
@@ -97,7 +104,7 @@ for my $recipe_file (@recipe_files) {
                     elsif ($line=~/dried\s+tomato/) {
                         $amount*=$count;
                     }
-                    elsif ($line=~/carrot|tomato|courgette/) {
+                    elsif ($line=~/banana|carrot|tomato|courgette/) {
                         $amount=$count*100; # 100 g per carrot
                     }
                     elsif ($line=~/slice.+bread/) {
@@ -148,14 +155,14 @@ for my $recipe_file (@recipe_files) {
                     }
 #                    say "PACK: $line";   
                }
-                elsif ($line=~/a\s+(carrot|tomato|courgette|apple|aubergine|celeriac)/) {
+                elsif ($line=~/[1a]\s+(carrot|tomato|courgette|apple|aubergine|celeriac)/) {
                     my $item = $1;
                     $amount = 150; # AD HOC
                     if ($item eq 'aubergine' or $item eq 'celeriac') {
                         $amount*=2;
                     }
                 }
-                elsif ($line=~/a\s+(small|medium|large)\s+(carrot|tomato|courgette|apple|aubergine|pear|celeriac)/) {
+                elsif ($line=~/[1a]\s+(small|medium|large)\s+(banana|carrot|tomato|courgette|apple|aubergine|pear|celeriac)/) {
                     my $sz = $1;
                     my $item = $2;
                     $amount = $sz eq 'small' ? 50 : $sz eq 'medium' ? 100 : $sz eq 'large' ? 200 : 150;

@@ -1,7 +1,7 @@
 ---
 layout: article
 title: "The Basics"
-date: 2017-03-04
+date: 2017-12-09
 tags: [Basic cooking]
 excerpt: "If you don't have much experience cooking, then it helps to know the basics: how to cook rice, potatoes and pasta."
 comments: false

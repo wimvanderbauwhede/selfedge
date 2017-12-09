@@ -30,9 +30,11 @@ philadelphia: 230; 100;
 basmati rice: 356; 200; per meal
 risotto rice: 348; 200; 1 cup
 brown rice: 351; 200;
+black rice: 351; 200;
 wholegrain rice: 351; 200;
 red rice: 351; 200;
 japanese rice: 353; 200;
+rice: 350; 200;
 
 gnocchi: 180; 500;
 
@@ -45,6 +47,7 @@ blackeye beans: 116; 240; tin is 240g
 adzuki beans: 120; 230; tin is 230g
 soy beans: 147; 200; a cup
 green peas: 55; 150; a small cup
+green beans: 30; 200; a small cup
 
 dried tofu skin: 77; 50; 
 tofu: 64; 175; pack is 350, so about 175/2, say 100
@@ -97,7 +100,7 @@ asparagus: 29; 100;
 mayonnaise: 706; 45; 3 tbsp
 
 olive oil: 824; 30; 2 tbsp
-garlic oil: 824; 30; 2 tbsp
+garlic oil: 824; 7; 1 tsp
 mirin: 324; 30; 2 tbsp
 miso: 167; 15; 1 tbsp
 bean paste: 167; 15; 1 tbsp (this is a guess)
@@ -105,6 +108,7 @@ artichokes in oil: 121; 90; half a pack
 antipasti: 121; 90;
 tahini: 664; 30; 2 tablespoons
 double cream: 422;114; half a pot
+pesto: 380; 15; 1 tbsp
 #orange: 47; 150;
 
 

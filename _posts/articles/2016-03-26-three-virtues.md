@@ -23,11 +23,11 @@ Some of the qualities of a geek boffin are transferable to cooking.<a name="home
 
 The quality that makes you go to great effort to reduce overall energy expenditure. It makes you create recipes that are easy to make with ingredients that are easy to find. Hence, the first great virtue of a cook.
 
-##Impatience
+## Impatience
 
 Not wanting to spend ages preparing food. This makes you create recipes that are quick to prepare and quick to cook, with minimal cleaning-up. Hence, the second great virtue of a cook.
 
-##Hubris
+## Hubris
 
 The quality that makes you create tasty recipes that the whole world will want to cook. Hence, the third great virtue of a cook.
 

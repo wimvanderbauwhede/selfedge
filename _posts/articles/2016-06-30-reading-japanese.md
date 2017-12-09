@@ -46,7 +46,7 @@ I find that the most convenient way to look up a kanji is an electronic dictiona
 - The second approach is to look up the kanji by radical. Most electronic dictionaries offer that facility. It usually works well if the radicals making up the kanji are clear. It really helps to know how to count the strokes in a radical, because they are usually ordered by stroke count.
 - My final way is to use a (paper) dictionary with the SKIP (System of Kanji Indexing by Patterns) system for ordering kanji. I have the well-known "Kodansha Kanji Learner's Dictionary". The SKIP method is based on first classifying the kanji into one of 4 groups (Left-Right ◧, Up-Down ⬒, Enclosure ◻, and Solid ◼). For the first two categories, further indexing is by stroke count of both parts. Kanji in the third category (enclosure) are indexed by the number of sides of the enclosure. Kanji in the last category typically can't always be broken down, but there aren't that many of them and most of them are simple kanji.
 
-<img title="Kanji dictionary page" src="{{ site.url }}/images/kanji_learners_dict_1600" alt="Kanji dictionary page">
+<img title="Kanji dictionary page" src="{{ site.url }}/images/kanji_learners_dict_1600.jpg" alt="Kanji dictionary page">
 
 #### Reading for learners: a few handy rules
 
