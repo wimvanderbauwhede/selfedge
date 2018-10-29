@@ -26,7 +26,7 @@ image:
 This is the first of my "Murakami meals", named after one of my favourite authors, Haruki Murakami. I wrote a [short blog post]({{ site.url }}/articles/murakami-meals) about what I mean by a Murakami meal.
 I had aubergines so I decided to prepare them with ponzu (a Japanese dressing). I also made soy beans with _shiitake_ mushrooms and rounded it off with brown rice cooked with _konbu_ seaweed.
 
-This reciped requires 30 minutes soaking time followed by 20 minutes cooking time.
+This recipe requires 30 minutes soaking time followed by 20 minutes cooking time.
 
 {% for tag in page.tags %}{% if tag != "400-600kcals" %}&nbsp;<a class="post-tag" href="{{ site.url}}/tags/#{{ tag }}">_{{ tag }}_</a>&nbsp;{% endif %}{% endfor %} &bull;&nbsp;<em>550&nbsp;kcal&nbsp;per&nbsp;person</em>&nbsp;&nbsp;<a href="{{ site.url}}/tags/#400-600kcals"><img src="{{ site.url }}/images/battery_lvl_2.png" style="height:1.0em;"></a>
 
@@ -43,10 +43,10 @@ For two people:
   - 5 dried shiitake mushrooms
   - a 2 cm piece of ginger, thinly sliced
   - 1 piece of _konbu_ (about 5x10cm)
-  - _ponzu_: a mixture of 
-    - 2 tablespoons soy sauce, 
-    - 1 tablespoon _yuzu_ juice, 
-    - half a tablespoon rice vinegar, 
+  - _ponzu_: a mixture of
+    - 2 tablespoons soy sauce,
+    - 1 tablespoon _yuzu_ juice,
+    - half a tablespoon rice vinegar,
     - 1 teaspoon _mirin_
 
 #### Preparation

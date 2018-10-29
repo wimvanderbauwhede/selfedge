@@ -23,6 +23,7 @@ paneer: 174; 224;
 everest paneer: 347; 224;
 halloumi: 332; 200;
 grana padano: 396; 50;
+jarlsberg: 396; 50;
 cream cheese: 230; 100;
 philadelphia: 230; 100;
 
@@ -96,6 +97,7 @@ cucumber: 10; 200;
 banana: 106; 200;
 cranberries: 25; 100;
 asparagus: 29; 100;
+olives: 198; 50; 6 pitted olives = 15 g
 
 mayonnaise: 706; 45; 3 tbsp
 

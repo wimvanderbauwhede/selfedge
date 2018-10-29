@@ -1,7 +1,7 @@
 ---
 layout: article
 title: "License"
-date: 2017-12-09
+date: 2018-10-15
 tags: [vegetarian, cooking, food]
 excerpt: "License"
 comments: false

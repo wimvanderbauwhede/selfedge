@@ -69,7 +69,7 @@ while (my $line = <$IDX_RAW> ){
     }
     for my $post (@_posts) {
         next if $post eq 'index.html';
-        $line=~s/$post/recipes\/$post/;
+        $line=~s/$post\//recipes\/$post\//;
     }
 #    for my $post (@_posts_jp) {
 #        next if $post eq 'index.html';

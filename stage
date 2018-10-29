@@ -1,4 +1,8 @@
+#!/bin/bash
 perl set_mod_date.pl
 cp _config.yml.stage _config.yml
 #cp -r _posts/unpublished/ _posts/articles
+. .rbenv_profile
+#eval "$(rbenv init -)"
+#/opt/local/bin/rbenv shell 2.3.1
 bundle exec jekyll build --watch -d ~/Sites/quickandtasty/

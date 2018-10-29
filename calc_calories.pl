@@ -83,7 +83,7 @@ for my $recipe_file (@recipe_files) {
                     elsif ($line=~/banana|carrot|tomato|courgette/) {
                         $amount=$count*100; # 100 g per carrot
                     }
-                    elsif ($line=~/tablespoon.+(tahini|seed|nut|mirin|shoyu|mayonnaise|olive\ oil)/) {
+                    elsif ($line=~/tablespoon.+(tahini|seed|nut|mirin|shoyu|mayonnaise|olive\ oil|double\ cream)/) {
                         $amount=$count*15;
                     } 
                     elsif ($line=~/teaspoon.+(seed|nut|mirin|shoyu)/) {
@@ -131,7 +131,7 @@ for my $recipe_file (@recipe_files) {
                     if ($line=~/half\s+a\s+cup/) {
                         if ($line=~/porcini/) {
                             $amount = 10;
-                        } elsif ($line=~/grated|grana\ padano|parmezan/) {
+                        } elsif ($line=~/grated|grana\ padano|parmezan|jarlsberg/) {
                             $amount = 25;
                         } else {
                         $amount=100;
@@ -140,7 +140,7 @@ for my $recipe_file (@recipe_files) {
                     elsif ($line=~/[a1]\s+cup/) {
                         if ($line=~/porcini/) {
                             $amount = 20;
-                        } elsif ($line=~/grated|grana\ padano|parmezan/) {
+                        } elsif ($line=~/grated|grana\ padano|parmezan|jarlsberg/) {
                             $amount = 50;
                         } else {
                         $amount=200;                    

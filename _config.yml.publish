@@ -2,7 +2,7 @@
 
 title: Quick & Tasty - Get Cooking!
 description: "Quick and Tasty"
-logo: W_160px.jpg
+#logo: W_160px.jpg
 teaser: lino.jpg
 locale: en_GB
 url: http://www.quickandtastycooking.org.uk
@@ -21,13 +21,13 @@ gems:
 
 # Site owner
 owner:
-  name: Wim Vanderbauwhede
+  name: Wim 
   web: http://www.quickandtastycooking.org.uk
-  email: wimvanderbauwhede@yahoo.co.uk
+#  email: wimvanderbauwhede@yahoo.co.uk
   twitter: fuss_free_food
 #  bio: ""
 #  avatar: lino_100px.jpg # 160x160 px image for author byline
   bio: "Fuss-free food"
-  avatar: W_160px.jpg # 160x160 px image for author byline
+#  avatar: W_160px.jpg # 160x160 px image for author byline
 
 exclude: ["lib", "config.rb", ".sass-cache", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "*.sublime-project", "*.sublime-workspace", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "node_modules", "Gruntfile.js", "package.json"]

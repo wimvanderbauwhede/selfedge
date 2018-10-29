@@ -25,9 +25,9 @@ gems:
 
 # Site owner
 owner:
-  name: Wim Vanderbauwhede
+  name: Wim 
   web: http://www.quickandtastycooking.org.uk
-  email: wimvanderbauwhede@yahoo.co.uk
+#  email: wimvanderbauwhede@yahoo.co.uk
   twitter: fuss_free_food
   bio: "Fuss-free food"
   avatar: W_160px.jpg # 160x160 px image for author byline
