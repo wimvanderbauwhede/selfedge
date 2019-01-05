@@ -14,6 +14,7 @@
 
 greek yoghurt: 129; 150;
 soy milk: 38; 500; 2 cups
+coconut milk: 230; 200;
 
 # Cheese
 mozzarella: 219; 250; we eat either 2x 125g in salad or 150g in trofie
@@ -51,6 +52,7 @@ green peas: 55; 150; a small cup
 green beans: 30; 200; a small cup
 
 dried tofu skin: 77; 50; 
+dried bean curd: 77; 50; 
 tofu: 64; 175; pack is 350, so about 175/2, say 100
 
 # Pasta and Noodles

@@ -53,7 +53,7 @@ For two people:
 - Cut the mushrooms in strips.
 - In a deep pan with a lid,  heat the olive oil and sesame oil and fry the ginger, mushrooms and sesame seeds until the mushrooms start to brown.
 - Meanwhile, cook the aubergines in the microwave for 8 minutes at full power (900W).
-- Add the aubergines, _kombu_ and the soaking liquid to the pan.
+- Add the aubergines, _kombu_ and the rice to the pan with the soaking liquid of the rice.
 - Add the _mirin_ and _miso_, stir well to dissolve the _miso_.
 - Cook, covered, until the liquid has almost been absorbed, so it's _all'onda_ like a proper risotto.
 - Meanwhile, cook the soy beans in the microwave for 3 minutes at full power (900W).
