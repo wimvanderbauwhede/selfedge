@@ -1,2 +1,0 @@
-# selfedge
-Selfedge Publishing
