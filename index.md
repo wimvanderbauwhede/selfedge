@@ -1,60 +1,30 @@
 ---
 layout: home
-title: "Quick & Tasty"
-date: 2019-03-20
-tags: [recipes,quick, tasty, healthy,food,cooking, vegetarian,vegan]
-excerpt: "Quick & Tasty: Fuss-free food for one or two"
+title: "Selfedge"
+date: 2024-01-21
+tags: [articles, fiction, writing]
+excerpt: "Selfedge Publishing"
 comments: false
 toc: false
 
 image:
-  feature: homepage_banner_1600_2.jpg
+  feature: homepage_banner_1600.jpg
 ---
-<!--
-<h5  style="float: right;" class="post-title"> nm &nbsp;&nbsp;<a href="{{ site.url }}/classes" class="btn">Info and Booking</a></h5>
--->
 
 <div class="tiles">
 
 <article class="tile" itemscope itemtype="http://schema.org/Article">
-  <a href="{{ site.url }}/recipes" title="The Recipes" class="post-teaser">
-  <img src="{{ site.url }}/images/recipe_adj.jpg" alt="The Recipes" itemprop="image"></a>
-  <h2 class="post-title" itemprop="name"><a class="post-title" href="{{ site.url }}/recipes">The Recipes</a></h2>
-</article>
-
-<article class="tile" itemscope itemtype="http://schema.org/Article">
-<a href="{{ site.url }}/ingredients" title="The Store Cupboard" class="post-teaser">
-<img src="{{ site.url }}/images/dried_tomatoes_1600.jpg" alt="The Store Cupboard" itemprop="image">
-</a>
-  <h2 class="post-title" itemprop="name"><a class="post-title" href="{{ site.url }}/ingredients">The Store Cupboard</a></h2>
+  <a href="{{ site.url }}/fiction" title="Fiction" class="post-teaser">
+  <img src="{{ site.url }}/images/fiction_tile.jpg" alt="Fiction" itemprop="image"></a>
+  <h2 class="post-title" itemprop="name"><a class="post-title" href="{{ site.url }}/fiction">Fiction</a></h2>
 </article>
 <!--
-</div>
-
-<div class="tiles">
--->
 <article class="tile" itemscope itemtype="http://schema.org/Article">
-  <a href="{{ site.url }}/basics" title="The Basics" class="post-teaser">
-  <img src="{{ site.url }}/images/basics_600.jpg" alt="The Basics" itemprop="image"></a>
-  <h2 class="post-title" itemprop="name"><a class="post-title" href="{{ site.url }}/basics">The Basics</a></h2>
-</article>
-
-<article class="tile" itemscope itemtype="http://schema.org/Article">
-  <a href="{{ site.url }}/about" title="About" class="post-teaser">
-  <img src="{{ site.url }}/images/W_at_shrine.jpg" alt="About" itemprop="image"></a>
+ <a href="{{ site.url }}/about" title="About" class="post-teaser">
+  <img src="{{ site.url }}/images/about.jpg" alt="About" itemprop="image"></a>
   <h2 class="post-title" itemprop="name"><a class="post-title" href="{{ site.url }}/about">About</a></h2>
 </article>
-
-
-
-</div><!-- /.tiles -->
-
-<!-- <h5  class="post-title"> -->
-<div>
-    <a href="https://www.pinterest.com/fussfreefood" target="_blank"><i class="fa fa-pinterest"></i></a>
-    <a href="https://twitter.com/fuss_free_food" target="_blank"><i class="fa fa-twitter"></i></a>
-    <a href="https://www.facebook.com/quickandtasyfood/" target="_blank"><i class="fa fa-facebook"></i></a>
-    &nbsp;
-<div class="fb-like" data-href="https://www.facebook.com/quickandtasyfood/" data-layout="button" data-action="like" data-show-faces="false" data-share="false"></div>
+-->
 </div>
-<!-- </h5> -->
+
+<!-- /.tiles -->

@@ -1,13 +1,16 @@
 # Footer navigation links
 
-- title: Quick & Tasty
-  url: /
+#- title: Selfedge
+#  url: /
 
-- title: About
-  url: /about/
+#- title: About
+#  url: /about/
 
-- title: Blog
-  url: /articles/
+#- title: Articles
+#  url: /articles/
+
+- title: Photo Credits
+  url: /credits/
 
 - title: Terms
   url: /lic/

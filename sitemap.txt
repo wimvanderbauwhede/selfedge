@@ -1,6 +1,5 @@
-http://www.quickandtastycooking.org.uk/about/index.html
-http://www.quickandtastycooking.org.uk/ingredients/index.html
-http://www.quickandtastycooking.org.uk/recipes/index.html
-http://www.quickandtastycooking.org.uk/basics/index.html
-http://www.quickandtastycooking.org.uk/lic/index.html
-http://www.quickandtastycooking.org.uk/index.html
+http://www.selfedge.org.uk/about/index.html
+http://www.selfedge.org.uk/fiction/index.html
+http://www.selfedge.org.uk/articels/index.html
+http://www.selfedge.org.uk/lic/index.html
+http://www.selfedge.org.uk/index.html

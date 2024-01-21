@@ -1,33 +1,60 @@
 # Site wide configuration
 
-title: Quick & Tasty - Get Cooking!
-description: "Quick and Tasty"
-#logo: W_160px.jpg
-teaser: lino.jpg
+title: self·edge
+description: "Selfedge Publishing"
+#teaser: lino.jpg
 locale: en_GB
-url: http://www.quickandtastycooking.org.uk
+url: http://hackbox.local/~wim/selfedge
+
 
 # Jekyll configuration
-
+# For plugins
+safe: true
 sass:
   sass_dir: _sass
   style: compressed
 permalink: /:categories/:title/
 markdown: kramdown
-highlighter: pygments
-gems:
+#kramdown:
+#  toc_levels: 1..2
+highlighter: none
+#highlighter: rouge
+#highlighter: pygments
+plugins:
   - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
 
 
 # Site owner
 owner:
   name: Wim 
-  web: http://www.quickandtastycooking.org.uk
-#  email: wimvanderbauwhede@yahoo.co.uk
-  twitter: fuss_free_food
-#  bio: ""
-#  avatar: lino_100px.jpg # 160x160 px image for author byline
-  bio: "Fuss-free food"
+  web: http://www.selfedge.org.uk
+  bio: ""
 #  avatar: W_160px.jpg # 160x160 px image for author byline
 
-exclude: ["lib", "config.rb", ".sass-cache", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "*.sublime-project", "*.sublime-workspace", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "node_modules", "Gruntfile.js", "package.json"]
+#include:
+#  - .htaccess
+exclude:
+  - "*.less"
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - CHANGELOG
+  - Capfile
+  - Gemfile
+  - Gruntfile.js
+  - LICENSE
+  - README
+  - Rakefile
+  - config
+  - gulpfile.js
+  - lib
+  - log
+  - node_modules
+  - package.json
+  - spec
+

@@ -8,8 +8,11 @@ body {
 }
 
 p {
-	// border: solid 1px blue;
+    text-align: justify;
+//	border: solid 1px blue;
 	@include font-size(18,yes,28);
+    text-indent: 1.5em;
+	margin-top: 0px;
 	margin-bottom: 0px;
 }
 
@@ -113,11 +116,21 @@ figcaption {
 
 // Blockquotes
 blockquote {
+//	border: solid 1px red;
+    text-indent: 0em;
+	margin-top: 0.5ex;
+	margin-left: 0em;
+	margin-right: 0.5em;
 	padding-left: $gutter;
 	padding-right: $gutter;
-	font-style: italic;
+    font-family: $alt-font;
+    font-style: normal;
+
+	// font-style: italic;
 	p {
 		@include font-size(16);
+        text-indent: 0em;
+	    margin-bottom: 1.5ex;
 	}
 }
 
@@ -128,6 +141,7 @@ tt, code, kbd, samp, pre {
 pre {
 	overflow-x: auto; // add scrollbars to wide code blocks
 }
+/*
 p code,
 li code {
 	@include font-size(16,no);
@@ -139,7 +153,7 @@ li code {
 	background-color: lighten($primary-color, 95);
 	border-radius: $border-radius;
 }
-
+*/
 // Tables
 table {
 	border-collapse: collapse;
@@ -378,3 +392,16 @@ b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a,
 	font-weight: bold;
     color: $info-color;
 }
+.summary {
+    margin: 0px; padding: 0px;
+    margin-left: 2em;
+    margin-right: 4em;
+    font-family: $alt-font;
+    font-style: italic;
+	@include font-size(16);
+}
+
+.code-summary {
+    font-style: normal;
+}
+

@@ -2,7 +2,7 @@ perl set_mod_date.pl
 perl create_index.pl
 perl generate_sitemap.pl > sitemap.xml
 cp _config.yml.publish _config.yml
-bundle exec jekyll build -d ~/Git/quick-tasty/
-cd  ~/Git/quick-tasty/
+bundle exec jekyll build -d ~/Git/selfedge/
+cd  ~/Git/selfedge/
 git commit -a -m "nm"
 git push origin gh-pages

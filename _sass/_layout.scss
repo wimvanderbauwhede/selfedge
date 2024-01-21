@@ -32,7 +32,7 @@
 	font-weight: 700;
 	@include font-size(20,no);
 	line-height: .5 * $masthead-height; // half the height to center vertically
-	text-transform: uppercase;
+	//text-transform: uppercase;
 	//border: 1px solid red;
 	//width: 100px;
 }
@@ -277,7 +277,7 @@
 	}
 
 	h1 {
-        color: $white;
+        color: $page-lead-color;
 		@include font-size(48);
 		@include media($medium) {
 			@include font-size(60);
@@ -287,7 +287,7 @@
 		}
 	}
 	h2 {
-        color: $white;
+        color: $page-lead-color;
 		@include font-size(20);
 		@include media($medium) {
 			@include font-size(24);

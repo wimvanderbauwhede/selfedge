@@ -4,6 +4,12 @@ perl create_index.pl
 perl generate_sitemap.pl > sitemap.xml
 cp _config.yml.publish _config.yml
 bundle exec jekyll build -d ~/Git/selfedge/
+
+perl  split_in_chapters.pl ~/Git/selfedge/fiction/standing-wave/index.html $1
 cd  ~/Git/selfedge/
-git commit -a -m "nm"
+git add fiction/${1}/*.html
+git add images/${1}_1600x600.jpg
+git add images/${1}_400x150.jpg
+
+git commit -a -m "released Chapter $1"
 git push origin gh-pages

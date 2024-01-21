@@ -4,9 +4,8 @@ use strict;
 
 my @dirs=qw(
 about
-ingredients
-recipes
-basics
+fiction
+articles
 lic
 );
 my @ds = localtime;

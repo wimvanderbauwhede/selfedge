@@ -1,12 +1,12 @@
 ---
 layout: archive
-title: "Musings of a Cooking Boffin"
-tags: [blog,recipes,cooking,food,vegetarian,vegan]
+title: "Articles"
+tags: [articles]
 excerpt: ""
 comments: false
 toc: true
 image:
-  feature: fuud_1600x500.jpg
+  feature: articles_1600x500.jpg
 ---
 
 <div class="tiles">

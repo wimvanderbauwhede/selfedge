@@ -3,10 +3,11 @@
 
 // Typography variables
 
-$base-font                   	: Georgia,Times,"Times New Roman",serif;
-$heading-font                	: "Helvetica Neue","Segoe UI",Arial,sans-serif;
+$base-font                   	: "TeX Gyre Schola", Georgia,Times,"Times New Roman",serif;
+$heading-font                	: "TeX Gyre Heros", Helvetica, Arial, sans-serif;//,Arial,"Helvetica Neue","Segoe UI",sans-serif;
 $caption-font                	: $base-font;
-$code-font                   	: monospace;
+// $code-font                   	: monospace;
+$code-font                   	: $heading-font;
 $alt-font                    	: $heading-font;
 
 $doc-font-size               	: 16;
@@ -28,6 +29,7 @@ $comp-color                  	: complement($base-color);
 $border-color                	: #ddd;
 $white                       	: #fff;
 $black                       	: #000;
+$page-lead-color		: $darkred;//#4a4032;
 $link-color                  	: #222;
 //$link-color                  	: #dddddd; // #222;
 $primary-color               	: $black;

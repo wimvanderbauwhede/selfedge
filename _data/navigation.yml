@@ -1,23 +1,15 @@
 # Site navigation links
-#- title: Quick & Tasty
+#- title: Selfedge
 #  url: /
 
-- title: The Recipes
-  url: /recipes/
-  image: recipe_adj.jpg
+#- title: Articles
+#  url: /articles/
+#  image: articles_nav.jpg
 
-- title: The Store Cupboard
-  url: /ingredients/
-  image: dried_tomatoes_400x300.jpg
+#- title: About
+#  url: /about/
+#  image: about_nav.jpg
 
-- title: The Basics
-  url: /basics/
-  image: basics_600.jpg
-
-- title: About
-  url: /about/
-  image: W_at_shrine.jpg
-
-- title: Blog
-  url: /articles/
-  image: fuud_800x600.jpg
+- title: Fiction
+  url: /fiction/
+  image: fiction_tile.jpg
