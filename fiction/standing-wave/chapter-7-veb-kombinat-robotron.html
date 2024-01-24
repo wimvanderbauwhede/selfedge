@@ -7,7 +7,7 @@
     <meta name="keywords" content="fiction">
     
 
-    <link rel="canonical" href="https://www.selfedge.org.uk/fiction/standing-wave/prologue.html/chapter-1-models-of-circulation.html/chapter-2-detente.html/chapter-3-the-actors-part-i.html/chapter-4-miekos-story.html/chapter-5-the-actors-part-ii.html/chapter-6-bletchley-park.html/chapter-7-veb-kombinat-robotron.html/chapter-8-details-of-attribution.html/chapter-9-standing-wave.html/epilogue.html/">
+    <link rel="canonical" href="https://www.selfedge.org.uk/fiction/standing-wave/prologue.html/chapter-1-models-of-circulation.html/chapter-2-detente.html/chapter-3-the-actors-part-i.html/chapter-4-miekos-story.html/chapter-5-the-actors-part-ii.html/chapter-6-bletchley-park.html/chapter-7-veb-kombinat-robotron.html/">
 
     <link href="https://www.selfedge.org.uk/atom.xml" type="application/atom+xml" rel="alternate" title="self·edge Atom Feed">
     <link href="https://www.selfedge.org.uk/sitemap.xml" type="application/xml" rel="sitemap" title="Sitemap">
@@ -75,7 +75,6 @@
 	<ul class="menu-item">
 		<li>
       
-			<a href="https://www.selfedge.org.uk/fiction/"><img src="https://www.selfedge.org.uk/images/fiction_tile.jpg" alt="Fiction" class="teaser"></a>
 			<a href="https://www.selfedge.org.uk/fiction/" class="title">Fiction</a>
 			
 		</li>
@@ -95,7 +94,6 @@
 		
 		<div class="page-feature">
 			<div class="page-image">
-				<img src="https://www.selfedge.org.uk/images/standing-wave_1600x600.png" class="page-feature-image" alt="Standing Wave" itemprop="image">
 				
 			</div><!-- /.page-image -->
 		</div><!-- /.page-feature -->
@@ -109,21 +107,52 @@
 		<div class="inner-wrap">
 			<nav class="toc"></nav><!-- /.toc -->
 			<div id="content" class="page-content" itemprop="articleBody">
-<p>This is my first fiction story and I am serialising it here. I'll add links to the chapters as they are released</p>
-<ul>
-<li><a href = "prologue.html">Prologue</a></li>
-<li><a href = "chapter-1-models-of-circulation.html">Chapter 1: Models of circulation</a></li>
-<li>Chapter 2: Détente</li>
-<li>Chapter 3: The actors, Part I</li>
-<li>Chapter 4. Mieko’s story</li>
-<li>Chapter 5. The actors, Part II</li>
-<li>Chapter 6. Bletchley Park</li>
-<li>Chapter 7. VEB Kombinat Robotron</li>
-<li>Chapter 8. Details of attribution</li>
-<li>Chapter 9. Standing Wave</li>
-<li>Epilogue</li>
-</ul>
-<br><br><p><small><i>the banner picture shows the Navier-Stokes equation, take from an old printed paper</i></small></p>
+<br><p>Previous: <a href="chapter-6-bletchley-park.html">Chapter 6. Bletchley Park</a></p><br>
+<h2 id="chapter-7-veb-kombinat-robotron">Chapter 7. VEB Kombinat Robotron</h2>
+
+<p class="summary"> In which the puzzle is solved and the world made a slightly better place</p>
+
+<p>Back to Bletchley Park, for a more in-depth search. The archivist was not encouraging: she said they had carefully inspected, categorised and indexed the whole lot, and none of the other materials contained source codes.</p>
+
+<blockquote>
+  <p>@lores:<br /> “And yet there lie in their archives many records that few now can read, even of the experts, for their formats and encodings have become incompatible to later systems. And, @kagetsuko, there lies in Bletchley Park still, undeciphered, I guess, by any save myself since the USSR failed, a roll of tape that Valentin Dymnikov punched himself.”</p>
+</blockquote>
+
+<p>Trusting to the museum’s experts, I had scanned the tapes quickly on my previous trip, and my focus had been on the punched cards. There hadn’t seemed to be anything of interest. Now I looked closer. The BESM-6 would have had a teletype connected to it. It was not impossible that someone had connected to the machine over the teletype network and contributed code, which would have been punched on tape instead of punched cards. It was a long shot, but it was soon rewarded: one of the tapes was labelled “тт. Дубна́ В. Ды́мников 3 дек 1975”. By now, I had learned enough Cyrillic to read this as “TT. Dubna V. Dymnikov 3 Dec 1975”. A tape of a teletype communication by Valentin Dymnikov, from Dubna! I inspected the yellowed, perforated paper ribbon closely, and to my delight I recognised the format: it was from a Robotron T163, a really obscure teletype machine that had supported both Cyrillic and Latin. I felt like Gandalf discovering the scroll of Isildur.</p>
+
+<p>VEB Robotron had been a conglomerate of electronics companies in the DDR, and their “Fernschreiber” (teletypes) had been highly regarded. For reasons long forgotten, I had once made a detailed study of the encoding format, a variant of their “Fernschreib-Alphabet 2”, and wrote a decoder for it. Although it was a 5-bit tape, it supported 6-bit words with a switch character, and could therefore encode the GOST 10859 character set as used by the BESM-6. I discussed with the archivist the best way to digitise the tape. Luckily, they had a compatible teletype to run the tape, and we simply filmed the run with a stationary camera. I spent the return journey hacking a little script that split the video in static frames, and the next day I dusted off my old decoder code and processed the stills from the video. The result of all that work was a few pages of FORTRAN-IV code: Dymnikov’s missing kernel.</p>
+
+<p>I posted an update, but we were still not done yet: this old code could not easily be used with today’s compilers.</p>
+
+<blockquote>
+  <p>@lores:<br /> @kagetsuko I’ve found it, Dymnikov’s missing convection kernel. It’s in FORTRAN-IV, I still need to translate the whole thing to modern Fortran, it may take a few weeks but we are really close now! @klimagalka @silverstacks</p>
+</blockquote>
+
+<blockquote>
+  <p>@kagetsuko:<br /> @lores 頑張ってね！</p>
+</blockquote>
+
+<p>Luckily I had a friend at the University of Glasgow who had build a dedicated compiler specifically to convert old FORTRAN into modern Fortran, suitable for accelerators like GPUs and FPGAs. Our code was older than what he usually targeted, written in a proprietary pre-FORTRAN IV dialect for the CDC 1604, but he agreed to help — of course, he simply couldn’t resist the challenge.</p>
+
+<p>I took the train up to Glasgow, and we worked on it together in his office, properly masked of course. The weather was uncharacteristically lovely so we had lengthy picnics on the lawn outside the main building, and  even longer coffee breaks. It felt like a holiday, but the work progressed steadily.
+Gradually, we patched the compiler so that it could convert the complete simulation code to modern, accelerated Fortran.</p>
+
+<p>And so, several weeks later, one evening in early June, with the sun ever more reluctant to set, our transpiled code finally passed all the tests. I pushed the sources to the repo and sent it off to kagetsuko.</p>
+
+<blockquote>
+  <p>@lores:<br /> @kagetsuko It’s done! I’ve DM’ed you the repo link. I am on tenterhooks about the performance and results! I hope you have a decent GPU to test it on @klimagalka @silverstacks</p>
+</blockquote>
+
+<blockquote>
+  <p>@kagetsuko:<br /> @lores Amazing! Your friend must be a magician. Thank him from me and don’t worry, I have access to state-of-the-art hardware. Onwards!</p>
+</blockquote>
+
+<p><code class="highlighter-rouge">kagetsuko</code> lost no time in trialling the code. Hardly a day had passed when she replied:</p>
+
+<blockquote>
+  <p>@kagetsuko:<br /> @lores I integrated it with my own code own and ran some benchmark simulations on our GPU cluster. All very preliminary of course, but it’s literally incredible: it allows an 8x higher resolution in every dimension, for the same speed and accuracy, so a 256x speed-up! It’s nothing short of miraculous. @klimagalka @silverstacks</p>
+</blockquote>
+
 				<hr />
 				<footer class="page-footer">
 					
