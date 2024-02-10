@@ -2,12 +2,12 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
     <title>self·edge</title>
-    <generator uri="https://github.com/jekyll/jekyll">Jekyll v4.0.0</generator>
+    <generator uri="https://github.com/jekyll/jekyll">Jekyll v4.3.3</generator>
 		<icon>https://www.selfedge.org.uk/apple-touch-icon-precomposed.png</icon>
     <subtitle>Selfedge Publishing</subtitle>
     <link href="https://www.selfedge.org.uk/atom.xml" rel="self"/>
     <link href="https://www.selfedge.org.uk/" rel="alternate" type="text/html"/>
-    <updated>2024-02-04T11:19:10+00:00</updated>
+    <updated>2024-02-10T17:02:46+00:00</updated>
     <id>https://www.selfedge.org.uk/</id>
     <author>
 			<name>Wim</name>
@@ -44,7 +44,7 @@
 
 &lt;p class=&quot;summary&quot;&gt; In which a request for help is posted, clarifications are asked and a promise is made&lt;/p&gt;
 
-&lt;p&gt;On an otherwise unremarkable, ordinary dull day in the late winter of 2027, &lt;code class=&quot;highlighter-rouge&quot;&gt;kagetsuko&lt;/code&gt; posted a message on her fediverse account that particularly intrigued me.&lt;/p&gt;
+&lt;p&gt;On an otherwise unremarkable, ordinary dull day in the late winter of 2027, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;kagetsuko&lt;/code&gt; posted a message on her fediverse account that particularly intrigued me.&lt;/p&gt;
 
 &lt;p&gt;She was one of those people I followed to have a nice balanced timeline, not one of my close circle but we were mutuals, regularly boosted and liked one another’s posts and occasionally interacted.&lt;/p&gt;
 
@@ -124,19 +124,19 @@ I reflected that it was a good time to do this kind of historical research: the 
   &lt;p&gt;@kagetsuko:&lt;br /&gt; @lores  That’s really exciting! Let’s hope we find it. お互いに頑張りましょう！&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;kagetsuko&lt;/code&gt; and I occasionally had exchanges in a mix of English and Japanese. &lt;em&gt;otagaini gambarimashō&lt;/em&gt; is one of those quintessentially Japanese phrases laden with cultural subtext, but here it simply means let’s work hard on this together, and persevere until the job is done. Japanese is pithy.&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;kagetsuko&lt;/code&gt; and I occasionally had exchanges in a mix of English and Japanese. &lt;em&gt;otagaini gambarimashō&lt;/em&gt; is one of those quintessentially Japanese phrases laden with cultural subtext, but here it simply means let’s work hard on this together, and persevere until the job is done. Japanese is pithy.&lt;/p&gt;
 
 &lt;h2 id=&quot;chapter-3-the-actors-part-i&quot;&gt;Chapter 3: The actors, Part I&lt;/h2&gt;
 
 &lt;p class=&quot;summary&quot;&gt; In which fedi offers help, and we get to know the players in the drama&lt;/p&gt;
 
-&lt;p&gt;A few days later, there were two responses to &lt;code class=&quot;highlighter-rouge&quot;&gt;kagetsuko&lt;/code&gt;’s post. One was from &lt;code class=&quot;highlighter-rouge&quot;&gt;klimagalka&lt;/code&gt;, who by her bio was Verena Galina, a climate researcher at the Siberian Branch of the Russian Academy of Sciences in Novosibirsk. Stylised female-looking avatar, like something drawn by Möbius.&lt;/p&gt;
+&lt;p&gt;A few days later, there were two responses to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;kagetsuko&lt;/code&gt;’s post. One was from &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;klimagalka&lt;/code&gt;, who by her bio was Verena Galina, a climate researcher at the Siberian Branch of the Russian Academy of Sciences in Novosibirsk. Stylised female-looking avatar, like something drawn by Möbius.&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;@klimagalka:&lt;br /&gt; @kagetsuko I work at the Siberian SuperComputer Center of SB-RAS. I will try and find out what happened to the archives of that project. It’s from the Soviet times, and a lot has changed, but the Center has been there continuously since then, so maybe some materials will still be here.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;Another was from &lt;code class=&quot;highlighter-rouge&quot;&gt;silverstacks&lt;/code&gt;, whose profile only said SilverStacksBooks, they/them. They ran an indie second hand bookshop in Honolulu.&lt;/p&gt;
+&lt;p&gt;Another was from &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;silverstacks&lt;/code&gt;, whose profile only said SilverStacksBooks, they/them. They ran an indie second hand bookshop in Honolulu.&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;@silverstacks:&lt;br /&gt; Hi @kagetsuko, I am a librarian at Hawaii University in Honolulu. I’ll be happy to ask around to see if there’s anything left from that time. The JCRE was closed down when Bernard Miller died in 1979, so the archives might be scattered all around the University and NOAA.&lt;/p&gt;
@@ -161,7 +161,7 @@ He got his PhD in 1965 from the Institute of Geophysics and Planetary Physics in
 
 &lt;p&gt;The picture was clear: it was with Lightman and Chinchuluun that our quest lay. There could be no doubt that they were the key authors of the model code. And very inconveniently, they seemed to both have disappeared into thin air.&lt;/p&gt;
 
-&lt;p&gt;I shared these thumbnail sketches with my co-conspirators. To my surprise, &lt;code class=&quot;highlighter-rouge&quot;&gt;silverstacks&lt;/code&gt; replied&lt;/p&gt;
+&lt;p&gt;I shared these thumbnail sketches with my co-conspirators. To my surprise, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;silverstacks&lt;/code&gt; replied&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;@silverstacks:&lt;br /&gt; @lores Here’s how I imagine Lightman getting his assignment from Miller @kagetsuko @klimagalka&lt;/p&gt;
@@ -179,7 +179,7 @@ Bernard beamed. “Wonderful! Let’s start planning.” And without further ado
 How absurdly simple. I was relieved. Overthinking is one my faults.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;So apart from being a librarian and bookshop owner, &lt;code class=&quot;highlighter-rouge&quot;&gt;silverstacks&lt;/code&gt; was also a writer.&lt;/p&gt;
+&lt;p&gt;So apart from being a librarian and bookshop owner, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;silverstacks&lt;/code&gt; was also a writer.&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;@klimagalka: &lt;br /&gt; @silverstacks Amazing! You’ll have to do one on Chinchuluun and Marchuk as well!&lt;/p&gt;
@@ -189,15 +189,15 @@ How absurdly simple. I was relieved. Overthinking is one my faults.&lt;/p&gt;
   &lt;p&gt;@kagetsuko:&lt;br /&gt; @silverstacks Yes please!!! @klimagalka&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;klimagalka&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;silverstacks&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;kagetsuko&lt;/code&gt; really hit it off. &lt;code class=&quot;highlighter-rouge&quot;&gt;klimagalka&lt;/code&gt; has a wicked sense of humour, &lt;code class=&quot;highlighter-rouge&quot;&gt;kagetsuko&lt;/code&gt; loves leaning towards the absurd and &lt;code class=&quot;highlighter-rouge&quot;&gt;silverstacks&lt;/code&gt; was just rolling with it. They sprinkled my timeline with brief, witty exchanges peppered with obscure emoji like ​:neocatangelpleading:​ , :nekowave: or :blobmeltsoblove: . I joined in the fun occasionally but was mostly happy to sit back and enjoy the fireworks.&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;klimagalka&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;silverstacks&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;kagetsuko&lt;/code&gt; really hit it off. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;klimagalka&lt;/code&gt; has a wicked sense of humour, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;kagetsuko&lt;/code&gt; loves leaning towards the absurd and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;silverstacks&lt;/code&gt; was just rolling with it. They sprinkled my timeline with brief, witty exchanges peppered with obscure emoji like ​:neocatangelpleading:​ , :nekowave: or :blobmeltsoblove: . I joined in the fun occasionally but was mostly happy to sit back and enjoy the fireworks.&lt;/p&gt;
 
-&lt;p&gt;March had nearly gone, if not like a lamb, its weather having been more volatile than ever. The days had finally started to lengthen when &lt;code class=&quot;highlighter-rouge&quot;&gt;klimagalka&lt;/code&gt; got some news.&lt;/p&gt;
+&lt;p&gt;March had nearly gone, if not like a lamb, its weather having been more volatile than ever. The days had finally started to lengthen when &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;klimagalka&lt;/code&gt; got some news.&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;@klimagalka:&lt;br /&gt; @kagetsuko Unfortunately the material was moved to the Hydrometeorological Center in Moscow in the early 90s, when the USSR broke up. According to the personnel records, Alexey Chinchuluun left the Center in 1976. I couldn’t find anything else about him. I have a friend at the Center in Moscow, I will ask them. @silverstacks @lores&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;Shortly after, &lt;code class=&quot;highlighter-rouge&quot;&gt;silverstacks&lt;/code&gt; managed to unearth a very interesting historical document.&lt;/p&gt;
+&lt;p&gt;Shortly after, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;silverstacks&lt;/code&gt; managed to unearth a very interesting historical document.&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;@silverstacks:&lt;br /&gt; @kagetsuko I found an internal JCRE technical report from 1976 about the work by Lightman and Chinchuluun. I will DM you a link. Apart from that there is no material left at Hawaii University as far as I can find, and I dug really deep. Records show that Nathan Lightman left in that year. He did not publish anything after that date. @klimagalka @lores&lt;/p&gt;
@@ -209,19 +209,19 @@ How absurdly simple. I was relieved. Overthinking is one my faults.&lt;/p&gt;
 
 &lt;p&gt;Enlightening as it was, it didn’t get us much further. But at least we knew the results were not a fluke, and that we could rule out hand-written assembly, which would have been very hard to port to any modern machine.&lt;/p&gt;
 
-&lt;p&gt;A further update came from &lt;code class=&quot;highlighter-rouge&quot;&gt;klimagalka&lt;/code&gt;, she’d hit another obstacle:&lt;/p&gt;
+&lt;p&gt;A further update came from &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;klimagalka&lt;/code&gt;, she’d hit another obstacle:&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;@klimagalka:&lt;br /&gt; @kagetsuko Just to update you, my friend no longer works there but they have promised to ask one of their ex-colleagues. @silverstacks @lores&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;Meanwhile, &lt;code class=&quot;highlighter-rouge&quot;&gt;kagetsuko&lt;/code&gt; had tried another angle. She told me about it later, when I had moved to Japan. All she posted at the time was:&lt;/p&gt;
+&lt;p&gt;Meanwhile, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;kagetsuko&lt;/code&gt; had tried another angle. She told me about it later, when I had moved to Japan. All she posted at the time was:&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;@kagetsuko:&lt;br /&gt; @silverstacks @klimagalka @lores I have an aunt in Hawaii and she just solved a part of the puzzle. In 1976, Chinchuluun and Lightman started a surf shop in Honolulu! Apparently it still exists. They both must have quit their jobs. Chinchuluun  must have defected so he could be with Lightman. That’s why they never published.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;This is the story as &lt;code class=&quot;highlighter-rouge&quot;&gt;kagetsuko&lt;/code&gt; told it to me one hot summer afternoon in Kyōto, while we were drinking cold barley tea and eating watermelon.&lt;/p&gt;
+&lt;p&gt;This is the story as &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;kagetsuko&lt;/code&gt; told it to me one hot summer afternoon in Kyōto, while we were drinking cold barley tea and eating watermelon.&lt;/p&gt;
 
 &lt;h2 id=&quot;chapter-4-miekos-story&quot;&gt;Chapter 4. Mieko’s story&lt;/h2&gt;
 
@@ -338,7 +338,7 @@ Then he spoke. “Hi, I’m Nathan Lightman,” he said, and reality snapped bac
 
 &lt;p class=&quot;summary&quot;&gt; In which we get close to the heart of the mystery&lt;/p&gt;
 
-&lt;p&gt;It was well into April. The weather had turned lovely, the air started to have that earthy spring smell and new green appeared everywhere, when &lt;code class=&quot;highlighter-rouge&quot;&gt;klimagalka&lt;/code&gt; finally discovered what had become of the materials.&lt;/p&gt;
+&lt;p&gt;It was well into April. The weather had turned lovely, the air started to have that earthy spring smell and new green appeared everywhere, when &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;klimagalka&lt;/code&gt; finally discovered what had become of the materials.&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;@klimagalka:&lt;br /&gt; @kagetsuko My friend’s colleague says the material was moved to the Computer Museum in Ekaterinburg. I have contacted them, will keep you posted. @silverstacks @lores&lt;/p&gt;
@@ -354,7 +354,7 @@ Then he spoke. “Hi, I’m Nathan Lightman,” he said, and reality snapped bac
   &lt;p&gt;@lores:&lt;br /&gt; @kagetsuko @klimagalka That’s in Bletchley Park, it’s not very far from where I live. I’ll be very glad to go and have a look at it if you can make the introductions.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;kagetsuko&lt;/code&gt; contacted the museum and they confirmed they had some materials in the archive that originally came from the Siberian Computer Center and were dated between 1970 and 1980. They agreed that I could come and study them.&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;kagetsuko&lt;/code&gt; contacted the museum and they confirmed they had some materials in the archive that originally came from the Siberian Computer Center and were dated between 1970 and 1980. They agreed that I could come and study them.&lt;/p&gt;
 
 &lt;p&gt;And so, on the morning of what promised to be a bright day in the early May of 2027, with every bird in the dawn chorus competing for its space in the audible spectrum, I set out for Bletchley Park. Which was about 200 km as the osprey flies, but as the railway network in England is so London-centric, it was a three-hour hour journey.&lt;/p&gt;
 
@@ -410,7 +410,7 @@ Gradually, we patched the compiler so that it could convert the complete simulat
   &lt;p&gt;@kagetsuko:&lt;br /&gt; @lores Amazing! Your friend must be a magician. Thank him from me and don’t worry, I have access to state-of-the-art hardware. Onwards!&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;kagetsuko&lt;/code&gt; lost no time in trialling the code. Hardly a day had passed when she replied:&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;kagetsuko&lt;/code&gt; lost no time in trialling the code. Hardly a day had passed when she replied:&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;@kagetsuko:&lt;br /&gt; @lores I integrated it with my own code own and ran some benchmark simulations on our GPU cluster. All very preliminary of course, but it’s literally incredible: it allows an 8x higher resolution in every dimension, for the same speed and accuracy, so a 256x speed-up! It’s nothing short of miraculous. @klimagalka @silverstacks&lt;/p&gt;
@@ -420,40 +420,40 @@ Gradually, we patched the compiler so that it could convert the complete simulat
 
 &lt;p class=&quot;summary&quot;&gt; In which &lt;span class=&quot;code-summary&quot;&gt;kagetsuko&lt;/span&gt; ensures that credit will be given where credit is due&lt;/p&gt;
 
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;kagetsuko&lt;/code&gt; had organised a video chat to celebrate the success of the adventure, and to discuss the next steps.&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;kagetsuko&lt;/code&gt; had organised a video chat to celebrate the success of the adventure, and to discuss the next steps.&lt;/p&gt;
 
 &lt;p&gt;Three faces appeared on my screen.&lt;/p&gt;
 
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;silverstacks&lt;/code&gt; was an enby in her late forties or maybe early fifties, who looked a Hawaiian native to me, maybe with some East-Asian ancestry as well, but that was of course a guess. Their hair was short, shot with grey but still quite dark. With a perpetual semi-frown and large glasses with squarish, translucent white frames they looked distinctly intellectual.&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;silverstacks&lt;/code&gt; was an enby in her late forties or maybe early fifties, who looked a Hawaiian native to me, maybe with some East-Asian ancestry as well, but that was of course a guess. Their hair was short, shot with grey but still quite dark. With a perpetual semi-frown and large glasses with squarish, translucent white frames they looked distinctly intellectual.&lt;/p&gt;
 
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;klimagalka&lt;/code&gt; was in her late twenties or early thirties, with a strong-boned face, deep-set dark eyes, shoulder length dark reddish-brown hair and a hint of a mischievous smile.  Because of her Russian name and her avatar, I’d had a mental picture of her as blond and blue-eyed, but she wouldn’t have looked out of place in one of those Siberian ethno-pop bands. Later I learned that her family came from Kyrgyzstan.&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;klimagalka&lt;/code&gt; was in her late twenties or early thirties, with a strong-boned face, deep-set dark eyes, shoulder length dark reddish-brown hair and a hint of a mischievous smile.  Because of her Russian name and her avatar, I’d had a mental picture of her as blond and blue-eyed, but she wouldn’t have looked out of place in one of those Siberian ethno-pop bands. Later I learned that her family came from Kyrgyzstan.&lt;/p&gt;
 
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;kagetsuko&lt;/code&gt; reminded me instantly of a character in an old East German/Polish scifi movie, Dr Sumiko Ogimura in “Der schweigende Stern”. That same inquisitive look and stern eyebrows. Her hair was much shorter and shaved at the sides, making her look at the same older  and more boyish than the actress in that movie, Yōko Tani.&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;kagetsuko&lt;/code&gt; reminded me instantly of a character in an old East German/Polish scifi movie, Dr Sumiko Ogimura in “Der schweigende Stern”. That same inquisitive look and stern eyebrows. Her hair was much shorter and shaved at the sides, making her look at the same older  and more boyish than the actress in that movie, Yōko Tani.&lt;/p&gt;
 
 &lt;p&gt;As a white man of advanced years I felt somewhat out of place in their company. I wished I was less male, less pale and with better cheekbones.&lt;/p&gt;
 
-&lt;p&gt;But we had all brought our favourite drinks and nibbles, and the usual awkwardness amongst geeks proved an effective icebreaker. After a toast, &lt;code class=&quot;highlighter-rouge&quot;&gt;kagetsuko&lt;/code&gt; got straight to the point. (I mused how peculiar this was for a Japanese person who had lived in the UK.)&lt;/p&gt;
+&lt;p&gt;But we had all brought our favourite drinks and nibbles, and the usual awkwardness amongst geeks proved an effective icebreaker. After a toast, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;kagetsuko&lt;/code&gt; got straight to the point. (I mused how peculiar this was for a Japanese person who had lived in the UK.)&lt;/p&gt;
 
 &lt;p&gt;“I can never thank you enough for what you have done for me. This paper will cause a storm when I publish it! I have no doubt that it will be the most important work in my career, and it will lead to huge improvements in simulation of extreme weather events. Therefore I want to make sure that I don’t mess it up, and I would really like your advice on a few points. First of all, this is not just my work. To be fair, my contribution is quite minor. I want to make sure that everyone who contributed gets credit, even if they are no longer alive. We also need agreements to open source the code, and we need to work out acknowledgements. Especially the three of you should get an acknowledgement because without you I could never have done this.”&lt;/p&gt;
 
 &lt;p&gt;I explained that I’d rather not be acknowledged in the paper, but that I suggested she acknowledge my friend from Glasgow instead, or maybe even considered co-authorship for him as it was his compiler that had created the modernised code.&lt;/p&gt;
 
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;kagetsuko&lt;/code&gt; was dismayed: “But then you won’t get any credit at all!”&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;kagetsuko&lt;/code&gt; was dismayed: “But then you won’t get any credit at all!”&lt;/p&gt;
 
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;silverstacks&lt;/code&gt; suggested it was OK for them to be acknowledged, as long as it was done anonymously. I agreed with that and proposed that maybe there could be a general acknowledgement of everyone who helped track down the code.&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;silverstacks&lt;/code&gt; suggested it was OK for them to be acknowledged, as long as it was done anonymously. I agreed with that and proposed that maybe there could be a general acknowledgement of everyone who helped track down the code.&lt;/p&gt;
 
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;kagetsuko&lt;/code&gt; continued “There is no rush. ECMWF will need to make very sure about these results, so it will take time. I will need to get support and compute time, and we’ll have to create a super-detailed set of stress tests for that code. Just doing that will probably take a few months.&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;kagetsuko&lt;/code&gt; continued “There is no rush. ECMWF will need to make very sure about these results, so it will take time. I will need to get support and compute time, and we’ll have to create a super-detailed set of stress tests for that code. Just doing that will probably take a few months.&lt;/p&gt;
 
 &lt;p&gt;I would  also like to involve both University of Hawaii/NOAA and the Siberian SuperComputer Center in the validation of the model. This paper is going to cause a storm so it has to be absolutely watertight. We’ll have to be super thorough. If the code is independently verified by groups of experts in the US, Russia and Europe, it will make the paper much more robust. I also think it is the right thing to do because it’s fundamentally the work of Lightman, Chinchuluun and Dymnikov. But for that I need your help. I will need contacts at NOAA and SB RAS that can help organise this and also decide on who should get credit and in what way.
 I’ll also have to discuss this at home because technically I’m an employee of Kyoto University so they will want credit too. Only when all that is sorted can I start thinking about writing the paper.”&lt;/p&gt;
 
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;klimagalka&lt;/code&gt; was more than happy to arrange the contacts at SB RAS: “This is super exciting. Maybe I can even find one of the old guys who were involved at the time and who remembers Nathan and Alexey, like Viacheslav Gusiakov, or maybe even Valentin Dymnikov himself.”&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;klimagalka&lt;/code&gt; was more than happy to arrange the contacts at SB RAS: “This is super exciting. Maybe I can even find one of the old guys who were involved at the time and who remembers Nathan and Alexey, like Viacheslav Gusiakov, or maybe even Valentin Dymnikov himself.”&lt;/p&gt;
 
-&lt;p&gt;“That would be amazing!”, &lt;code class=&quot;highlighter-rouge&quot;&gt;kagetsuko&lt;/code&gt; replied, “I will definitely push for Dymnikov to get authorship. But if  we could just ask him, that’d be fantastic.”&lt;/p&gt;
+&lt;p&gt;“That would be amazing!”, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;kagetsuko&lt;/code&gt; replied, “I will definitely push for Dymnikov to get authorship. But if  we could just ask him, that’d be fantastic.”&lt;/p&gt;
 
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;silverstacks&lt;/code&gt; said they knew who to approach at NOAA. And they went further: “I think I should get in touch with Nathan’s grandniece. This work concerns Nathan and Alexey very closely, so I think she should have a say in this.” Of course we all agreed on this.&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;silverstacks&lt;/code&gt; said they knew who to approach at NOAA. And they went further: “I think I should get in touch with Nathan’s grandniece. This work concerns Nathan and Alexey very closely, so I think she should have a say in this.” Of course we all agreed on this.&lt;/p&gt;
 
-&lt;p&gt;A month later, there was a long message from &lt;code class=&quot;highlighter-rouge&quot;&gt;silverstacks&lt;/code&gt;. She had gone to the surf shop and met with Nathan’s grandniece Alice. It turned out that Nathan was still alive and well, living in a nice serviced apartment in Makiki. They went to visit him together.&lt;/p&gt;
+&lt;p&gt;A month later, there was a long message from &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;silverstacks&lt;/code&gt;. She had gone to the surf shop and met with Nathan’s grandniece Alice. It turned out that Nathan was still alive and well, living in a nice serviced apartment in Makiki. They went to visit him together.&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;@silverstacks:&lt;br /&gt; @kagetsuko While we were on our way, Alice told me that your aunt had come to the shop to ask about Nathan, and had gone to visit him. And when we met with Nathan, one of the first things he told Alice was, “Guess what? Mieko came to see me last week. You know, her husband Shigeru was one of our first customers? They ran a bike shop and we went there for our bikes. Shigeru had this really cool trailer for surfboards, but they didn’t sell them. Thought there would be no demand for them. In those days everyone was still driving everywhere. But the moment we saw it, Lexey and I both wanted one, and Shigeru arranged it. We turned a lot of heads when we cycled to the beach with our boards in tow.” His eyes shone with the memory.&lt;/p&gt;
@@ -518,9 +518,9 @@ So we devised what was ostensibly a standing-wave problem, a common way of testi
 
 &lt;p class=&quot;summary&quot;&gt; Kyōto, April 2030&lt;/p&gt;
 
-&lt;p&gt;As expected, the paper caused a storm, and not only in the climate modelling community: a carefully planned concerted news campaign of the five organisations involved made sure it made headlines in the international press for quite a while. &lt;code class=&quot;highlighter-rouge&quot;&gt;kagetsuko&lt;/code&gt; went from anonymous postdoc to superstar scientist overnight. Even Lightman and Dymnikov gave interviews. It was after all an uplifting story, about an effort that was not only global but also spanned several generations. And the potential was very real: already, the improved predictions of extreme weather events have saved lives. In addition, the scheme improved the accuracy and resolution of global climate models as well, which helped to reduce the uncertainty on the predictions of global warming. This might seem rather futile, but it removed another arrow from the quiver of the deniers.&lt;/p&gt;
+&lt;p&gt;As expected, the paper caused a storm, and not only in the climate modelling community: a carefully planned concerted news campaign of the five organisations involved made sure it made headlines in the international press for quite a while. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;kagetsuko&lt;/code&gt; went from anonymous postdoc to superstar scientist overnight. Even Lightman and Dymnikov gave interviews. It was after all an uplifting story, about an effort that was not only global but also spanned several generations. And the potential was very real: already, the improved predictions of extreme weather events have saved lives. In addition, the scheme improved the accuracy and resolution of global climate models as well, which helped to reduce the uncertainty on the predictions of global warming. This might seem rather futile, but it removed another arrow from the quiver of the deniers.&lt;/p&gt;
 
-&lt;p&gt;The published paper, “A novel scheme to improve the resolution of global circulation models with cloud feedback”, had twelve authors, one of them posthumous. The first author was Natsuko Suzumiya, our &lt;code class=&quot;highlighter-rouge&quot;&gt;kagetsuko&lt;/code&gt;. The final three authors were Lightman, Chinchuluun and Dymnikov. I was pleased to see my friend from Glasgow got full authorship as well. &lt;code class=&quot;highlighter-rouge&quot;&gt;klimagalka&lt;/code&gt; got an acknowledgement by name, and &lt;code class=&quot;highlighter-rouge&quot;&gt;kagetsuko&lt;/code&gt; had added “a heartfelt thank-you to my dear fedi friends, who made this paper possible.” The algorithm had been officially named the “Suzumiya-Lightman-Dymnikov cloud feedback scheme”.&lt;/p&gt;
+&lt;p&gt;The published paper, “A novel scheme to improve the resolution of global circulation models with cloud feedback”, had twelve authors, one of them posthumous. The first author was Natsuko Suzumiya, our &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;kagetsuko&lt;/code&gt;. The final three authors were Lightman, Chinchuluun and Dymnikov. I was pleased to see my friend from Glasgow got full authorship as well. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;klimagalka&lt;/code&gt; got an acknowledgement by name, and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;kagetsuko&lt;/code&gt; had added “a heartfelt thank-you to my dear fedi friends, who made this paper possible.” The algorithm had been officially named the “Suzumiya-Lightman-Dymnikov cloud feedback scheme”.&lt;/p&gt;
 
 &lt;p&gt;While I’m writing this, reflecting on the paper and its story makes me very happy. But at the time of its release, I was too weighed down by my own problems to  share much in the joy of my friends. Looking back, my posts must have looked stilted and remote.  And yet they were incredibly understanding and supportive, those strangers I had encountered by chance and never met in person. They helped me through the hard days and nights, and asked nothing in return. In particular Natsuko and I would talk often, and it was the help of her and her partner Chiharu that made my move possible. I ended up living close to Natsuko’s place of work in Uji, and they visit often.&lt;/p&gt;
 
@@ -692,14 +692,14 @@ Some time later, another letter arrived from  a  certain Herr Blazejczyk, who ex
 &lt;p&gt;The second illustration is of the scene where Krabat has gone to sleep, that same night, after the miller has accepted him as an apprentice. He is woken up in the middle of the night, and the apprentices are standing all around him in their nightshirts.&lt;/p&gt;
 
 &lt;figure&gt;
-&lt;img src=&quot;https://www.selfedge.org.uk/images/d2.resized.crop.jpg&quot; alt=&quot;A washed ink drawing of the apprentices surrounding Krabat's bed.&quot; title=&quot;A washed ink drawing of the apprentices surrounding Krabat's bed.&quot; /&gt;
+&lt;img src=&quot;https://www.selfedge.org.uk/images/d2.resized.crop.jpg&quot; alt=&quot;A washed ink drawing of the apprentices surrounding Krabat&apos;s bed.&quot; title=&quot;A washed ink drawing of the apprentices surrounding Krabat&apos;s bed.&quot; /&gt;
 &lt;figcaption&gt;The first year: Eleven plus one &lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;blockquote&gt;
   The attic reverberated to the stomping and rumbling of the mill. Just as well that Krabat was dog tired: he fell asleep like a log as soon as he lay down &amp;mdash; and he slept until a ray of light woke him.&lt;br /&gt;
   Krabat sat up and froze with fright. Eleven white appearances stood at his bed and looked down on him; eleven white figures with white hands and white faces.&lt;br /&gt;
   &quot;Who are you?&quot; he asked fearfully.&lt;br /&gt;
-  &quot;We are what you will become,&quot; said one of the ghosts. &quot;But we won't do anything to you,&quot; added a second one. &quot;We're just miller's apprentices.&quot;&lt;br /&gt;
+  &quot;We are what you will become,&quot; said one of the ghosts. &quot;But we won&apos;t do anything to you,&quot; added a second one. &quot;We&apos;re just miller&apos;s apprentices.&quot;&lt;br /&gt;
   &quot;Are there eleven of you?&quot;&lt;br /&gt;
   &quot;You are the twelfth.&quot;  
   &lt;/blockquote&gt;
@@ -723,11 +723,11 @@ The apprentices ran back and forth between the mill and the cart; they unloaded 
 &lt;figcaption&gt;The first year: The memento&lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;blockquote&gt;
-  The 'barren plane' was a square clearing, barely larger than a threshing floor, surrounded by a few stunted pines. In the gloaming the boy made out a row of low, long flat humps. They seemed like graves in an abandoned graveyard, overgrown with heather and unkempt &amp;mdash; no cross or stone to be seen &amp;mdash; whose graves could that be?&lt;br /&gt;
+  The &apos;barren plane&apos; was a square clearing, barely larger than a threshing floor, surrounded by a few stunted pines. In the gloaming the boy made out a row of low, long flat humps. They seemed like graves in an abandoned graveyard, overgrown with heather and unkempt &amp;mdash; no cross or stone to be seen &amp;mdash; whose graves could that be?&lt;br /&gt;
   Tonda halted. &quot;Take it then,&quot; he said and held out the knife to Krabat; the boy understood that he could not refuse it.
   &quot;It has a peculiar property,&quot; Tonda said, &quot;that you should be aware of: should you ever be in danger &amp;mdash; serious danger &amp;mdash; then the blade will turn black as soon as you flick it open.&quot;&lt;br /&gt;
   &quot;Black?&quot; Krabat asked.&lt;br /&gt;
-  &quot;Yes,&quot; Tonda said, &quot;Black, as if you'd held it over a candle flame.&quot;
+  &quot;Yes,&quot; Tonda said, &quot;Black, as if you&apos;d held it over a candle flame.&quot;
 &lt;/blockquote&gt;
 
 &lt;p&gt;The wake at the cross outside the village, on Easter night, is my favourite scene in the book. It is the will of the Master that the apprentices spend the Easter night outdoors, in pairs, on a spot where someone had died a violent death. In his first year at the mill, Krabat had paired with Tonda, who had taken them to a place with a tall, rough wooden cross, some distance from the village. In his second year, Krabat goes to the same spot with Juro.&lt;/p&gt;
@@ -761,7 +761,7 @@ The apprentices ran back and forth between the mill and the cart; they unloaded 
 &lt;/figure&gt;
 
 &lt;blockquote&gt;
-She had understood very well that she should not give herself away. While dancing, they  talked the usual nonsense and made jokes and only her eyes showed how she thought about him. Nobody but him noticed it, and when he saw it he quickly looked away. That way even the farmer's wives at their table didn't suspect anything: neither the old woman with the blind right eye (Krabat hadn't spotted her earlier).&lt;br /&gt;
+She had understood very well that she should not give herself away. While dancing, they  talked the usual nonsense and made jokes and only her eyes showed how she thought about him. Nobody but him noticed it, and when he saw it he quickly looked away. That way even the farmer&apos;s wives at their table didn&apos;t suspect anything: neither the old woman with the blind right eye (Krabat hadn&apos;t spotted her earlier).&lt;br /&gt;
 Yet it seemed better  to him not to ask the Kantorka to dance anymore.
 &lt;/blockquote&gt;
 
@@ -776,7 +776,7 @@ Yet it seemed better  to him not to ask the Kantorka to dance anymore.
   From his pocket the Master took a black piece of cloth and blindfolded the girl with it. Then he took her into the room.
   Krabat started, he had not counted on this. How could he help her now? That way the ring was useless!&lt;br /&gt;
   The girl walked up and down the row of boys, once, twice.&lt;br /&gt;
-  Krabat could barely keep on his legs. His life was finished, he thought. And the life of the Kantorka too.  He was overwhelmed with fear &amp;mdash; such a strong fear as he had never felt before. &quot;It's my fault that she must die,&quot; went through his head, &quot;My fault ...&quot;&lt;br /&gt;
+  Krabat could barely keep on his legs. His life was finished, he thought. And the life of the Kantorka too.  He was overwhelmed with fear &amp;mdash; such a strong fear as he had never felt before. &quot;It&apos;s my fault that she must die,&quot; went through his head, &quot;My fault ...&quot;&lt;br /&gt;
   Then it happened.&lt;br /&gt;
   The Kantorka had walked the row up and down for the third time and now she pointed at Krabat.&lt;br /&gt;
   &quot;It is he,&quot; she said.&lt;br /&gt;
@@ -792,10 +792,10 @@ Yet it seemed better  to him not to ask the Kantorka to dance anymore.
 &lt;figcaption&gt;The third year: Between the years&lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;blockquote&gt;
-  &quot;Let's go, Krabat.&quot;&lt;br /&gt;
+  &quot;Let&apos;s go, Krabat.&quot;&lt;br /&gt;
   He let her lead him along, out of the mill and through the Kosel moor to Schwarzkollm.&lt;br /&gt;
   &quot;How did you manage to recognise me between the other boys?&quot; he asked when the first lights of the village appeared between the trees.&lt;br /&gt;
-  &quot;I felt your fear,&quot; she said. &quot;You were afraid for me &amp;mdash; and that's how I recognised you.&quot;&lt;br /&gt;
+  &quot;I felt your fear,&quot; she said. &quot;You were afraid for me &amp;mdash; and that&apos;s how I recognised you.&quot;&lt;br /&gt;
   While they walked towards the houses it started to snow, with light, fine flakes, like meal from a large sieve descending on them.
 &lt;/blockquote&gt;
 
