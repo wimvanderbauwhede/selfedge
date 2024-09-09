@@ -1,7 +1,7 @@
 ---
 layout: home
 title: "Selfedge"
-date: 2024-01-21
+date: 2024-09-08
 tags: [articles, fiction, writing]
 excerpt: "Selfedge Publishing"
 comments: false

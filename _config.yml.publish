@@ -4,7 +4,7 @@ title: self·edge
 description: "Selfedge Publishing"
 #teaser: lino.jpg
 locale: en_GB
-url: http://www.selfedge.org.uk
+url: https://www.selfedge.org.uk
 
 # Jekyll configuration
 # For plugins
@@ -16,7 +16,7 @@ permalink: /:categories/:title/
 markdown: kramdown
 #kramdown:
 #  toc_levels: 1..2
-highlighter: rouge
+# highlighter: rouge
 #highlighter: pygments
 plugins:
   - jekyll-sitemap

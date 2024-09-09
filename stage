@@ -5,4 +5,4 @@ cp _config.yml.stage _config.yml
 #. .rbenv_profile
 #eval "$(rbenv init -)"
 #/opt/local/bin/rbenv shell 2.3.1
-bundle exec jekyll build  --watch -d ~/Sites/selfedge/
+bundle3.0 exec jekyll build  --watch -d ~/Sites/selfedge/

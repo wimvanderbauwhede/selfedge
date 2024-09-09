@@ -108,6 +108,7 @@ for my $chapter_title (@chapters_titles) {
     $ch_cnt++;
 }
 say $IDX_HTML "</ul>";
+say $IDX_HTML "<br><br><p><small><i>the banner picture shows the Navier-Stokes equation, taken from an old printed paper</i></small></p>";
 for my $line (@post_lines) {
     print $IDX_HTML $line;
 }
